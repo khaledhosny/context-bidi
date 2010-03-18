@@ -134,8 +134,6 @@ function doTypes(line, paragraphLevel, types, levels, fX)
 			i = i + 1
 		end
 	end
-	--print(table.serialize(levels))
-	--print(table.serialize(types))
 end
 
 -- Rule (W3)
@@ -331,36 +329,26 @@ function doBidi(line)
 	strong text if the text on both sides has the same direction. European
 	and Arabic numbers are treated as though they were R.
 	--]]
-	tempType = paragraphLevel
 	for i=1,#line do
+		local preDir
+		local postDir
 		if types[i] == "ON" then
 			if types[i-1] == "R" or types[i-1] == "EN" or types[i-1] == "AN" then
-				tempType = "R"
-			else
-				tempType = "L"
+				preDir = "R"
+			elseif types[i-1] == "L" then
+				preDir = "L"
 			end
-
-			j=i
-			while j < #line do
-				tempTypeSec = types[j]
-				if tempTypeSec == "ON" then
-					j = j + 1
-				else
+			for j=i+1,#line do
+				if types[j] == "R" or types[j] == "EN" or types[j] == "AN" then
+					postDir = "R"
+					break
+				elseif types[j] == "L" then
+					postDir = "L"
 					break
 				end
 			end
-			if j == #line then
-				tempTypeSec = odd(paragraphLevel) and "R" or "L"
-			end
-
-			if ((tempTypeSec == "L" or tempTypeSec == "LRE") and tempType == "L") or
-				((tempTypeSec == "R" or tempTypeSec == "EN" or tempTypeSec == "AN") and tempType == "R") then
-				while i<j do
-					types[i+1] = tempType
-					i = i + 1
-				end
-			else
-				i = j
+			if preDir and postDir and (preDir == postDir) then
+				types[i] = postDir
 			end
 		end
 	end
@@ -398,8 +386,7 @@ function doBidi(line)
 			end
 		end
 	end
-	--print(table.serialize(levels))
-	--print(table.serialize(types))
+
 	--[[
 	Rule (I2)
 	I2. For all characters with an odd (right-to-left) embedding direction,
