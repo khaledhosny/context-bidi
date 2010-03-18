@@ -20,8 +20,7 @@ local CAPRtl = {
   "ON", "ON", "ON", "ON", "L",  "R",  "ON", "ON", "ON", "ON", "ON", "ON", "ON", "B",  "RLO","RLE", -- 00-0f
   "LRO","LRE","PDF","WS", "ON", "ON", "ON", "ON", "ON", "ON", "ON", "ON", "ON", "ON", "ON", "ON",  -- 10-1f
   "WS", "ON", "ON", "ON", "ET", "ON", "ON", "ON", "ON", "ON", "ON", "ET", "CS", "ON", "ES", "ES",  -- 20-2f
-  "EN", "EN", "EN", "EN", "EN", "EN", "AN", "AN", "AN", "AN", "LRE","RLE","RLO","PDF","LRO","ON",  -- 30-3f
---"EN", "EN", "EN", "EN", "EN", "EN", "AN", "AN", "AN", "AN", "CS", "ON", "ON", "ON", "ON", "ON",  -- 30-3f
+  "EN", "EN", "EN", "EN", "EN", "EN", "AN", "AN", "AN", "AN", "CS", "ON", "ON", "ON", "ON", "ON",  -- 30-3f
   "R",  "AL", "AL", "AL", "AL", "AL", "AL", "R",  "R",  "R",  "R",  "R",  "R",  "R",  "R",  "R",   -- 40-4f
   "R",  "R",  "R",  "R",  "R",  "R",  "R",  "R",  "R",  "R",  "R",  "ON", "B",  "ON", "ON", "ON",  -- 50-5f
   "NSM","L",  "L",  "L",  "L",  "L",  "L",  "L",  "L",  "L",  "L",  "L",  "L",  "L",  "L",  "L",   -- 60-6f
@@ -29,7 +28,7 @@ local CAPRtl = {
 }
 
 function GetCAPRtl(ch)
-	return CAPRtl[string.byte(ch)+ 1] or "L"
+	return CAPRtl[string.byte(ch)+ 1] or "R"
 end
 
 GetType = GetCAPRtl
@@ -160,16 +159,12 @@ function doBidi(line)
 		local Type = GetType(c)
 		if Type == "AL" or Type == "R" then
 			fAL = 1
-			break
 		elseif Type == "LRE" or Type == "LRO" or Type == "RLE" or Type == "RLO" or Type == "PDF" or Type == "BN" then
 			fX = 1
-			break
 		elseif Type == "ET" then
 			fET = 1
-			break
 		elseif Type == "NSM" then
 			fNSM = 1
-			break
 		end
 	end
 
