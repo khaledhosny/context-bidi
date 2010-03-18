@@ -33,11 +33,20 @@ end
 
 local GetType = GetCAPRtl
 
+local function Line2Table(line)
+	local t = { }
+	line:gsub(".", function(c)
+		t[#t+1] = { char = c, type = GetType(c), orig_type = GetType(c) }
+	end)
+	return t
+end
+
 local function GetParagraphLevel(line)
-	for c in line:gmatch(".") do
-		if GetType(c) == "R" or GetType(c) == "AL" then
+	for i in ipairs(line) do
+		local currType = line[i].type
+		if currType == "R" or currType == "AL" then
 			return 1
-		elseif GetType(c) == "L" then
+		elseif currType == "L" then
 			return 0
 		end
 	end
@@ -55,9 +64,8 @@ local function doTypes(line, paragraphLevel, types, levels, fX)
 	local stackTop         = 0
 
 	if fX then
-		local i = 1
-		for c in line:gmatch(".") do
-			local currType = GetType(c)
+		for i in ipairs(line) do
+			local currType = line[i].type
 			if currType == "RLE" then
 				if stackTop < MAX_STACK then
 					levelStack[stackTop]    = currentEmbedding
@@ -98,61 +106,52 @@ local function doTypes(line, paragraphLevel, types, levels, fX)
 				end
 			elseif currType == "WS" or currType == "B" or currType == "S" then
 				-- Whitespace is treated as neutral for now
-				levels[i] = currentEmbedding
 				currType = "ON"
 				if currentOverride ~= "ON" then
 					currType = currentOverride
 				end
-				types[i] = currType
-				i = i + 1
 			else
-				levels[i] = currentEmbedding
 				if currentOverride ~= "ON" then
 					currType = currentOverride
 				end
-				types[i] = currType
-				i = i + 1
 			end
+			line[i].level = currentEmbedding
+			line[i].type  = currType
 		end
 	else
-		local i = 1
-		for c in line:gmatch(".") do
-			local currType = GetType(c)
+		for i in ipairs(line) do
+			local currType = line[i].type
 			if currType == "WS" or currType == "B" or currType == "S" then
-				levels[i] = currentEmbedding
 				currType = "ON"
 				if currentOverride ~= "ON" then
 					currType = currentOverride
 				end
 			else
-				levels[i] = currentEmbedding
 				if currentOverride ~= "ON" then
 					currType = currentOverride
 				end
 			end
-			types[i] = currType
-			i = i + 1
+			line[i].level = currentEmbedding
+			line[i].type = currType
 		end
 	end
 end
 
 local function doBidi(line)
-	local types = { }
-	local levels = { }
+	local line = Line2Table(line)
 	local paragraphLevel
 	local tempType, tempTypeSec
-	local i, j, imax
 	local fX, fAL, fET, fNSM
 
-	for c in line:gmatch(".") do
-		local Type = GetType(c)
-		if Type == "AL" or Type == "R" then
+	for i in ipairs(line) do
+		local currType = line[i].type
+		if currType == "AL" or currType == "R" then
 			fAL = 1
-		elseif Type == "LRE" or Type == "LRO" or Type == "RLE" or Type == "RLO" or Type == "PDF" or Type == "BN" then
+		elseif currType == "LRE" or currType == "LRO" or currType == "RLE" or currType == "RLO" or currType == "PDF" or currType == "BN" then
 			fX = 1
-		elseif Type == "ET" then
+		elseif currType == "ET" then
 			fET = 1
-		elseif Type == "NSM" then
+		elseif currType == "NSM" then
 			fNSM = 1
 		end
 	end
@@ -195,12 +194,13 @@ local function doBidi(line)
         doTypes(line, paragraphLevel, types, levels, fX)
 
 	if fNSM then
-		if types[1] == "NSM" then
-			types[1] = paragraphLevel
-		end
-		for i=1, #line do
-			if types[i] == "NSM" then
-				types[i] = types[i-1]
+		for i in ipairs(line) do
+			if line[i].type == "NSM" then
+				if i == 1 then
+					line[i].type = paragraphLevel
+				else
+					line[i].type = line[i-1].type
+				end
 			end
 		end
 	end
@@ -211,14 +211,14 @@ local function doBidi(line)
 	first strong type (R, L, AL, or sor) is found.  If an AL is found,
 	change the type of the European number to Arabic number.
 	--]]
-	for i=1, #line do
-		if types[i] == "EN" then
-			tempType = levels[i]
+	for i in ipairs(line) do
+		if line[i].type == "EN" then
+			tempType = line[i].level
 			for j=i,1,-1 do
-				if types[j] == "AL" then
-					types[i] = "AN"
+				if line[j].type == "AL" then
+					line[i].type = "AN"
 					break
-				elseif types[j] == "R" or types[j] == "L" then
+				elseif line[j].type == "R" or line[j].type == "L" then
 					break
 				end
 			end
@@ -232,9 +232,9 @@ local function doBidi(line)
 	Optimization: on Rule Xn, we might set a flag on AL type
 	to prevent this loop in L R lines only...
 	--]]
-	for i=1, #types do
-		if types[i] == "AL" then
-			types[i] = "R"
+	for i in ipairs(line) do
+		if line[i].type == "AL" then
+			line[i].type = "R"
 		end
 	end
 
@@ -244,16 +244,16 @@ local function doBidi(line)
 	to a European number. A single common separator between two numbers
 	of the same type changes to that type.
 	--]]
-	for i=1,#line-1 do
-		if types[i] == "ES" then
-			if types[i-1] == "EN" and types[i+1] == "EN" then
-				types[i] = "EN"
+	for i in ipairs(line) do
+		if line[i].type == "ES" then
+			if line[i-1].type == "EN" and line[i+1].type == "EN" then
+				line[i].type = "EN"
 			end
-		elseif types[i] == "CS" then
-			if types[i-1] == "EN" and types[i+1] == "EN" then
-				types[i] = "EN"
-			elseif types[i-1] == "AN" and types[i+1] == "AN" then
-				types[i] = "AN"
+		elseif line[i].type == "CS" then
+			if line[i-1].type == "EN" and line[i+1].type == "EN" then
+				line[i].type = "EN"
+			elseif line[i-1].type == "AN" and line[i+1].type == "AN" then
+				line[i].type = "AN"
 			end
 		end
 	end
@@ -265,19 +265,19 @@ local function doBidi(line)
 	FIXME: continue
 	--]]
 	if fET then
-		for i=1, #line do
-			if types[i] == "ET" then
-				if types[i-1] == "EN" then
-					types[i] = "EN"
-				elseif types[i+1] == "EN" then
-					types[i] = "EN"
-				elseif types[i+1] == "ET" then
+		for i in ipairs(line) do
+			if line[i].type == "ET" then
+				if line[i-1].type == "EN" then
+					line[i].type = "EN"
+				elseif line[i+1].type == "EN" then
+					line[i].type = "EN"
+				elseif line[i+1].type == "ET" then
 					j = i
-					while j < #line and types[j] == "ET" do
+					while j < #line and line[j].type == "ET" do
 						j = j + 1
 					end
-					if types[j] == "EN" then
-						types[i] = "EN"
+					if line[j].type == "EN" then
+						line[i].type = "EN"
 					end
 				end
 			end
@@ -288,9 +288,9 @@ local function doBidi(line)
 	Rule (W6)
 	W6. Otherwise, separators and terminators change to Other Neutral:
 	--]]
-	for i=1,#line do
-		if types[i] == "ES" or types[i] == "ET" or types[i] == "CS" then
-			types[i] = "ON"
+	for i in ipairs(line) do
+		if line[i].type == "ES" or line[i].type == "ET" or line[i].type == "CS" then
+			line[i].type = "ON"
 		end
 	end
 
@@ -300,16 +300,16 @@ local function doBidi(line)
 	the first strong type (R, L, or sor) is found. If an L is found,
 	then change the type of the European number to L.
 	--]]
-	for i=1,#line do
-		if types[i] == "EN" then
-			tempType = levels[i]
+	for i in ipairs(line) do
+		if line[i].type == "EN" then
+			tempType = line[i].level
 			j=i
-			while j>0 and levels[j] == tempType do
-				if types[j] == "L" then
-					types[i] = "L"
+			while j>0 and line[j].level == tempType do
+				if line[j].type == "L" then
+					line[i].type = "L"
 					j = j - 1
 					break
-				elseif types[j] == "R" or types == "AL" then
+				elseif line[j].type == "R" or types == "AL" then
 					j = j - 1
 					break
 				end
@@ -324,26 +324,26 @@ local function doBidi(line)
 	strong text if the text on both sides has the same direction. European
 	and Arabic numbers are treated as though they were R.
 	--]]
-	for i=1,#line do
+	for i in ipairs(line) do
 		local preDir
 		local postDir
-		if types[i] == "ON" then
-			if types[i-1] == "R" or types[i-1] == "EN" or types[i-1] == "AN" then
+		if line[i].type == "ON" and line[i-1] and line[i+1] then
+			if line[i-1].type == "R" or line[i-1].type == "EN" or line[i-1].type == "AN" then
 				preDir = "R"
-			elseif types[i-1] == "L" then
+			elseif line[i-1].type == "L" then
 				preDir = "L"
 			end
 			for j=i+1,#line do
-				if types[j] == "R" or types[j] == "EN" or types[j] == "AN" then
+				if line[j].type == "R" or line[j].type == "EN" or line[j].type == "AN" then
 					postDir = "R"
 					break
-				elseif types[j] == "L" then
+				elseif line[j].type == "L" then
 					postDir = "L"
 					break
 				end
 			end
 			if preDir and postDir and (preDir == postDir) then
-				types[i] = postDir
+				line[i].type = postDir
 			end
 		end
 	end
@@ -352,12 +352,12 @@ local function doBidi(line)
 	Rule (N2)
 	N2. Any remaining neutrals take the embedding direction.
 	--]]
-	for i=1,#line do
-		if types[i] == "ON" then
-			if odd(levels[i]) then
-				types[i] = "R"
+	for i in ipairs(line) do
+		if line[i].type == "ON" then
+			if odd(line[i].level) then
+				line[i].type = "R"
 			else
-				types[i] = "L"
+				line[i].type = "L"
 			end
 		end
 	end
@@ -368,16 +368,16 @@ local function doBidi(line)
 	direction, those of type R go up one level and those of type AN or
 	EN go up two levels.
 	--]]
-	for i=1,#line do
-		if odd(levels[i]) then
-			if types[i] == "L" or types[i] == "EN" or types[i] == "AN" then
-				levels[i] = levels[i] + 1
+	for i in ipairs(line) do
+		if odd(line[i].level) then
+			if line[i].type == "L" or line[i].type == "EN" or line[i].type == "AN" then
+				line[i].level = line[i].level + 1
 			end
 		else
-			if types[i] == "R" then
-				levels[i] = levels[i] + 1
-			elseif types[i] == "AN" or types[i] == "EN" then
-				levels[i] = levels[i] + 2
+			if line[i].type == "R" then
+				line[i].level = line[i].level + 1
+			elseif line[i].type == "AN" or line[i].type == "EN" then
+				line[i].level = line[i].level + 2
 			end
 		end
 	end
@@ -387,10 +387,10 @@ local function doBidi(line)
 	I2. For all characters with an odd (right-to-left) embedding direction,
 	those of type L, EN or AN go up one level.
 	--]]
-	for i=1,#line do
-		if odd(levels[i]) then
-			if types[i] == "L" or types[i] == "EN" or types[i] == "AN" then
-				levels[i] = levels[i] + 1
+	for i in ipairs(line) do
+		if odd(line[i].level) then
+			if line[i].type == "L" or line[i].type == "EN" or line[i].type == "AN" then
+				line[i].level = line[i].level + 1
 			end
 		end
 	end
@@ -407,15 +407,15 @@ local function doBidi(line)
 	The types of characters used here are the original types, not those
 	modified by the previous phase.
 	--]]
-	for i=1,#levels do
-		local c = line:sub(i,i)
-		if GetType(c) == "S" or GetType(c) == "B" then
-			levels[i] = paragraphLevel
+	for i in ipairs(line) do
+		local currType = line[i].orig_type
+		if currType == "S" or currType == "B" then
+			line[i].level = paragraphLevel
 		end
 	end
 
 	local l = ""
-	for i=1,#levels do l = l..levels[i].." "  end
+	for i in ipairs(line) do l = l..line[i].level.." "  end
 	return l
 end
 
