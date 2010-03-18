@@ -314,10 +314,13 @@ function doBidi(line)
 			while j>0 and levels[j] == tempType do
 				if types[j] == "L" then
 					types[i] = "L"
+					j = j - 1
 					break
 				elseif types[j] == "R" or types == "AL" then
+					j = j - 1
 					break
 				end
+				j = j - 1
 			end
 		end
 	end
