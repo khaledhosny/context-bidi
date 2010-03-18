@@ -394,6 +394,26 @@ local function doBidi(line)
 			end
 		end
 	end
+
+	--[[
+	Rule (L1)
+	L1. On each line, reset the embedding level of the following characters
+	to the paragraph embedding level:
+	          (1)segment separators, (2)paragraph separators,
+	          (3)any sequence of whitespace characters preceding
+	          a segment separator or paragraph separator, NOT IMPLEMENTED
+	          (4)and any sequence of white space characters
+	          at the end of the line. NOT IMPLEMENTED
+	The types of characters used here are the original types, not those
+	modified by the previous phase.
+	--]]
+	for i=1,#levels do
+		local c = line:sub(i,i)
+		if GetType(c) == "S" or GetType(c) == "B" then
+			levels[i] = paragraphLevel
+		end
+	end
+
 	local l = ""
 	for i=1,#levels do l = l..levels[i].." "  end
 	return l
