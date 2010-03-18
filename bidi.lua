@@ -136,15 +136,6 @@ function doTypes(line, paragraphLevel, types, levels, fX)
 	end
 end
 
--- Rule (W3)
-function doALtoR(types)
-	for i=1, #types do
-		if types[i] == "AL" then
-			types[i] = "R"
-		end
-	end
-end
-
 function doBidi(line)
 	local types = { }
 	local levels = { }
@@ -241,7 +232,11 @@ function doBidi(line)
 	Optimization: on Rule Xn, we might set a flag on AL type
 	to prevent this loop in L R lines only...
 	--]]
-	doALtoR(types)
+	for i=1, #types do
+		if types[i] == "AL" then
+			types[i] = "R"
+		end
+	end
 
 	--[[
 	Rule (W4)
