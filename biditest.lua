@@ -19,11 +19,11 @@ function doescaped(str)
 	return str
 end
 
-s, f = 0, 0
-function dodobidi(str,passed)
-	local str     = doescaped(str)
-	local result1 = bidi.process(str)
-	local cmd     = string.format("echo '%s' | fribidi --caprtl --levels --novisual", str)
+p, f = 0, 0
+function dodobidi(str,passed,clean)
+	local cstr    = clean and doescaped(str) or str
+	local result1 = bidi.process(cstr)
+	local cmd     = string.format("echo '%s' | fribidi --caprtl --levels --novisual", cstr)
 	local fribidi = io.popen(cmd, 'r')
 	local result2 = fribidi:read('*a'):gsub("\n","")
 	if result1 == result2 then
@@ -33,7 +33,7 @@ function dodobidi(str,passed)
 			print(result1)
 			print(result2)
 		end
-		s = s + 1
+		p = p + 1
 	else
 		print("FAILED")
 		print(str)
@@ -47,20 +47,20 @@ function main()
 	if arg[1] then
 		file = io.open(arg[1], "r")
 		if file then
+			for line in file:lines() do
+				dodobidi(line,false,true)
+			end
 		else
 			dodobidi(arg[1])
 		end
 	else
 		file = io.open("minitests.txt", "r")
-	end
-	if file then
 		for line in file:lines() do
 			local t = line:split("#")
---			print(t[1], t[2])
 			dodobidi(t[1])
 		end
 	end
-	print(s.." passed,"..f.." failed.")
+	print(string.format("%s passed, %s failed.", p, f))
 end
 
 main()
