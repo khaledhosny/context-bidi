@@ -56,16 +56,16 @@ end
 local MAX_STACK = 60
 
 -- Rule (X1), (X2), (X3), (X4), (X5), (X6), (X7), (X8), (X9)
-local function doTypes(line, paragraphLevel, types, levels, fX)
+local function doTypes(line, paragraphLevel, types, levels, explicit)
 	local currentEmbedding = paragraphLevel
 	local currentOverride  = "ON"
 	local levelStack       = { }
 	local overrideStack    = { }
 	local stackTop         = 0
 
-	if fX then
-		for i in ipairs(line) do
-			local currType = line[i].type
+	for i in ipairs(line) do
+		local currType = line[i].type
+		if explicit then
 			if currType == "RLE" then
 				if stackTop < MAX_STACK then
 					levelStack[stackTop]    = currentEmbedding
@@ -124,10 +124,7 @@ local function doTypes(line, paragraphLevel, types, levels, fX)
 				end
 				line[i].type  = currType
 			end
-		end
-	else
-		for i in ipairs(line) do
-			local currType = line[i].type
+		else
 			if currType == "WS" or currType == "B" or currType == "S" then
 				currType = "ON"
 				if currentOverride ~= "ON" then
