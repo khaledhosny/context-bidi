@@ -74,6 +74,7 @@ local function doTypes(line, paragraphLevel, types, levels, fX)
 					currentEmbedding        = leastGreaterOdd(currentEmbedding)
 					currentOverride         = "ON"
 				end
+				line[i].level = line[i-1] and line[i-1].level or paragraphLevel
 			elseif currType == "LRE" then
 				if stackTop < MAX_STACK then
 					levelStack[stackTop]    = currentEmbedding
@@ -82,6 +83,7 @@ local function doTypes(line, paragraphLevel, types, levels, fX)
 					currentEmbedding        = leastGreaterEven(currentEmbedding)
 					currentOverride         = "ON"
 				end
+				line[i].level = line[i-1] and line[i-1].level or paragraphLevel
 			elseif currType == "RLO" then
 				if stackTop < MAX_STACK then
 					levelStack[stackTop]    = currentEmbedding
@@ -90,6 +92,7 @@ local function doTypes(line, paragraphLevel, types, levels, fX)
 					currentEmbedding        = leastGreaterOdd(currentEmbedding)
 					currentOverride         = "R"
 				end
+				line[i].level = line[i-1] and line[i-1].level or paragraphLevel
 			elseif currType == "LRO" then
 				if stackTop < MAX_STACK then
 					levelStack[stackTop]    = currentEmbedding
@@ -98,25 +101,29 @@ local function doTypes(line, paragraphLevel, types, levels, fX)
 					currentEmbedding        = leastGreaterEven(currentEmbedding)
 					currentOverride         = "L"
 				end
+				line[i].level = line[i-1] and line[i-1].level or paragraphLevel
 			elseif currType == "PDF" then
 				if stackTop > 0 then
 					currentEmbedding = levelStack[stackTop-1]
 					currentOverride  = overrideStack[stackTop-1]
 					stackTop         = stackTop - 1
 				end
+				line[i].level = line[i-1] and line[i-1].level or paragraphLevel
 			elseif currType == "WS" or currType == "B" or currType == "S" then
 				-- Whitespace is treated as neutral for now
+				line[i].level = currentEmbedding
 				currType = "ON"
 				if currentOverride ~= "ON" then
 					currType = currentOverride
 				end
+				line[i].type  = currType
 			else
+				line[i].level = currentEmbedding
 				if currentOverride ~= "ON" then
 					currType = currentOverride
 				end
+				line[i].type  = currType
 			end
-			line[i].level = currentEmbedding
-			line[i].type  = currType
 		end
 	else
 		for i in ipairs(line) do
