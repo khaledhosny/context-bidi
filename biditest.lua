@@ -6,7 +6,7 @@ file = io.open("minitests.txt", "r")
 
 s, f = 0, 0
 function dodobidi(str)
-	local result1 = doBidi(str)
+	local result1 = bidi.process(str)
 	local cmd     = string.format("echo '%s' | fribidi --caprtl --levels --novisual", str)
 	local fribidi = io.popen(cmd, 'r')
 	local result2 = fribidi:read('*a'):gsub("\n","")

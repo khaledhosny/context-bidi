@@ -1,19 +1,19 @@
 kpse.set_program_name("luatex")
 require("l-table")
 
-function odd(x)
+local function odd(x)
 	return x%2 == 1 and true or false
 end
 
-function leastGreaterOdd(x)
+local function leastGreaterOdd(x)
 	return odd(x) and x+2 or x+ 1
 end
 
-function leastGreaterEven(x)
+local function leastGreaterEven(x)
 	return odd(x) and x+ 1 or x+2
 end
 
-function flipThisRun(from, level, max, count)
+local function flipThisRun(from, level, max, count)
 end
 
 local CAPRtl = {
@@ -27,13 +27,13 @@ local CAPRtl = {
   "L",  "L",  "L",  "L",  "L",  "L",  "L",  "L",  "L",  "L",  "L",  "ON", "S",  "ON", "ON", "ON",  -- 70-7f
 }
 
-function GetCAPRtl(ch)
+local function GetCAPRtl(ch)
 	return CAPRtl[string.byte(ch)+ 1] or "R"
 end
 
-GetType = GetCAPRtl
+local GetType = GetCAPRtl
 
-function GetParagraphLevel(line)
+local function GetParagraphLevel(line)
 	for c in line:gmatch(".") do
 		if GetType(c) == "R" or GetType(c) == "AL" then
 			return 1
@@ -47,7 +47,7 @@ end
 local MAX_STACK = 60
 
 -- Rule (X1), (X2), (X3), (X4), (X5), (X6), (X7), (X8), (X9)
-function doTypes(line, paragraphLevel, types, levels, fX)
+local function doTypes(line, paragraphLevel, types, levels, fX)
 	local currentEmbedding = paragraphLevel
 	local currentOverride  = "ON"
 	local levelStack       = { }
@@ -136,7 +136,7 @@ function doTypes(line, paragraphLevel, types, levels, fX)
 	end
 end
 
-function doBidi(line)
+local function doBidi(line)
 	local types = { }
 	local levels = { }
 	local paragraphLevel
@@ -398,3 +398,7 @@ function doBidi(line)
 	for i=1,#levels do l = l..levels[i].." "  end
 	return l
 end
+
+bidi = {
+	process=doBidi,
+}
