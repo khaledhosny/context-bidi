@@ -412,6 +412,7 @@ function doBidi(line)
 			end
 		end
 	end
-	for i=1,#levels do io.write(levels[i].." ") end
-	io.write("\n")
+	local l = ""
+	for i=1,#levels do l = l..levels[i].." "  end
+	return l
 end
