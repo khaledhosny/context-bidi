@@ -48,18 +48,17 @@ local MAX_STACK = 60
 
 -- Rule (X1), (X2), (X3), (X4), (X5), (X6), (X7), (X8), (X9)
 function doTypes(line, paragraphLevel, types, levels, fX)
-	local tempType
 	local currentEmbedding = paragraphLevel
 	local currentOverride  = "ON"
-	local i, j             = 1, 1
 	local levelStack       = { }
 	local overrideStack    = { }
 	local stackTop         = 0
 
 	if fX then
+		local i = 1
 		for c in line:gmatch(".") do
-			tempType = GetType(c)
-			if tempType == "RLE" then
+			local currType = GetType(c)
+			if currType == "RLE" then
 				if stackTop < MAX_STACK then
 					levelStack[stackTop]    = currentEmbedding
 					overrideStack[stackTop] = currentOverride
@@ -67,7 +66,7 @@ function doTypes(line, paragraphLevel, types, levels, fX)
 					currentEmbedding        = leastGreaterOdd(currentEmbedding)
 					currentOverride         = "ON"
 				end
-			elseif tempType == "LRE" then
+			elseif currType == "LRE" then
 				if stackTop < MAX_STACK then
 					levelStack[stackTop]    = currentEmbedding
 					overrideStack[stackTop] = currentOverride
@@ -75,7 +74,7 @@ function doTypes(line, paragraphLevel, types, levels, fX)
 					currentEmbedding        = leastGreaterEven(currentEmbedding)
 					currentOverride         = "ON"
 				end
-			elseif tempType == "RLO" then
+			elseif currType == "RLO" then
 				if stackTop < MAX_STACK then
 					levelStack[stackTop]    = currentEmbedding
 					overrideStack[stackTop] = currentOverride
@@ -83,7 +82,7 @@ function doTypes(line, paragraphLevel, types, levels, fX)
 					currentEmbedding        = leastGreaterOdd(currentEmbedding)
 					currentOverride         = "R"
 				end
-			elseif tempType == "LRO" then
+			elseif currType == "LRO" then
 				if stackTop < MAX_STACK then
 					levelStack[stackTop]    = currentEmbedding
 					overrideStack[stackTop] = currentOverride
@@ -91,46 +90,47 @@ function doTypes(line, paragraphLevel, types, levels, fX)
 					currentEmbedding        = leastGreaterEven(currentEmbedding)
 					currentOverride         = "L"
 				end
-			elseif tempType == "PDF" then
+			elseif currType == "PDF" then
 				if stackTop > 0 then
 					currentEmbedding = levelStack[stackTop-1]
 					currentOverride  = overrideStack[stackTop-1]
 					stackTop         = stackTop - 1
 				end
-			elseif tempType == "WS" or tempType == "B" or tempType == "S" then
+			elseif currType == "WS" or currType == "B" or currType == "S" then
 				-- Whitespace is treated as neutral for now
-				levels[j] = currentEmbedding
-				tempType = "ON"
+				levels[i] = currentEmbedding
+				currType = "ON"
 				if currentOverride ~= "ON" then
-					tempType = currentOverride
+					currType = currentOverride
 				end
-				types[j] = tempType
-				j = j + 1
+				types[i] = currType
+				i = i + 1
 			else
-				levels[j] = currentEmbedding
+				levels[i] = currentEmbedding
 				if currentOverride ~= "ON" then
-					tempType = currentOverride
+					currType = currentOverride
 				end
-				types[j] = tempType
-				j = j + 1
+				types[i] = currType
+				i = i + 1
 			end
 		end
 	else
+		local i = 1
 		for c in line:gmatch(".") do
-			tempType = GetType(c)
-			if tempType == "WS" or tempType == "B" or tempType == "S" then
+			local currType = GetType(c)
+			if currType == "WS" or currType == "B" or currType == "S" then
 				levels[i] = currentEmbedding
-				tempType = "ON"
+				currType = "ON"
 				if currentOverride ~= "ON" then
-					tempType = currentOverride
+					currType = currentOverride
 				end
 			else
 				levels[i] = currentEmbedding
 				if currentOverride ~= "ON" then
-					tempType = currentOverride
+					currType = currentOverride
 				end
 			end
-			types[i] = tempType
+			types[i] = currType
 			i = i + 1
 		end
 	end
