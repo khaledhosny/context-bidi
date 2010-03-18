@@ -203,7 +203,7 @@ function doBidi(line)
 	X9. Remove all RLE, LRE, RLO, LRO, PDF, and BN codes.
 	Here, they're converted to BN.
 	--]]
-        doTypes(line, paragraphLevel, types, levels, fX);
+        doTypes(line, paragraphLevel, types, levels, fX)
 
 	if fNSM then
 		if types[1] == "NSM" then
@@ -397,4 +397,18 @@ function doBidi(line)
 	end
 	--print(table.serialize(levels))
 	--print(table.serialize(types))
+	--[[
+	Rule (I2)
+	I2. For all characters with an odd (right-to-left) embedding direction,
+	those of type L, EN or AN go up one level.
+	--]]
+	for i=1,#line do
+		if odd(levels[i]) then
+			if types[i] == "L" or types[i] == "EN" or types[i] == "AN" then
+				levels[i] = levels[i] + 1
+			end
+		end
+	end
+	for i=1,#levels do io.write(levels[i].." ") end
+	io.write("\n")
 end
