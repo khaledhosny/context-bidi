@@ -30,5 +30,9 @@ function main()
 	end
 	print(s.." sucesses,"..f.." failures.")
 end
---dodobidi("A TEST FOR WEAK TYPES. 123+,456")
-main()
+
+if arg[1] then
+	dodobidi(arg[1])
+else
+	main()
+end
