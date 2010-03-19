@@ -126,7 +126,6 @@ end
 local function doBidi(line)
 	local line = Line2Table(line)
 	local paragraphLevel
-	local tempType, tempTypeSec
 	local fX, fAL, fET, fNSM
 
 	for i in ipairs(line) do
@@ -202,7 +201,6 @@ local function doBidi(line)
 	--]]
 	for i in ipairs(line) do
 		if line[i].type == "EN" then
-			tempType = line[i].level
 			for j=i,1,-1 do
 				if line[j].type == "AL" then
 					line[i].type = "AN"
@@ -291,9 +289,9 @@ local function doBidi(line)
 	--]]
 	for i in ipairs(line) do
 		if line[i].type == "EN" then
-			tempType = line[i].level
+			local currType = line[i].level
 			j=i
-			while j>0 and line[j].level == tempType do
+			while j>0 and line[j].level == currType do
 				if line[j].type == "L" then
 					line[i].type = "L"
 					j = j - 1
