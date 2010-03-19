@@ -1,6 +1,16 @@
-kpse.set_program_name("luatex")
-require("l-string")
-require("bidi.lua")
+require("bidi")
+
+function string:split(pattern)
+	if #self > 0 then
+		local t = { }
+		for s in string.gmatch(self..pattern,"(.-)"..pattern) do
+			t[#t+1] = s
+		end
+		return t
+	else
+		return { }
+	end
+end
 
 function doescaped(str)
 	local t = {
@@ -51,7 +61,7 @@ function main()
 				dodobidi(line,false,true)
 			end
 		else
-			dodobidi(arg[1])
+			dodobidi(arg[1],true,true)
 		end
 	else
 		file = io.open("minitests.txt", "r")

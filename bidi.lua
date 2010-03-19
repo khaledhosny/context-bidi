@@ -1,6 +1,3 @@
-kpse.set_program_name("luatex")
-require("l-table")
-
 local function odd(x)
 	return x%2 == 1 and true or false
 end
