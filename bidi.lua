@@ -254,11 +254,11 @@ local function doBidi(line)
 	if fET then
 		for i in ipairs(line) do
 			if line[i].type == "ET" then
-				if line[i-1].type == "EN" then
+				if line[i-1] and line[i-1].type == "EN" then
 					line[i].type = "EN"
-				elseif line[i+1].type == "EN" then
+				elseif line[i+1] and line[i+1].type == "EN" then
 					line[i].type = "EN"
-				elseif line[i+1].type == "ET" then
+				elseif line[i+1] and line[i+1].type == "ET" then
 					j = i
 					while j < #line and line[j].type == "ET" do
 						j = j + 1
