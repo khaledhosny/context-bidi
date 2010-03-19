@@ -215,9 +215,6 @@ local function doBidi(line)
 	--[[
 	Rule (W3)
 	W3. Change all ALs to R.
-	
-	Optimization: on Rule Xn, we might set a flag on AL type
-	to prevent this loop in L R lines only...
 	--]]
 	for i in ipairs(line) do
 		if line[i].type == "AL" then
@@ -233,13 +230,13 @@ local function doBidi(line)
 	--]]
 	for i in ipairs(line) do
 		if line[i].type == "ES" then
-			if line[i-1].type == "EN" and line[i+1].type == "EN" then
+			if (line[i-1] and line[i-1].type == "EN") and (line[i+1] and line[i+1].type == "EN") then
 				line[i].type = "EN"
 			end
 		elseif line[i].type == "CS" then
-			if line[i-1].type == "EN" and line[i+1].type == "EN" then
+			if (line[i-1] and line[i-1].type == "EN") and (line[i+1] and line[i+1].type == "EN") then
 				line[i].type = "EN"
-			elseif line[i-1].type == "AN" and line[i+1].type == "AN" then
+			elseif (line [i-1] and line[i-1].type == "AN") and (line[i+1] and line[i+1].type == "AN") then
 				line[i].type = "AN"
 			end
 		end
