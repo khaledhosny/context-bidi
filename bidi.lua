@@ -289,9 +289,8 @@ local function doBidi(line)
 	--]]
 	for i in ipairs(line) do
 		if line[i].type == "EN" then
-			local currType = line[i].level
 			j=i
-			while j>0 and line[j].level == currType do
+			while j>0 and line[j].level == line[i].level do
 				if line[j].type == "L" then
 					line[i].type = "L"
 					j = j - 1
