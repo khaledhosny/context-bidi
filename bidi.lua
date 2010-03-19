@@ -53,7 +53,7 @@ end
 local MAX_STACK = 60
 
 -- Rule (X1), (X2), (X3), (X4), (X5), (X6), (X7), (X8), (X9)
-local function doTypes(line, baseLevel, types, levels)
+local function doTypes(line, baseLevel)
 	local currentEmbedding = baseLevel
 	local currentOverride  = "ON"
 	local levelStack       = { }
@@ -179,7 +179,7 @@ local function doBidi(line)
 	X9. Remove all RLE, LRE, RLO, LRO, PDF, and BN codes.
 	Here, they're converted to BN.
 	--]]
-        doTypes(line, paragraphLevel, types, levels)
+        doTypes(line, paragraphLevel)
 
 	if fNSM then
 		for i in ipairs(line) do
@@ -296,7 +296,7 @@ local function doBidi(line)
 					line[i].type = "L"
 					j = j - 1
 					break
-				elseif line[j].type == "R" or types == "AL" then
+				elseif line[j].type == "R" or line[j].type == "AL" then
 					j = j - 1
 					break
 				end
