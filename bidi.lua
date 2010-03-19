@@ -53,8 +53,8 @@ end
 local MAX_STACK = 60
 
 -- Rule (X1), (X2), (X3), (X4), (X5), (X6), (X7), (X8), (X9)
-local function doTypes(line, paragraphLevel, types, levels)
-	local currentEmbedding = paragraphLevel
+local function doTypes(line, baseLevel, types, levels)
+	local currentEmbedding = baseLevel
 	local currentOverride  = "ON"
 	local levelStack       = { }
 	local overrideStack    = { }
@@ -70,7 +70,7 @@ local function doTypes(line, paragraphLevel, types, levels)
 				currentEmbedding        = leastGreaterOdd(currentEmbedding)
 				currentOverride         = "ON"
 			end
-			line[i].level = line[i-1] and line[i-1].level or paragraphLevel
+			line[i].level = line[i-1] and line[i-1].level or baseLevel
 		elseif currType == "LRE" then
 			if stackTop < MAX_STACK then
 				levelStack[stackTop]    = currentEmbedding
@@ -79,7 +79,7 @@ local function doTypes(line, paragraphLevel, types, levels)
 				currentEmbedding        = leastGreaterEven(currentEmbedding)
 				currentOverride         = "ON"
 			end
-			line[i].level = line[i-1] and line[i-1].level or paragraphLevel
+			line[i].level = line[i-1] and line[i-1].level or baseLevel
 		elseif currType == "RLO" then
 			if stackTop < MAX_STACK then
 				levelStack[stackTop]    = currentEmbedding
@@ -88,7 +88,7 @@ local function doTypes(line, paragraphLevel, types, levels)
 				currentEmbedding        = leastGreaterOdd(currentEmbedding)
 				currentOverride         = "R"
 			end
-			line[i].level = line[i-1] and line[i-1].level or paragraphLevel
+			line[i].level = line[i-1] and line[i-1].level or baseLevel
 		elseif currType == "LRO" then
 			if stackTop < MAX_STACK then
 				levelStack[stackTop]    = currentEmbedding
@@ -97,14 +97,14 @@ local function doTypes(line, paragraphLevel, types, levels)
 				currentEmbedding        = leastGreaterEven(currentEmbedding)
 				currentOverride         = "L"
 			end
-			line[i].level = line[i-1] and line[i-1].level or paragraphLevel
+			line[i].level = line[i-1] and line[i-1].level or baseLevel
 		elseif currType == "PDF" then
 			if stackTop > 0 then
 				currentEmbedding = levelStack[stackTop-1]
 				currentOverride  = overrideStack[stackTop-1]
 				stackTop         = stackTop - 1
 			end
-			line[i].level = line[i-1] and line[i-1].level or paragraphLevel
+			line[i].level = line[i-1] and line[i-1].level or baseLevel
 		elseif currType == "WS" or currType == "B" or currType == "S" then
 			-- Whitespace is treated as neutral for now
 			line[i].level = currentEmbedding
