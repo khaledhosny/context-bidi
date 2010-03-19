@@ -47,7 +47,7 @@ local function GetParagraphLevel(line)
 			return 0
 		end
 	end
-	return -1
+	return 0
 end
 
 local MAX_STACK = 60
