@@ -145,9 +145,12 @@ local function doBidi(line)
 		end
 	end
 
+	--[[
+	-- Optimization, if no Arabic or explicit marks do nothing
 	if (not fAL) and (not fX) then
 		return 0
 	end
+	--]]
 
 	--[[
 	Rule (P2), (P3)
