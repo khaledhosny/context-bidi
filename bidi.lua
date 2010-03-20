@@ -259,7 +259,7 @@ local function GetEmbeddingLevels(line)
 				elseif line[i+1] and line[i+1].type == "EN" then
 					line[i].type = "EN"
 				elseif line[i+1] and line[i+1].type == "ET" then
-					j = i
+					local j = i
 					while j < #line and line[j].type == "ET" do
 						j = j + 1
 					end
@@ -289,7 +289,7 @@ local function GetEmbeddingLevels(line)
 	--]]
 	for i in ipairs(line) do
 		if line[i].type == "EN" then
-			j=i
+			local j = i
 			while j>0 and line[j].level == line[i].level do
 				if line[j].type == "L" then
 					line[i].type = "L"
