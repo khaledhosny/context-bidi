@@ -1,13 +1,15 @@
+bidi = { }
+
 local function odd(x)
 	return x%2 == 1 and true or false
 end
 
-local function leastGreaterOdd(x)
-	return odd(x) and x+2 or x+ 1
+local function GreaterOdd(x)
+	return odd(x) and x+2 or x+1
 end
 
-local function leastGreaterEven(x)
-	return odd(x) and x+ 1 or x+2
+local function GreaterEven(x)
+	return odd(x) and x+1 or x+2
 end
 
 local function flipThisRun(from, level, max, count)
@@ -67,7 +69,7 @@ local function doTypes(line, baseLevel)
 				levelStack[stackTop]    = currentEmbedding
 				overrideStack[stackTop] = currentOverride
 				stackTop                = stackTop + 1
-				currentEmbedding        = leastGreaterOdd(currentEmbedding)
+				currentEmbedding        = GreaterOdd(currentEmbedding)
 				currentOverride         = "ON"
 			end
 			line[i].level = line[i-1] and line[i-1].level or baseLevel
@@ -76,7 +78,7 @@ local function doTypes(line, baseLevel)
 				levelStack[stackTop]    = currentEmbedding
 				overrideStack[stackTop] = currentOverride
 				stackTop                = stackTop + 1
-				currentEmbedding        = leastGreaterEven(currentEmbedding)
+				currentEmbedding        = GreaterEven(currentEmbedding)
 				currentOverride         = "ON"
 			end
 			line[i].level = line[i-1] and line[i-1].level or baseLevel
@@ -85,7 +87,7 @@ local function doTypes(line, baseLevel)
 				levelStack[stackTop]    = currentEmbedding
 				overrideStack[stackTop] = currentOverride
 				stackTop                = stackTop + 1
-				currentEmbedding        = leastGreaterOdd(currentEmbedding)
+				currentEmbedding        = GreaterOdd(currentEmbedding)
 				currentOverride         = "R"
 			end
 			line[i].level = line[i-1] and line[i-1].level or baseLevel
@@ -94,7 +96,7 @@ local function doTypes(line, baseLevel)
 				levelStack[stackTop]    = currentEmbedding
 				overrideStack[stackTop] = currentOverride
 				stackTop                = stackTop + 1
-				currentEmbedding        = leastGreaterEven(currentEmbedding)
+				currentEmbedding        = GreaterEven(currentEmbedding)
 				currentOverride         = "L"
 			end
 			line[i].level = line[i-1] and line[i-1].level or baseLevel
@@ -123,7 +125,7 @@ local function doTypes(line, baseLevel)
 	end
 end
 
-local function doBidi(line)
+local function GetEmbeddingLevels(line)
 	local line = Line2Table(line)
 	local paragraphLevel
 	local fX, fAL, fET, fNSM
@@ -397,11 +399,13 @@ local function doBidi(line)
 		end
 	end
 
+	return line
+end
+
+function bidi.process(line)
+	line = GetEmbeddingLevels(line)
+
 	local l = ""
 	for i in ipairs(line) do l = l..line[i].level.." "  end
 	return l
 end
-
-bidi = {
-	process=doBidi,
-}
