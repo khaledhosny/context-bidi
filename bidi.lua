@@ -15,6 +15,17 @@ end
 local function flipThisRun(from, level, max, count)
 end
 
+local mirror = {
+	["("] = ")",
+	[")"] = "(",
+	["["] = "]",
+	["]"] = "[",
+	["{"] = "}",
+	["}"] = "{",
+	["<"] = ">",
+	[">"] = "<",
+}
+
 local CAPRtl = {
   "ON", "ON", "ON", "ON", "L",  "R",  "ON", "ON", "ON", "ON", "ON", "ON", "ON", "B",  "RLO","RLE", -- 00-0f
   "LRO","LRE","PDF","WS", "ON", "ON", "ON", "ON", "ON", "ON", "ON", "ON", "ON", "ON", "ON", "ON",  -- 10-1f
@@ -397,6 +408,20 @@ local function GetEmbeddingLevels(line)
 		local currType = line[i].orig_type
 		if currType == "S" or currType == "B" then
 			line[i].level = paragraphLevel
+		end
+	end
+
+	--[[
+	Rule (L4)
+	L4. A character that possesses the mirrored property as specified by
+	Section 4.7, Mirrored, must be depicted by a mirrored glyph if the
+	resolved directionality of that character is R.
+	--]]
+	for i in ipairs(line) do
+		if odd(line[i].level) then
+			if mirror[line[i].char] then
+				line[i].char = mirror[line[i].char]
+			end
 		end
 	end
 
