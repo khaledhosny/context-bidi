@@ -35,7 +35,7 @@ local GetType = GetCAPRtl
 local function Line2Table(line)
 	local t = { }
 	line:gsub(".", function(c)
-		t[#t+1] = { char = c, type = GetType(c), orig_type = GetType(c) }
+		t[#t+1] = { char = c, type = GetType(c), orig_type = GetType(c), level = 0 }
 	end)
 	return t
 end
@@ -144,11 +144,12 @@ local function GetEmbeddingLevels(line)
 	end
 
 	--[[
-	-- Optimization, if no Arabic or explicit marks do nothing
-	if (not fAL) and (not fX) then
-		return 0
-	end
+	Optimization
+	If no Arabic or explicit marks do nothing
 	--]]
+	if (not fAL) and (not fX) then
+		return line
+	end
 
 	--[[
 	Rule (P2), (P3)
