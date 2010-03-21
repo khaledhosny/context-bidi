@@ -161,28 +161,6 @@ local function doTypes(line, baseLevel)
 end
 
 local function GetEmbeddingLevels(line, paragraphLevel)
-	local fX, fAL, fET, fNSM
-
-	for i in ipairs(line) do
-		local currType = line[i].type
-		if currType == "AL" or currType == "R" then
-			fAL = 1
-		elseif currType == "LRE" or currType == "LRO" or currType == "RLE" or currType == "RLO" or currType == "PDF" or currType == "BN" then
-			fX = 1
-		elseif currType == "ET" then
-			fET = 1
-		elseif currType == "NSM" then
-			fNSM = 1
-		end
-	end
-
-	--[[
-	Optimization
-	If no Arabic or explicit marks do nothing
-	--]]
-	if (not fAL) and (not fX) then
-		return line
-	end
 
 	--[[
 	Rule (X1), (X2), (X3), (X4), (X5), (X6), (X7), (X8), (X9)
@@ -209,14 +187,12 @@ local function GetEmbeddingLevels(line, paragraphLevel)
 	--]]
         doTypes(line, paragraphLevel)
 
-	if fNSM then
-		for i in ipairs(line) do
-			if line[i].type == "NSM" then
-				if i == 1 then
-					line[i].type = paragraphLevel
-				else
-					line[i].type = line[i-1].type
-				end
+	for i in ipairs(line) do
+		if line[i].type == "NSM" then
+			if i == 1 then
+				line[i].type = paragraphLevel
+			else
+				line[i].type = line[i-1].type
 			end
 		end
 	end
@@ -276,21 +252,19 @@ local function GetEmbeddingLevels(line, paragraphLevel)
 	changes to all European numbers.
 	FIXME: continue
 	--]]
-	if fET then
-		for i in ipairs(line) do
-			if line[i].type == "ET" then
-				if line[i-1] and line[i-1].type == "EN" then
+	for i in ipairs(line) do
+		if line[i].type == "ET" then
+			if line[i-1] and line[i-1].type == "EN" then
+				line[i].type = "EN"
+			elseif line[i+1] and line[i+1].type == "EN" then
+				line[i].type = "EN"
+			elseif line[i+1] and line[i+1].type == "ET" then
+				local j = i
+				while j < #line and line[j].type == "ET" do
+					j = j + 1
+				end
+				if line[j].type == "EN" then
 					line[i].type = "EN"
-				elseif line[i+1] and line[i+1].type == "EN" then
-					line[i].type = "EN"
-				elseif line[i+1] and line[i+1].type == "ET" then
-					local j = i
-					while j < #line and line[j].type == "ET" do
-						j = j + 1
-					end
-					if line[j].type == "EN" then
-						line[i].type = "EN"
-					end
 				end
 			end
 		end
@@ -437,11 +411,22 @@ local function GetEmbeddingLevels(line, paragraphLevel)
 	return line
 end
 
+local function HasArabic(line)
+	for i in ipairs(line) do
+		if line[i].type == "AL" or line[i].type == "R" then
+			return true
+		end
+	end
+	return false
+end
+
 function bidi.process(line)
 	local t
 	t = Line2Table(line)
-	t = GetEmbeddingLevels(t, GetParagraphLevel(t))
-	t = doMirroring(t)
+	if HasArabic(t) then
+		t = GetEmbeddingLevels(t, GetParagraphLevel(t))
+		t = doMirroring(t)
+	end
 
 	local l = ""
 	for i in ipairs(t) do l = l..t[i].level.." "  end
