@@ -40,7 +40,7 @@ local function Line2Table(line)
 	return t
 end
 
-local function GetParagraphLevel(line)
+local function GetBaseLevel(line)
 	--[[
 	Rule (P2), (P3)
 	P2. In each paragraph, find the first character of type L, AL, or R.
@@ -89,7 +89,7 @@ end
 
 local MAX_STACK = 60
 
-local function doTypes(line, baseLevel)
+local function ResolveTypes(line, baseLevel)
 	-- Rule (X1), (X2), (X3), (X4), (X5), (X6), (X7), (X8), (X9)
 	local currentEmbedding = baseLevel
 	local currentOverride  = "ON"
@@ -160,7 +160,7 @@ local function doTypes(line, baseLevel)
 	end
 end
 
-local function GetEmbeddingLevels(line, paragraphLevel)
+local function ResolveLevels(line, paragraphLevel)
 
 	--[[
 	Rule (X1), (X2), (X3), (X4), (X5), (X6), (X7), (X8), (X9)
@@ -185,7 +185,7 @@ local function GetEmbeddingLevels(line, paragraphLevel)
 	X9. Remove all RLE, LRE, RLO, LRO, PDF, and BN codes.
 	Here, they're converted to BN.
 	--]]
-        doTypes(line, paragraphLevel)
+        ResolveTypes(line, paragraphLevel)
 
 	for i in ipairs(line) do
 		if line[i].type == "NSM" then
@@ -420,11 +420,11 @@ local function HasArabic(line)
 	return false
 end
 
-function bidi.process(line)
+local function Process(line)
 	local t
 	t = Line2Table(line)
 	if HasArabic(t) then
-		t = GetEmbeddingLevels(t, GetParagraphLevel(t))
+		t = ResolveLevels(t, GetBaseLevel(t))
 		t = doMirroring(t)
 	end
 
@@ -432,3 +432,7 @@ function bidi.process(line)
 	for i in ipairs(t) do l = l..t[i].level.." "  end
 	return l
 end
+
+bidi.baselevel = GetBaseLevel
+bidi.resolve   = ResolveLevels
+bidi.process   = Process
