@@ -318,10 +318,8 @@ local function GetEmbeddingLevels(line, paragraphLevel)
 			while j>0 and line[j].level == line[i].level do
 				if line[j].type == "L" then
 					line[i].type = "L"
-					j = j - 1
 					break
 				elseif line[j].type == "R" or line[j].type == "AL" then
-					j = j - 1
 					break
 				end
 				j = j - 1
