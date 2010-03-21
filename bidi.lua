@@ -406,19 +406,12 @@ local function ResolveLevels(line, paragraphLevel)
 	return line
 end
 
-local function HasArabic(line)
-	for i in ipairs(line) do
-		if line[i].type == "AL" or line[i].type == "R" then
-			return true
-		end
-	end
-	return false
-end
-
-local function HasExplicite(line)
+local function HasBiDi(line)
 	for i in ipairs(line) do
 		local currType = line[i].type
-		if currType == "LRE" or currType == "LRO" or currType == "RLE" or currType == "RLO" or currType == "PDF" then
+		if currType == "AL" or currType == "R" or currType == "LRE" or
+			currType == "LRO" or currType == "RLE" or
+			currType == "RLO" or currType == "PDF" then
 			return true
 		end
 	end
@@ -428,7 +421,7 @@ end
 local function Process(line)
 	local t
 	t = Line2Table(line)
-	if HasArabic(t) or HasExplicite(t) then
+	if HasBiDi(t) then
 		t = ResolveLevels(t, GetBaseLevel(t))
 		t = doMirroring(t)
 	end
