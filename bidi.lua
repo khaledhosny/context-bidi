@@ -415,10 +415,20 @@ local function HasArabic(line)
 	return false
 end
 
+local function HasExplicite(line)
+	for i in ipairs(line) do
+		local currType = line[i].type
+		if currType == "LRE" or currType == "LRO" or currType == "RLE" or currType == "RLO" or currType == "PDF" then
+			return true
+		end
+	end
+	return false
+end
+
 local function Process(line)
 	local t
 	t = Line2Table(line)
-	if HasArabic(t) then
+	if HasArabic(t) or HasExplicite(t) then
 		t = ResolveLevels(t, GetBaseLevel(t))
 		t = doMirroring(t)
 	end
