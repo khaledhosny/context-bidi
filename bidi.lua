@@ -107,7 +107,6 @@ local function ResolveTypes(line, baseLevel)
 				currentEmbedding        = GreaterOdd(currentEmbedding)
 				currentOverride         = "ON"
 			end
-			line[i].level = line[i-1] and line[i-1].level or baseLevel
 		elseif currType == "LRE" then
 			if stackTop < MAX_STACK then
 				levelStack[stackTop]    = currentEmbedding
@@ -116,7 +115,6 @@ local function ResolveTypes(line, baseLevel)
 				currentEmbedding        = GreaterEven(currentEmbedding)
 				currentOverride         = "ON"
 			end
-			line[i].level = line[i-1] and line[i-1].level or baseLevel
 		elseif currType == "RLO" then
 			if stackTop < MAX_STACK then
 				levelStack[stackTop]    = currentEmbedding
@@ -125,7 +123,6 @@ local function ResolveTypes(line, baseLevel)
 				currentEmbedding        = GreaterOdd(currentEmbedding)
 				currentOverride         = "R"
 			end
-			line[i].level = line[i-1] and line[i-1].level or baseLevel
 		elseif currType == "LRO" then
 			if stackTop < MAX_STACK then
 				levelStack[stackTop]    = currentEmbedding
@@ -134,14 +131,12 @@ local function ResolveTypes(line, baseLevel)
 				currentEmbedding        = GreaterEven(currentEmbedding)
 				currentOverride         = "L"
 			end
-			line[i].level = line[i-1] and line[i-1].level or baseLevel
 		elseif currType == "PDF" then
 			if stackTop > 0 then
 				currentEmbedding = levelStack[stackTop-1]
 				currentOverride  = overrideStack[stackTop-1]
 				stackTop         = stackTop - 1
 			end
-			line[i].level = line[i-1] and line[i-1].level or baseLevel
 		elseif currType == "WS" or currType == "B" or currType == "S" then
 			-- Whitespace is treated as neutral for now
 			line[i].level = currentEmbedding
@@ -429,7 +424,13 @@ local function Process(line)
 	end
 
 	local l = ""
-	for i in ipairs(t) do l = l..t[i].level.." "  end
+	for i in ipairs(t) do
+		local currType = t[i].orig_type
+		if currType == "LRE" or currType == "LRO" or currType == "RLE" or currType == "RLO" or currType == "PDF" then
+		else
+			l = l..t[i].level.." "
+		end
+	end
 	return l
 end
 
