@@ -1,12 +1,12 @@
-this is >JUST=#this is JUST
-a :simple <teST= th=at#a simple TSet that
-HAS A >PDF missing#PDF missing A SAH
-AnD hOw> AbOuT, 123,987 tHiS=#w AbOuT, 123,987 tHiSOh DnA
-a GOOD - >=TEST.#a TSET - DOOG.
-here> is=== < a good one=#here is eno doog a 
-And ; 123,987>THE< next= oNE.#987THEtxen  oNE.,123  ndA
-a >>>>>>>>>>>>>>>>>>>>>>>>><bug#a gub
-THE ;best :ONE and#best ENO and EHT
+this is _LJUST_o#this is JUST
+a _lsimple _RteST_o th_oat#a simple TSet that
+HAS A _LPDF missing#PDF missing A SAH
+AnD hOw_L AbOuT, 123,987 tHiS_o#w AbOuT, 123,987 tHiSOh DnA
+a GOOD - _L_oTEST.#a TSET - DOOG.
+here_L is_o_o_o _R a good one_o#here is eno doog a 
+And _r 123,987_LTHE_R next_o oNE.#987THEtxen  oNE.,123  ndA
+a _L_L_L_L_L_L_L_L_L_L_L_L_L_L_L_L_L_L_L_L_L_L_L_L_L_Rbug#a gub
+THE _rbest _lONE and#best ENO and EHT
 car is THE CAR in arabic#car is RAC EHT in arabic
 CAR IS the car IN ENGLISH#HSILGNE NI the car SI RAC
 he said "IT IS 123, 456, OK"#he said "KO ,456 ,123 SI TI"

@@ -16,11 +16,11 @@ function doescaped(str)
 	local t = {
 		["_>"] = 5,
 		["_<"] = 6,
-		["_R"] = 15,
-		["_r"] = 16,
-		["_L"] = 17,
-		["_l"] = 18,
-		["_o"] = 19,
+		["_R"] = 14,
+		["_r"] = 15,
+		["_L"] = 16,
+		["_l"] = 17,
+		["_o"] = 18,
 		["__"] = 95,
 	}
 	for k,v in pairs(t) do
@@ -30,8 +30,8 @@ function doescaped(str)
 end
 
 p, f = 0, 0
-function dodobidi(str,passed,clean)
-	local cstr    = clean and doescaped(str) or str
+function dodobidi(str,passed)
+	local cstr    = doescaped(str) or str
 	local result1 = bidi.process(cstr)
 	local cmd     = string.format("echo '%s' | fribidi --caprtl --levels --novisual", cstr)
 	local fribidi = io.popen(cmd, 'r')
@@ -41,6 +41,7 @@ function dodobidi(str,passed,clean)
 			print("PASSED")
 			print(str)
 			print(result1)
+--			print(cstr)
 			print(result2)
 		end
 		p = p + 1
@@ -48,6 +49,7 @@ function dodobidi(str,passed,clean)
 		print("FAILED")
 		print(str)
 		print(result1)
+--		print(cstr)
 		print(result2)
 		f = f + 1
 	end
@@ -58,10 +60,10 @@ function main()
 		file = io.open(arg[1], "r")
 		if file then
 			for line in file:lines() do
-				dodobidi(line,false,true)
+				dodobidi(line,false)
 			end
 		else
-			dodobidi(arg[1],true,true)
+			dodobidi(arg[1],true)
 		end
 	else
 		file = io.open("minitests.txt", "r")
