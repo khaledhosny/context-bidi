@@ -15,17 +15,6 @@ end
 local function flipThisRun(from, level, max, count)
 end
 
-local mirror = {
-	["("] = ")",
-	[")"] = "(",
-	["["] = "]",
-	["]"] = "[",
-	["{"] = "}",
-	["}"] = "{",
-	["<"] = ">",
-	[">"] = "<",
-}
-
 local CAPRtl = {
   "ON", "ON", "ON", "ON", "L",  "R",  "ON", "ON", "ON", "ON", "ON", "ON", "ON", "B",  "RLO","RLE", -- 00-0f
   "LRO","LRE","PDF","WS", "ON", "ON", "ON", "ON", "ON", "ON", "ON", "ON", "ON", "ON", "ON", "ON",  -- 10-1f
@@ -52,6 +41,12 @@ local function Line2Table(line)
 end
 
 local function GetParagraphLevel(line)
+	--[[
+	Rule (P2), (P3)
+	P2. In each paragraph, find the first character of type L, AL, or R.
+	P3. If a character is found in P2 and it is of type AL or R, then set
+	the paragraph embedding level to one; otherwise, set it to zero.
+	--]]
 	for i in ipairs(line) do
 		local currType = line[i].type
 		if currType == "R" or currType == "AL" then
@@ -63,10 +58,39 @@ local function GetParagraphLevel(line)
 	return 0
 end
 
+local mirror = {
+	["("] = ")",
+	[")"] = "(",
+	["["] = "]",
+	["]"] = "[",
+	["{"] = "}",
+	["}"] = "{",
+	["<"] = ">",
+	[">"] = "<",
+}
+
+local function doMirroring(line)
+	--[[
+	Rule (L4)
+	L4. A character that possesses the mirrored property as specified by
+	Section 4.7, Mirrored, must be depicted by a mirrored glyph if the
+	resolved directionality of that character is R.
+	--]]
+	for i in ipairs(line) do
+		if odd(line[i].level) then
+			if mirror[line[i].char] then
+				line[i].char = mirror[line[i].char]
+			end
+		end
+	end
+
+	return line
+end
+
 local MAX_STACK = 60
 
--- Rule (X1), (X2), (X3), (X4), (X5), (X6), (X7), (X8), (X9)
 local function doTypes(line, baseLevel)
+	-- Rule (X1), (X2), (X3), (X4), (X5), (X6), (X7), (X8), (X9)
 	local currentEmbedding = baseLevel
 	local currentOverride  = "ON"
 	local levelStack       = { }
@@ -136,9 +160,7 @@ local function doTypes(line, baseLevel)
 	end
 end
 
-local function GetEmbeddingLevels(line)
-	local line = Line2Table(line)
-	local paragraphLevel
+local function GetEmbeddingLevels(line, paragraphLevel)
 	local fX, fAL, fET, fNSM
 
 	for i in ipairs(line) do
@@ -161,14 +183,6 @@ local function GetEmbeddingLevels(line)
 	if (not fAL) and (not fX) then
 		return line
 	end
-
-	--[[
-	Rule (P2), (P3)
-	P2. In each paragraph, find the first character of type L, AL, or R.
-	P3. If a character is found in P2 and it is of type AL or R, then set
-	the paragraph embedding level to one; otherwise, set it to zero.
-	--]]
-	paragraphLevel = GetParagraphLevel(line)
 
 	--[[
 	Rule (X1), (X2), (X3), (X4), (X5), (X6), (X7), (X8), (X9)
@@ -412,26 +426,26 @@ local function GetEmbeddingLevels(line)
 	end
 
 	--[[
-	Rule (L4)
-	L4. A character that possesses the mirrored property as specified by
-	Section 4.7, Mirrored, must be depicted by a mirrored glyph if the
-	resolved directionality of that character is R.
+	Rule (L3)
+	L3. Combining marks applied to a right-to-left base character will at
+	this point precede their base character. If the rendering engine
+	expects them to follow the base characters in the final display
+	process, then the ordering of the marks and the base character must
+	be reversed.
+	    Combining marks are reordered to the right of each character on an
+	    odd level.
 	--]]
-	for i in ipairs(line) do
-		if odd(line[i].level) then
-			if mirror[line[i].char] then
-				line[i].char = mirror[line[i].char]
-			end
-		end
-	end
 
 	return line
 end
 
 function bidi.process(line)
-	line = GetEmbeddingLevels(line)
+	local t
+	t = Line2Table(line)
+	t = GetEmbeddingLevels(t, GetParagraphLevel(t))
+	t = doMirroring(t)
 
 	local l = ""
-	for i in ipairs(line) do l = l..line[i].level.." "  end
+	for i in ipairs(t) do l = l..t[i].level.." "  end
 	return l
 end
