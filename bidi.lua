@@ -32,9 +32,18 @@ end
 
 local GetType = GetCAPRtl
 
+dofile("arabi-char.lua")
+local chardata = characters.data
+
+local function GetUTF8(ch)
+	return string.upper(chardata[unicode.utf8.byte(ch)].direction)
+end
+
+local GetType = GetUTF8
+
 local function Line2Table(line)
 	local t = { }
-	line:gsub(".", function(c)
+	unicode.utf8.gsub(line, ".", function(c)
 		t[#t+1] = { char = c, type = GetType(c), orig_type = GetType(c), level = 0 }
 	end)
 	return t
@@ -426,6 +435,7 @@ local function Process(line)
 		t = doMirroring(t)
 	end
 
+	--[[
 	local l = ""
 	for i in ipairs(t) do
 		local currType = t[i].orig_type
@@ -435,8 +445,12 @@ local function Process(line)
 		end
 	end
 	return l
+	--]]
+
+	return t
 end
 
 bidi.baselevel = GetBaseLevel
 bidi.resolve   = ResolveLevels
 bidi.process   = Process
+bidi.odd       = odd
