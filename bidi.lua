@@ -510,10 +510,16 @@ local function assign_levels(head, line)
 end
 
 local function process_string(str)
-	local t = line_table(str)
-	if has_bidi(t) then
-		t = resolve_levels(t, get_base_level(t))
+	local t, base_level
+
+	if tex.pardir == "TRT" then
+		base_level = 1
+	else
+		base_level =0
 	end
+
+	t = line_table(str)
+	t = resolve_levels(t, base_level) -- was get_base_level(t)
 	t = insert_dir_points(t)
 
 	return t
