@@ -29,9 +29,7 @@ end
 local get_type = get_caprtl
 --]]
 
-dofile("arabi-char.lua")
-
-local chardata = characters.data
+local chardata = dofile("chardata.lua")
 
 local ubyte    = unicode.utf8.byte
 local ugsub    = unicode.utf8.gsub
