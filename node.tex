@@ -1,13 +1,8 @@
-\input luaotfload.sty
-\directlua{dofile("node.lua")}
-\font\aaa={DejaVu Sans:mode=node;script=arab} at 10pt\aaa
+\newluatexattribute\edir
+\newluatexattribute\bdir
+\newluatexattribute\alvl
 
-\tracingoutput=1
-\tracingonline=1
-\showboxdepth=\maxdimen
-\showboxbreadth=\maxdimen
+\directlua{
+	dofile("node.lua")
+}
 
-\input knuth
-
-أبجد هوز abcd حطي كلمن ١٢٣٤٥ سعفص قرست.
-\bye

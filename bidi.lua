@@ -37,11 +37,11 @@ local function FlipLine(line)
 				else
 					dir = "TLT"
 				end
-				if not line[seq_begin].dir_begin then
-					line[seq_begin].dir_begin = "+"..dir
+				if not line[seq_begin].bdir then
+					line[seq_begin].bdir = "+"..dir
 				end
-				if not line[seq_end].dir_end and (not line[seq_end+1] or line[seq_end+1].level < level) then
-					line[seq_end].dir_end = "-"..dir
+				if not line[seq_end].edir and (not line[seq_end+1] or line[seq_end+1].level < level) then
+					line[seq_end].edir = "-"..dir
 				end
 			end
 		end

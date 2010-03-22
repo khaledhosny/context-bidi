@@ -25,7 +25,9 @@ local dir     = node.subtype("dir")
 
 local object  = "￼"
 
-local function node2string(head)
+local chardata= characters.data
+
+local function node_string(head)
 	local str = ""
 	for n in node.traverse(head) do
 		if n.id == glyph then
@@ -43,10 +45,37 @@ local function node2string(head)
 	return str
 end
 
-local function newdirnode(dir)
+local function new_dir_node(dir)
 	local n = node.new("whatsit","dir")
 	n.dir = dir
 	return n
+end
+
+local alvl = tex.attributenumber["alvl"]
+local bdir = tex.attributenumber["bdir"]
+local edir = tex.attributenumber["edir"]
+
+local dirs = {
+	["+TRT"] = 1,
+	["-TRT"] = 2,
+	["+TLT"] = 3,
+	["-TLT"] = 4,
+}
+
+local function assign_levels(head, line)
+	local i = 1
+	for n in node.traverse(head) do
+		node.set_attribute(n, alvl, line[i].level)
+		local b = line[i].bdir
+		local e = line[i].edir
+		if b then
+			node.set_attribute(n, bdir , dirs[b])
+		end
+		if e then
+			node.set_attribute(n, edir , dirs[e])
+		end
+		i = i + 1
+	end
 end
 
 local function process(head)
@@ -56,47 +85,52 @@ local function process(head)
 			head, _ = node.remove(head, n)
 		end
 	end
-	local str = node2string(head)
+	-- convert node list to its string reprisentation, then resolve its bidi levels
+	local str = node_string(head)
 	local line = resolve(str)
 	assert(node.length(head) == #line)
 
-	local i = 1
+	assign_levels(head, line)
+
 	for n in node.traverse(head) do
-		--[[
-		if n.id==glyph then
-			print(i, #line,unicode.utf8.char(n.char), line[i].char)
-		elseif n.id==glue then
-			print(i, #line," ", line[i].char)
-		else
-			print(i, #line,object, line[i].char)
+		if n.id == glyph then
+			local v = node.has_attribute(n, alvl)
+			if v and odd(v) then
+				local mirror = chardata[n.char].mirror
+				if mirror then
+					n.char = mirror
+				end
+			end
 		end
-		--]]
 
-		local before
-		local after
-
-		if line[i].dir_begin then
-			head, _ = node.insert_before(head, n, newdirnode(line[i].dir_begin))
-			table.insert(line,i,{char=object})
-			before = true
+		local b = node.has_attribute(n, bdir)
+		local e = node.has_attribute(n, edir)
+		local new
+		if b then
+			if b == 1 then     -- +TRT
+				head, new = node.insert_before(head, n, new_dir_node("+TRT"))
+			elseif b == 3 then -- +TLT
+				head, new = node.insert_before(head, n, new_dir_node("+TLT"))
+			end
 		end
-		if line[i].dir_end then
-			head, _ = node.insert_after(head, n, newdirnode(line[i].dir_end))
-			table.insert(line,i+1,{char=object})
-			after = true
+		if e then
+			if e == 2 then     -- -TRT
+				head, new = node.insert_after(head, n, new_dir_node("-TRT"))
+			elseif e == 4 then -- -TLT
+				head, new = node.insert_after(head, n, new_dir_node("-TLT"))
+			end
 		end
-		if before then
-			i = i + 2
-		elseif after then
-			i = i + 1
-		else
-			i = i + 1
+		if new and b then
+			node.unset_attribute(new, bdir)
+		elseif new and e then
+			node.unset_attribute(new, edir)
 		end
 	end
---	print(table.serialize(line))
 
 	return head
 end
 
 callback.add("pre_linebreak_filter", process, "BiDi processing", 1)
+callback.add("hpack_filter", process, "BiDi processing", 1)
+--callback.add("buildpage_filter",     process, "BiDi processing", 1)
 --callback.register("pre_linebreak_filter", process)
