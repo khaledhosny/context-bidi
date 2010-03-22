@@ -569,6 +569,4 @@ local function process_node(head)
 	return head
 end
 
-bidi.baselevel = get_base_level
-bidi.resolve   = resolve_levels
 bidi.process   = process_node
