@@ -15,15 +15,15 @@ local function odd(x)
 	return x%2 == 1 and true or false
 end
 
-local function GreaterOdd(x)
+local function greater_odd(x)
 	return odd(x) and x+2 or x+1
 end
 
-local function GreaterEven(x)
+local function greater_even(x)
 	return odd(x) and x+1 or x+2
 end
 
-local function FlipLine(line)
+local function insert_dir_points(line)
 	local max_level = 0
 
 	for i in ipairs(line) do
@@ -61,41 +61,41 @@ local function FlipLine(line)
 	return line
 end
 
-local CAPRtl = {
-  "ON", "ON", "ON", "ON", "L",  "R",  "ON", "ON", "ON", "ON", "ON", "ON", "ON", "B",  "RLO","RLE", -- 00-0f
-  "LRO","LRE","PDF","WS", "ON", "ON", "ON", "ON", "ON", "ON", "ON", "ON", "ON", "ON", "ON", "ON",  -- 10-1f
-  "WS", "ON", "ON", "ON", "ET", "ON", "ON", "ON", "ON", "ON", "ON", "ET", "CS", "ON", "ES", "ES",  -- 20-2f
-  "EN", "EN", "EN", "EN", "EN", "EN", "AN", "AN", "AN", "AN", "CS", "ON", "ON", "ON", "ON", "ON",  -- 30-3f
-  "R",  "AL", "AL", "AL", "AL", "AL", "AL", "R",  "R",  "R",  "R",  "R",  "R",  "R",  "R",  "R",   -- 40-4f
-  "R",  "R",  "R",  "R",  "R",  "R",  "R",  "R",  "R",  "R",  "R",  "ON", "B",  "ON", "ON", "ON",  -- 50-5f
-  "NSM","L",  "L",  "L",  "L",  "L",  "L",  "L",  "L",  "L",  "L",  "L",  "L",  "L",  "L",  "L",   -- 60-6f
-  "L",  "L",  "L",  "L",  "L",  "L",  "L",  "L",  "L",  "L",  "L",  "ON", "S",  "ON", "ON", "ON",  -- 70-7f
+local caprtl = {
+  "on", "on", "on", "on", "l",  "r",  "on", "on", "on", "on", "on", "on", "on", "b",  "rlo","rle", -- 00-0f
+  "lro","lre","pdf","ws", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on",  -- 10-1f
+  "ws", "on", "on", "on", "et", "on", "on", "on", "on", "on", "on", "et", "cs", "on", "es", "es",  -- 20-2f
+  "en", "en", "en", "en", "en", "en", "an", "an", "an", "an", "cs", "on", "on", "on", "on", "on",  -- 30-3f
+  "r",  "al", "al", "al", "al", "al", "al", "r",  "r",  "r",  "r",  "r",  "r",  "r",  "r",  "r",   -- 40-4f
+  "r",  "r",  "r",  "r",  "r",  "r",  "r",  "r",  "r",  "r",  "r",  "on", "b",  "on", "on", "on",  -- 50-5f
+  "nsm","l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",   -- 60-6f
+  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "on", "S",  "on", "on", "on",  -- 70-7f
 }
 
-local function GetCAPRtl(ch)
-	return CAPRtl[string.byte(ch)+ 1] or "R"
+local function get_caprtl(ch)
+	return caprtl[string.byte(ch)+ 1] or "r"
 end
 
-local GetType = GetCAPRtl
+local get_type = get_caprtl
 
 dofile("arabi-char.lua")
 local chardata = characters.data
 
-local function GetUTF8(ch)
-	return string.upper(chardata[unicode.utf8.byte(ch)].direction)
+local function get_utf8(ch)
+	return chardata[unicode.utf8.byte(ch)].direction
 end
 
-local GetType = GetUTF8
+local get_type = get_utf8
 
-local function Line2Table(line)
+local function line_table(line)
 	local t = { }
 	unicode.utf8.gsub(line, ".", function(c)
-		t[#t+1] = { char = c, type = GetType(c), orig_type = GetType(c), level = 0 }
+		t[#t+1] = { char = c, type = get_type(c), orig_type = get_type(c), level = 0 }
 	end)
 	return t
 end
 
-local function GetBaseLevel(line)
+local function get_base_level(line)
 	--[[
 	Rule (P2), (P3)
 	P2. In each paragraph, find the first character of type L, AL, or R.
@@ -103,10 +103,10 @@ local function GetBaseLevel(line)
 	the paragraph embedding level to one; otherwise, set it to zero.
 	--]]
 	for i in ipairs(line) do
-		local currType = line[i].type
-		if currType == "R" or currType == "AL" then
+		local current_type = line[i].type
+		if current_type == "r" or current_type == "al" then
 			return 1
-		elseif currType == "L" then
+		elseif current_type == "l" then
 			return 0
 		end
 	end
@@ -115,73 +115,73 @@ end
 
 local MAX_STACK = 60
 
-local function ResolveTypes(line, baseLevel)
+local function resolve_types(line, base_level)
 	-- Rule (X1), (X2), (X3), (X4), (X5), (X6), (X7), (X8), (X9)
-	local currentEmbedding = baseLevel
-	local currentOverride  = "ON"
-	local levelStack       = { }
-	local overrideStack    = { }
-	local stackTop         = 0
+	local current_embedding = base_level
+	local current_overrid   = "on"
+	local level_stack       = { }
+	local override_stack    = { }
+	local stack_top         = 0
 
 	for i in ipairs(line) do
-		local currType = line[i].type
-		if currType == "RLE" then
-			if stackTop < MAX_STACK then
-				levelStack[stackTop]    = currentEmbedding
-				overrideStack[stackTop] = currentOverride
-				stackTop                = stackTop + 1
-				currentEmbedding        = GreaterOdd(currentEmbedding)
-				currentOverride         = "ON"
+		local current_type = line[i].type
+		if current_type == "rle" then
+			if stack_top < MAX_STACK then
+				level_stack[stack_top]    = current_embedding
+				override_stack[stack_top] = current_overrid
+				stack_top                 = stack_top + 1
+				current_embedding         = greater_odd(current_embedding)
+				current_overrid           = "on"
 			end
-		elseif currType == "LRE" then
-			if stackTop < MAX_STACK then
-				levelStack[stackTop]    = currentEmbedding
-				overrideStack[stackTop] = currentOverride
-				stackTop                = stackTop + 1
-				currentEmbedding        = GreaterEven(currentEmbedding)
-				currentOverride         = "ON"
+		elseif current_type == "lre" then
+			if stack_top < MAX_STACK then
+				level_stack[stack_top]    = current_embedding
+				override_stack[stack_top] = current_overrid
+				stack_top                 = stack_top + 1
+				current_embedding         = greater_even(current_embedding)
+				current_overrid           = "on"
 			end
-		elseif currType == "RLO" then
-			if stackTop < MAX_STACK then
-				levelStack[stackTop]    = currentEmbedding
-				overrideStack[stackTop] = currentOverride
-				stackTop                = stackTop + 1
-				currentEmbedding        = GreaterOdd(currentEmbedding)
-				currentOverride         = "R"
+		elseif current_type == "rlo" then
+			if stack_top < MAX_STACK then
+				level_stack[stack_top]    = current_embedding
+				override_stack[stack_top] = current_overrid
+				stack_top                 = stack_top + 1
+				current_embedding         = greater_odd(current_embedding)
+				current_overrid           = "r"
 			end
-		elseif currType == "LRO" then
-			if stackTop < MAX_STACK then
-				levelStack[stackTop]    = currentEmbedding
-				overrideStack[stackTop] = currentOverride
-				stackTop                = stackTop + 1
-				currentEmbedding        = GreaterEven(currentEmbedding)
-				currentOverride         = "L"
+		elseif current_type == "lro" then
+			if stack_top < MAX_STACK then
+				level_stack[stack_top]    = current_embedding
+				override_stack[stack_top] = current_overrid
+				stack_top                 = stack_top + 1
+				current_embedding         = greater_even(current_embedding)
+				current_overrid           = "l"
 			end
-		elseif currType == "PDF" then
-			if stackTop > 0 then
-				currentEmbedding = levelStack[stackTop-1]
-				currentOverride  = overrideStack[stackTop-1]
-				stackTop         = stackTop - 1
+		elseif current_type == "pdf" then
+			if stack_top > 0 then
+				current_embedding = level_stack[stack_top-1]
+				current_overrid   = override_stack[stack_top-1]
+				stack_top         = stack_top - 1
 			end
-		elseif currType == "WS" or currType == "B" or currType == "S" then
+		elseif current_type == "ws" or current_type == "b" or current_type == "S" then
 			-- Whitespace is treated as neutral for now
-			line[i].level = currentEmbedding
-			currType = "ON"
-			if currentOverride ~= "ON" then
-				currType = currentOverride
+			line[i].level = current_embedding
+			current_type  = "on"
+			if current_overrid ~= "on" then
+				current_type = current_overrid
 			end
-			line[i].type  = currType
+			line[i].type  = current_type
 		else
-			line[i].level = currentEmbedding
-			if currentOverride ~= "ON" then
-				currType = currentOverride
+			line[i].level = current_embedding
+			if current_overrid ~= "on" then
+				current_type = current_overrid
 			end
-			line[i].type  = currType
+			line[i].type  = current_type
 		end
 	end
 end
 
-local function ResolveLevels(line, paragraphLevel)
+local function resolve_levels(line, base_level)
 
 	--[[
 	Rule (X1), (X2), (X3), (X4), (X5), (X6), (X7), (X8), (X9)
@@ -206,12 +206,12 @@ local function ResolveLevels(line, paragraphLevel)
 	X9. Remove all RLE, LRE, RLO, LRO, PDF, and BN codes.
 	Here, they're converted to BN.
 	--]]
-        ResolveTypes(line, paragraphLevel)
+        resolve_types(line, base_level)
 
 	for i in ipairs(line) do
-		if line[i].type == "NSM" then
+		if line[i].type == "nsm" then
 			if i == 1 then
-				line[i].type = paragraphLevel
+				line[i].type = base_level
 			else
 				line[i].type = line[i-1].type
 			end
@@ -225,12 +225,12 @@ local function ResolveLevels(line, paragraphLevel)
 	change the type of the European number to Arabic number.
 	--]]
 	for i in ipairs(line) do
-		if line[i].type == "EN" then
+		if line[i].type == "en" then
 			for j=i,1,-1 do
-				if line[j].type == "AL" then
-					line[i].type = "AN"
+				if line[j].type == "al" then
+					line[i].type = "an"
 					break
-				elseif line[j].type == "R" or line[j].type == "L" then
+				elseif line[j].type == "r" or line[j].type == "l" then
 					break
 				end
 			end
@@ -242,8 +242,8 @@ local function ResolveLevels(line, paragraphLevel)
 	W3. Change all ALs to R.
 	--]]
 	for i in ipairs(line) do
-		if line[i].type == "AL" then
-			line[i].type = "R"
+		if line[i].type == "al" then
+			line[i].type = "r"
 		end
 	end
 
@@ -254,15 +254,15 @@ local function ResolveLevels(line, paragraphLevel)
 	of the same type changes to that type.
 	--]]
 	for i in ipairs(line) do
-		if line[i].type == "ES" then
-			if (line[i-1] and line[i-1].type == "EN") and (line[i+1] and line[i+1].type == "EN") then
-				line[i].type = "EN"
+		if line[i].type == "es" then
+			if (line[i-1] and line[i-1].type == "en") and (line[i+1] and line[i+1].type == "en") then
+				line[i].type = "en"
 			end
-		elseif line[i].type == "CS" then
-			if (line[i-1] and line[i-1].type == "EN") and (line[i+1] and line[i+1].type == "EN") then
-				line[i].type = "EN"
-			elseif (line [i-1] and line[i-1].type == "AN") and (line[i+1] and line[i+1].type == "AN") then
-				line[i].type = "AN"
+		elseif line[i].type == "cs" then
+			if (line[i-1] and line[i-1].type == "en") and (line[i+1] and line[i+1].type == "en") then
+				line[i].type = "en"
+			elseif (line [i-1] and line[i-1].type == "an") and (line[i+1] and line[i+1].type == "an") then
+				line[i].type = "an"
 			end
 		end
 	end
@@ -274,18 +274,18 @@ local function ResolveLevels(line, paragraphLevel)
 	FIXME: continue
 	--]]
 	for i in ipairs(line) do
-		if line[i].type == "ET" then
-			if line[i-1] and line[i-1].type == "EN" then
-				line[i].type = "EN"
-			elseif line[i+1] and line[i+1].type == "EN" then
-				line[i].type = "EN"
-			elseif line[i+1] and line[i+1].type == "ET" then
+		if line[i].type == "et" then
+			if line[i-1] and line[i-1].type == "en" then
+				line[i].type = "en"
+			elseif line[i+1] and line[i+1].type == "en" then
+				line[i].type = "en"
+			elseif line[i+1] and line[i+1].type == "et" then
 				local j = i
-				while j < #line and line[j].type == "ET" do
+				while j < #line and line[j].type == "et" do
 					j = j + 1
 				end
-				if line[j].type == "EN" then
-					line[i].type = "EN"
+				if line[j].type == "en" then
+					line[i].type = "en"
 				end
 			end
 		end
@@ -296,8 +296,8 @@ local function ResolveLevels(line, paragraphLevel)
 	W6. Otherwise, separators and terminators change to Other Neutral:
 	--]]
 	for i in ipairs(line) do
-		if line[i].type == "ES" or line[i].type == "ET" or line[i].type == "CS" then
-			line[i].type = "ON"
+		if line[i].type == "es" or line[i].type == "et" or line[i].type == "cs" then
+			line[i].type = "on"
 		end
 	end
 
@@ -308,13 +308,13 @@ local function ResolveLevels(line, paragraphLevel)
 	then change the type of the European number to L.
 	--]]
 	for i in ipairs(line) do
-		if line[i].type == "EN" then
+		if line[i].type == "en" then
 			local j = i
 			while j>0 and line[j].level == line[i].level do
-				if line[j].type == "L" then
-					line[i].type = "L"
+				if line[j].type == "l" then
+					line[i].type = "l"
 					break
-				elseif line[j].type == "R" or line[j].type == "AL" then
+				elseif line[j].type == "r" or line[j].type == "al" then
 					break
 				end
 				j = j - 1
@@ -329,25 +329,25 @@ local function ResolveLevels(line, paragraphLevel)
 	and Arabic numbers are treated as though they were R.
 	--]]
 	for i in ipairs(line) do
-		local preDir
-		local postDir
-		if line[i].type == "ON" and line[i-1] and line[i+1] then
-			if line[i-1].type == "R" or line[i-1].type == "EN" or line[i-1].type == "AN" then
-				preDir = "R"
-			elseif line[i-1].type == "L" then
-				preDir = "L"
+		local pre_dir
+		local post_dir
+		if line[i].type == "on" and line[i-1] and line[i+1] then
+			if line[i-1].type == "r" or line[i-1].type == "en" or line[i-1].type == "an" then
+				pre_dir = "r"
+			elseif line[i-1].type == "l" then
+				pre_dir = "l"
 			end
 			for j=i+1,#line do
-				if line[j].type == "R" or line[j].type == "EN" or line[j].type == "AN" then
-					postDir = "R"
+				if line[j].type == "r" or line[j].type == "en" or line[j].type == "an" then
+					post_dir = "r"
 					break
-				elseif line[j].type == "L" then
-					postDir = "L"
+				elseif line[j].type == "l" then
+					post_dir = "l"
 					break
 				end
 			end
-			if preDir and postDir and (preDir == postDir) then
-				line[i].type = postDir
+			if pre_dir and post_dir and (pre_dir == post_dir) then
+				line[i].type = post_dir
 			end
 		end
 	end
@@ -357,11 +357,11 @@ local function ResolveLevels(line, paragraphLevel)
 	N2. Any remaining neutrals take the embedding direction.
 	--]]
 	for i in ipairs(line) do
-		if line[i].type == "ON" then
+		if line[i].type == "on" then
 			if odd(line[i].level) then
-				line[i].type = "R"
+				line[i].type = "r"
 			else
-				line[i].type = "L"
+				line[i].type = "l"
 			end
 		end
 	end
@@ -374,13 +374,13 @@ local function ResolveLevels(line, paragraphLevel)
 	--]]
 	for i in ipairs(line) do
 		if odd(line[i].level) then
-			if line[i].type == "L" or line[i].type == "EN" or line[i].type == "AN" then
+			if line[i].type == "l" or line[i].type == "en" or line[i].type == "an" then
 				line[i].level = line[i].level + 1
 			end
 		else
-			if line[i].type == "R" then
+			if line[i].type == "r" then
 				line[i].level = line[i].level + 1
-			elseif line[i].type == "AN" or line[i].type == "EN" then
+			elseif line[i].type == "an" or line[i].type == "en" then
 				line[i].level = line[i].level + 2
 			end
 		end
@@ -393,7 +393,7 @@ local function ResolveLevels(line, paragraphLevel)
 	--]]
 	for i in ipairs(line) do
 		if odd(line[i].level) then
-			if line[i].type == "L" or line[i].type == "EN" or line[i].type == "AN" then
+			if line[i].type == "l" or line[i].type == "en" or line[i].type == "an" then
 				line[i].level = line[i].level + 1
 			end
 		end
@@ -412,9 +412,9 @@ local function ResolveLevels(line, paragraphLevel)
 	modified by the previous phase.
 	--]]
 	for i in ipairs(line) do
-		local currType = line[i].orig_type
-		if currType == "S" or currType == "B" then
-			line[i].level = paragraphLevel
+		local current_type = line[i].orig_type
+		if current_type == "S" or current_type == "b" then
+			line[i].level = base_level
 		end
 	end
 
@@ -432,33 +432,29 @@ local function ResolveLevels(line, paragraphLevel)
 	return line
 end
 
-local function HasBiDi(line)
+local function has_bidi(line)
 	for i in ipairs(line) do
-		local currType = line[i].type
-		if currType == "AL" or currType == "R" or currType == "LRE" or
-			currType == "LRO" or currType == "RLE" or
-			currType == "RLO" or currType == "PDF" then
+		local current_type = line[i].type
+		if current_type == "al" or current_type == "r" or current_type == "lre" or
+			current_type == "lro" or current_type == "rle" or
+			current_type == "rlo" or current_type == "pdf" then
 			return true
 		end
 	end
 	return false
 end
 
-local function Process(line)
-	local t
-	t = Line2Table(line)
-	if HasBiDi(t) then
-		t = ResolveLevels(t, GetBaseLevel(t))
+local function process_string(line)
+	local t = line_table(line)
+	if has_bidi(t) then
+		t = resolve_levels(t, get_base_level(t))
 	end
-	t = FlipLine(t)
+	t = insert_dir_points(t)
 
 	return t
 end
 
-bidi.baselevel = GetBaseLevel
-bidi.resolve   = ResolveLevels
-
-local resolve = Process
+local resolve = process_string
 
 local uchar   = unicode.utf8.char
 
@@ -521,7 +517,7 @@ local function assign_levels(head, line)
 	end
 end
 
-local function process(head)
+local function process_node(head)
 	-- remove existing directional nodes, should be done in a more clever way
 	for n in node.traverse(head) do
 		if n.id == whatsit and n.subtype == dir then
@@ -573,4 +569,6 @@ local function process(head)
 	return head
 end
 
-bidi.process = process
+bidi.baselevel = get_base_level
+bidi.resolve   = resolve_levels
+bidi.process   = process_node
