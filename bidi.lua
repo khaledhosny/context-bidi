@@ -10,6 +10,32 @@ bidi.module         = {
 	license     = "CC0",
 }
 
+--[[
+local caprtl = {
+  "on", "on", "on", "on", "l",  "r",  "on", "on", "on", "on", "on", "on", "on", "b",  "rlo","rle", -- 00-0f
+  "lro","lre","pdf","ws", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on",  -- 10-1f
+  "ws", "on", "on", "on", "et", "on", "on", "on", "on", "on", "on", "et", "cs", "on", "es", "es",  -- 20-2f
+  "en", "en", "en", "en", "en", "en", "an", "an", "an", "an", "cs", "on", "on", "on", "on", "on",  -- 30-3f
+  "r",  "al", "al", "al", "al", "al", "al", "r",  "r",  "r",  "r",  "r",  "r",  "r",  "r",  "r",   -- 40-4f
+  "r",  "r",  "r",  "r",  "r",  "r",  "r",  "r",  "r",  "r",  "r",  "on", "b",  "on", "on", "on",  -- 50-5f
+  "nsm","l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",   -- 60-6f
+  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "on", "S",  "on", "on", "on",  -- 70-7f
+}
+
+local function get_caprtl(ch)
+	return caprtl[string.byte(ch)+ 1] or "r"
+end
+
+local get_type = get_caprtl
+--]]
+
+dofile("arabi-char.lua")
+
+local chardata = characters.data
+
+local ubyte    = unicode.utf8.byte
+local ugsub    = unicode.utf8.gsub
+local uchar    = unicode.utf8.char
 
 local function odd(x)
 	return x%2 == 1 and true or false
@@ -22,6 +48,12 @@ end
 local function greater_even(x)
 	return odd(x) and x+1 or x+2
 end
+
+local function get_utf8(ch)
+	return chardata[ubyte(ch)].direction
+end
+
+local get_type = get_utf8
 
 local function insert_dir_points(line)
 	local max_level = 0
@@ -61,35 +93,9 @@ local function insert_dir_points(line)
 	return line
 end
 
-local caprtl = {
-  "on", "on", "on", "on", "l",  "r",  "on", "on", "on", "on", "on", "on", "on", "b",  "rlo","rle", -- 00-0f
-  "lro","lre","pdf","ws", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on",  -- 10-1f
-  "ws", "on", "on", "on", "et", "on", "on", "on", "on", "on", "on", "et", "cs", "on", "es", "es",  -- 20-2f
-  "en", "en", "en", "en", "en", "en", "an", "an", "an", "an", "cs", "on", "on", "on", "on", "on",  -- 30-3f
-  "r",  "al", "al", "al", "al", "al", "al", "r",  "r",  "r",  "r",  "r",  "r",  "r",  "r",  "r",   -- 40-4f
-  "r",  "r",  "r",  "r",  "r",  "r",  "r",  "r",  "r",  "r",  "r",  "on", "b",  "on", "on", "on",  -- 50-5f
-  "nsm","l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",   -- 60-6f
-  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "on", "S",  "on", "on", "on",  -- 70-7f
-}
-
-local function get_caprtl(ch)
-	return caprtl[string.byte(ch)+ 1] or "r"
-end
-
-local get_type = get_caprtl
-
-dofile("arabi-char.lua")
-local chardata = characters.data
-
-local function get_utf8(ch)
-	return chardata[unicode.utf8.byte(ch)].direction
-end
-
-local get_type = get_utf8
-
 local function line_table(line)
 	local t = { }
-	unicode.utf8.gsub(line, ".", function(c)
+	ugsub(line, ".", function(c)
 		t[#t+1] = { char = c, type = get_type(c), orig_type = get_type(c), level = 0 }
 	end)
 	return t
@@ -444,20 +450,6 @@ local function has_bidi(line)
 	return false
 end
 
-local function process_string(line)
-	local t = line_table(line)
-	if has_bidi(t) then
-		t = resolve_levels(t, get_base_level(t))
-	end
-	t = insert_dir_points(t)
-
-	return t
-end
-
-local resolve = process_string
-
-local uchar   = unicode.utf8.char
-
 local hlist   = node.id("hlist")
 local glyph   = node.id("glyph")
 local glue    = node.id("glue")
@@ -490,9 +482,9 @@ local function new_dir_node(dir)
 	return n
 end
 
-local alvl = tex.attributenumber["alvl"]
-local bdir = tex.attributenumber["bdir"]
-local edir = tex.attributenumber["edir"]
+local level_attribute = tex.attributenumber["bidilevel"]
+local bdir_attribute  = tex.attributenumber["bidibdir"]
+local edir_attribute  = tex.attributenumber["bidiedir"]
 
 local dirs = {
 	["+TRT"] = 1,
@@ -504,36 +496,44 @@ local dirs = {
 local function assign_levels(head, line)
 	local i = 1
 	for n in node.traverse(head) do
-		node.set_attribute(n, alvl, line[i].level)
+		node.set_attribute(n, level_attribute, line[i].level)
 		local b = line[i].bdir
 		local e = line[i].edir
 		if b then
-			node.set_attribute(n, bdir , dirs[b])
+			node.set_attribute(n, bdir_attribute , dirs[b])
 		end
 		if e then
-			node.set_attribute(n, edir , dirs[e])
+			node.set_attribute(n, edir_attribute , dirs[e])
 		end
 		i = i + 1
 	end
 end
 
+local function process_string(str)
+	local t = line_table(str)
+	if has_bidi(t) then
+		t = resolve_levels(t, get_base_level(t))
+	end
+	t = insert_dir_points(t)
+
+	return t
+end
+
 local function process_node(head)
-	-- remove existing directional nodes, should be done in a more clever way
 	for n in node.traverse(head) do
 		if n.id == whatsit and n.subtype == dir then
 			head, _ = node.remove(head, n)
 		end
 	end
-	-- convert node list to its string reprisentation, then resolve its bidi levels
-	local str = node_string(head)
-	local line = resolve(str)
-	assert(node.length(head) == #line)
+
+	local str  = node_string(head)
+	local line = process_string(str)
 
 	assign_levels(head, line)
 
 	for n in node.traverse(head) do
 		if n.id == glyph then
-			local v = node.has_attribute(n, alvl)
+			local v = node.has_attribute(n, level_attribute)
 			if v and odd(v) then
 				local mirror = chardata[n.char].mirror
 				if mirror then
@@ -542,8 +542,8 @@ local function process_node(head)
 			end
 		end
 
-		local b = node.has_attribute(n, bdir)
-		local e = node.has_attribute(n, edir)
+		local b = node.has_attribute(n, bdir_attribute)
+		local e = node.has_attribute(n, edir_attribute)
 		local new
 		if b then
 			if b == 1 then     -- +TRT
@@ -560,9 +560,9 @@ local function process_node(head)
 			end
 		end
 		if new and b then
-			node.unset_attribute(new, bdir)
+			node.unset_attribute(new, bdir_attribute)
 		elseif new and e then
-			node.unset_attribute(new, edir)
+			node.unset_attribute(new, edir_attribute)
 		end
 	end
 
