@@ -12,7 +12,42 @@ local function GreaterEven(x)
 	return odd(x) and x+1 or x+2
 end
 
-local function flipThisRun(from, level, max, count)
+local function FlipLine(line)
+	local max_level = 0
+
+	for i in ipairs(line) do
+		if line[i].level > max_level then
+			max_level = line[i].level
+		end
+	end
+
+	for level=max_level,0,-1 do
+		for i=#line,1,-1 do
+			if line[i].level >= level then
+				local seq_end   = i
+				local seq_begin
+				local j = i
+				while j >= 1 and line[j].level >= level do
+					seq_begin = j
+					j = j - 1
+				end
+				local dir
+				if odd(level) then
+					dir = "TRT"
+				else
+					dir = "TLT"
+				end
+				if not line[seq_begin].dir_begin then
+					line[seq_begin].dir_begin = "+"..dir
+				end
+				if not line[seq_end].dir_end and (not line[seq_end+1] or line[seq_end+1].level < level) then
+					line[seq_end].dir_end = "-"..dir
+				end
+			end
+		end
+	end
+
+	return line
 end
 
 local CAPRtl = {
@@ -434,6 +469,7 @@ local function Process(line)
 		t = ResolveLevels(t, GetBaseLevel(t))
 		t = doMirroring(t)
 	end
+	t = FlipLine(t)
 
 	--[[
 	local l = ""

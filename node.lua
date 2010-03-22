@@ -62,32 +62,38 @@ local function process(head)
 
 	local i = 1
 	for n in node.traverse(head) do
-		local currlevel = line[i].level
-		local prevlevel = line[i-1] and line[i-1].level
-		local nextlevel = line[i+1] and line[i+1].level
-		if not prevlevel or (prevlevel and prevlevel ~= currlevel) then
-			if prevlevel then
-				if odd(prevlevel) then
-					head, _ = node.insert_before(head, n, newdirnode("-TRT"))
-				else
-					head, _ = node.insert_before(head, n, newdirnode("-TLT"))
-				end
-			end
-			if odd(currlevel) then
-				head, _ = node.insert_before(head, n, newdirnode("+TRT"))
-			else
-				head, _ = node.insert_before(head, n, newdirnode("+TLT"))
-			end
-			if not nextlevel then
-				if odd(currlevel) then
-					head, _ = node.insert_after(head, n, newdirnode("-TRT"))
-				else
-					head, _ = node.insert_after(head, n, newdirnode("-TLT"))
-				end
-			end
+		--[[
+		if n.id==glyph then
+			print(i, #line,unicode.utf8.char(n.char), line[i].char)
+		elseif n.id==glue then
+			print(i, #line," ", line[i].char)
+		else
+			print(i, #line,object, line[i].char)
 		end
-		i = i + 1
+		--]]
+
+		local before
+		local after
+
+		if line[i].dir_begin then
+			head, _ = node.insert_before(head, n, newdirnode(line[i].dir_begin))
+			table.insert(line,i,{char=object})
+			before = true
+		end
+		if line[i].dir_end then
+			head, _ = node.insert_after(head, n, newdirnode(line[i].dir_end))
+			table.insert(line,i+1,{char=object})
+			after = true
+		end
+		if before then
+			i = i + 2
+		elseif after then
+			i = i + 1
+		else
+			i = i + 1
+		end
 	end
+--	print(table.serialize(line))
 
 	return head
 end
