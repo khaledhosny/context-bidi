@@ -1,4 +1,15 @@
-bidi = { }
+bidi                = { }
+
+bidi.module         = {
+	name        = "bidi",
+	version     = 0.1,
+	date        = "2010/3/21",
+	description = "Unicode Bidirectional Algorithm implementation for LuaTeX",
+	author      = "Khaled Hosny",
+	copyright   = "Khaled Hosny",
+	license     = "CC0",
+}
+
 
 local function odd(x)
 	return x%2 == 1 and true or false
@@ -100,35 +111,6 @@ local function GetBaseLevel(line)
 		end
 	end
 	return 0
-end
-
-local mirror = {
-	["("] = ")",
-	[")"] = "(",
-	["["] = "]",
-	["]"] = "[",
-	["{"] = "}",
-	["}"] = "{",
-	["<"] = ">",
-	[">"] = "<",
-}
-
-local function doMirroring(line)
-	--[[
-	Rule (L4)
-	L4. A character that possesses the mirrored property as specified by
-	Section 4.7, Mirrored, must be depicted by a mirrored glyph if the
-	resolved directionality of that character is R.
-	--]]
-	for i in ipairs(line) do
-		if odd(line[i].level) then
-			if mirror[line[i].char] then
-				line[i].char = mirror[line[i].char]
-			end
-		end
-	end
-
-	return line
 end
 
 local MAX_STACK = 60
@@ -467,26 +449,128 @@ local function Process(line)
 	t = Line2Table(line)
 	if HasBiDi(t) then
 		t = ResolveLevels(t, GetBaseLevel(t))
-		t = doMirroring(t)
 	end
 	t = FlipLine(t)
-
-	--[[
-	local l = ""
-	for i in ipairs(t) do
-		local currType = t[i].orig_type
-		if currType == "LRE" or currType == "LRO" or currType == "RLE" or currType == "RLO" or currType == "PDF" then
-		else
-			l = l..t[i].level.." "
-		end
-	end
-	return l
-	--]]
 
 	return t
 end
 
 bidi.baselevel = GetBaseLevel
 bidi.resolve   = ResolveLevels
-bidi.process   = Process
-bidi.odd       = odd
+
+local resolve = Process
+
+local uchar   = unicode.utf8.char
+
+local hlist   = node.id("hlist")
+local glyph   = node.id("glyph")
+local glue    = node.id("glue")
+local whatsit = node.id("whatsit")
+local dir     = node.subtype("dir")
+
+local object  = "￼"
+
+local function node_string(head)
+	local str = ""
+	for n in node.traverse(head) do
+		if n.id == glyph then
+			str = str .. uchar(n.char)
+		elseif n.id == glue then
+			str = str .. " "
+--		elseif n.id == hlist then
+--			str[#str+1] = node2string(n)
+--		elseif n.id == whatsit and n.subtype == 7 then
+--			str[#str+1] = n.dir
+		else
+			str = str .. object
+		end
+	end
+	return str
+end
+
+local function new_dir_node(dir)
+	local n = node.new("whatsit","dir")
+	n.dir = dir
+	return n
+end
+
+local alvl = tex.attributenumber["alvl"]
+local bdir = tex.attributenumber["bdir"]
+local edir = tex.attributenumber["edir"]
+
+local dirs = {
+	["+TRT"] = 1,
+	["-TRT"] = 2,
+	["+TLT"] = 3,
+	["-TLT"] = 4,
+}
+
+local function assign_levels(head, line)
+	local i = 1
+	for n in node.traverse(head) do
+		node.set_attribute(n, alvl, line[i].level)
+		local b = line[i].bdir
+		local e = line[i].edir
+		if b then
+			node.set_attribute(n, bdir , dirs[b])
+		end
+		if e then
+			node.set_attribute(n, edir , dirs[e])
+		end
+		i = i + 1
+	end
+end
+
+local function process(head)
+	-- remove existing directional nodes, should be done in a more clever way
+	for n in node.traverse(head) do
+		if n.id == whatsit and n.subtype == dir then
+			head, _ = node.remove(head, n)
+		end
+	end
+	-- convert node list to its string reprisentation, then resolve its bidi levels
+	local str = node_string(head)
+	local line = resolve(str)
+	assert(node.length(head) == #line)
+
+	assign_levels(head, line)
+
+	for n in node.traverse(head) do
+		if n.id == glyph then
+			local v = node.has_attribute(n, alvl)
+			if v and odd(v) then
+				local mirror = chardata[n.char].mirror
+				if mirror then
+					n.char = mirror
+				end
+			end
+		end
+
+		local b = node.has_attribute(n, bdir)
+		local e = node.has_attribute(n, edir)
+		local new
+		if b then
+			if b == 1 then     -- +TRT
+				head, new = node.insert_before(head, n, new_dir_node("+TRT"))
+			elseif b == 3 then -- +TLT
+				head, new = node.insert_before(head, n, new_dir_node("+TLT"))
+			end
+		end
+		if e then
+			if e == 2 then     -- -TRT
+				head, new = node.insert_after(head, n, new_dir_node("-TRT"))
+			elseif e == 4 then -- -TLT
+				head, new = node.insert_after(head, n, new_dir_node("-TLT"))
+			end
+		end
+		if new and b then
+			node.unset_attribute(new, bdir)
+		elseif new and e then
+			node.unset_attribute(new, edir)
+		end
+	end
+
+	return head
+end
+
+bidi.process = process

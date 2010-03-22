@@ -1,0 +1,11 @@
+
+\newluatexattribute\edir
+\newluatexattribute\bdir
+\newluatexattribute\alvl
+
+\directlua{
+	require("bidi")
+
+	callback.add("pre_linebreak_filter", bidi.process, "BiDi processing", 1)
+	callback.add("hpack_filter",         bidi.process, "BiDi processing", 1)
+}
