@@ -581,9 +581,8 @@ local function process_node(head, group)
 				head, new = node.insert_after(head, n, new_dir_node("-TLT"))
 			end
 		end
-		if new and b then
+		if new then
 			node.unset_attribute(new, bdir_attribute)
-		elseif new and e then
 			node.unset_attribute(new, edir_attribute)
 		end
 
