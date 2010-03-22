@@ -509,23 +509,28 @@ local function assign_levels(head, line)
 	end
 end
 
-local function process_string(str)
+local function process_string(str, group)
 	local t, base_level
 
-	if tex.pardir == "TRT" then
-		base_level = 1
+	t = line_table(str)
+
+	if group == "" then
+		base_level = get_base_level(t)
 	else
-		base_level =0
+		if tex.pardir == "TRT" then
+			base_level = 1
+		else
+			base_level =0
+		end
 	end
 
-	t = line_table(str)
-	t = resolve_levels(t, base_level) -- was get_base_level(t)
+	t = resolve_levels(t, base_level)
 	t = insert_dir_points(t)
 
 	return t
 end
 
-local function process_node(head)
+local function process_node(head, group)
 	for n in node.traverse(head) do
 		if n.id == whatsit and n.subtype == dir then
 			head, _ = node.remove(head, n)
@@ -533,7 +538,7 @@ local function process_node(head)
 	end
 
 	local str  = node_string(head)
-	local line = process_string(str)
+	local line = process_string(str, group)
 
 	assign_levels(head, line)
 
@@ -551,7 +556,13 @@ local function process_node(head)
 		local b = node.has_attribute(n, bdir_attribute)
 		local e = node.has_attribute(n, edir_attribute)
 		local new
+		node.slide(head)
 		if b then
+			if not n.prev and group == "" then
+				while n.id ~= glyph do
+					n = n.next
+				end
+			end
 			if b == 1 then     -- +TRT
 				head, new = node.insert_before(head, n, new_dir_node("+TRT"))
 			elseif b == 3 then -- +TLT
@@ -559,6 +570,11 @@ local function process_node(head)
 			end
 		end
 		if e then
+			if not n.next and group == "" then
+				while n.id ~= glyph do
+					n = n.prev
+				end
+			end
 			if e == 2 then     -- -TRT
 				head, new = node.insert_after(head, n, new_dir_node("-TRT"))
 			elseif e == 4 then -- -TLT
@@ -570,6 +586,7 @@ local function process_node(head)
 		elseif new and e then
 			node.unset_attribute(new, edir_attribute)
 		end
+
 	end
 
 	return head
