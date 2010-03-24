@@ -1,0 +1,29 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{bidix}
+    [2010/03/24 v0.001 Unicode Bidirectional Algorithm implementation for LuaTeX]
+
+\RequirePackage{luatextra}
+
+\newluatexattribute\bidiedir
+\newluatexattribute\bidibdir
+\newluatexattribute\bidilevel
+
+\directlua{
+    bidi            = bidi or { }
+    bidi.attributes = {
+        bidilevel   = tex.attributenumber["bidilevel"],
+        bidbdir     = tex.attributenumber["bidibdir"],
+        bidedir     = tex.attributenumber["bidiedir"],
+    }
+
+    bidi.chardata   = dofile("chardata.lua")
+
+    require("bidi")
+
+    function bidi.enable()
+       callback.add("pre_linebreak_filter", bidi.process, "BiDi processing", 1)
+       callback.add("hpack_filter",         bidi.process, "BiDi processing", 1)
+    end
+}
+
+\endinput
