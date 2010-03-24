@@ -1,0 +1,12 @@
+Th aim of this package is to provide a higher level user interface
+to LuaTeX's multi-directional support, to be used with plan TeX, LaTeX
+and ConTeXt.
+
+Currently, only bidirectional typesetting is supported and an
+implementation of Unicode bidi algorithm is provided.
+
+Khaled Hosny
+khaledhosny@eglug.org
+
+24 Mar. 2010
+
