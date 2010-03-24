@@ -1,14 +1,16 @@
-bidi                = { }
+bidi                = bidi or { }
 
 bidi.module         = {
 	name        = "bidi",
-	version     = 0.1,
+	version     = 0.001,
 	date        = "2010/3/21",
 	description = "Unicode Bidirectional Algorithm implementation for LuaTeX",
 	author      = "Khaled Hosny",
 	copyright   = "Khaled Hosny",
 	license     = "CC0",
 }
+
+if not modules then modules = { } end modules ['bidi'] = bidi.module
 
 --[[
 local caprtl = {
@@ -29,7 +31,7 @@ end
 local get_type = get_caprtl
 --]]
 
-local chardata = dofile("chardata.lua")
+local chardata = bidi.chardata
 
 local ubyte    = unicode.utf8.byte
 local ugsub    = unicode.utf8.gsub
@@ -480,9 +482,9 @@ local function new_dir_node(dir)
 	return n
 end
 
-local level_attribute = tex.attributenumber["bidilevel"]
-local bdir_attribute  = tex.attributenumber["bidibdir"]
-local edir_attribute  = tex.attributenumber["bidiedir"]
+local level_attribute = bidi.attributes.bidilevel
+local bdir_attribute  = bidi.attributes.bidbdir
+local edir_attribute  = bidi.attributes.bidedir
 
 local dirs = {
 	["+TRT"] = 1,

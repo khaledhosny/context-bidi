@@ -1,0 +1,52 @@
+%D \module
+%D   [     file=t-bidi,
+%D      version=0.01,
+%D        title=Bidi Processing,
+%D     subtitle=Unicode Bidirectional Algorithm implementation for \LUATEX,
+%D       author=Khaled Hosny,
+%D         date=\currentdate,
+%D    copyright=Khaled Hosny,
+%D      license=CC0]
+
+\writestatus{loading}{Unicode Bidirectional Algorithm}
+
+\startmodule[bidi]
+
+\unprotect
+
+\startluacode
+
+bidi            = bidi or { }
+bidi.attributes = {
+    bidilevel   = attributes.private("bidilevel"),
+    bidbdir     = attributes.private("bidibdir"),
+    bidedir     = attributes.private("bidiedir"),
+}
+
+bidi.chardata   = characters.data
+
+\stopluacode
+
+\registerctxluafile{bidi}{0.001}
+
+\startluacode
+
+function bidi.ctxprocess(namespace,attribute,start)
+    return bidi.process(start, "")
+end
+
+bidi.handle_bidi = nodes.install_attribute_handler {
+    name      = "bidi",
+    namespace = bidi,
+    processor = bidi.ctxprocess,
+}
+
+tasks.appendaction("processors", "characters",  "bidi.handle_bidi")
+
+function bidi.enable()
+    tasks.enableaction("processors","bidi.handle_bidi")
+end
+
+\stopluacode
+
+\protect \endinput

@@ -4,6 +4,15 @@
 \newluatexattribute\bidilevel
 
 \directlua{
+	bidi              = bidi or { }
+	bidi.attributes   = {
+		bidilevel = tex.attributenumber["bidilevel"],
+		bidbdir   = tex.attributenumber["bidibdir"],
+		bidedir   = tex.attributenumber["bidiedir"],
+	}
+
+	bidi.chardata     = dofile("chardata.lua")
+
 	require("bidi")
 
 	callback.add("pre_linebreak_filter", bidi.process, "BiDi processing", 1)
