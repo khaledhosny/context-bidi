@@ -559,7 +559,7 @@ local function process_node(head, group)
 		node.slide(head)
 		if b then
 			if not n.prev and group == "" then
-				while n.id ~= glyph do
+				while n and n.id ~= glyph do
 					n = n.next
 				end
 			end
@@ -571,7 +571,7 @@ local function process_node(head, group)
 		end
 		if e then
 			if not n.next and group == "" then
-				while n.id ~= glyph do
+				while n and n.id ~= glyph do
 					n = n.prev
 				end
 			end
