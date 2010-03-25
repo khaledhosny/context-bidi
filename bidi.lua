@@ -469,6 +469,8 @@ local function node_string(head)
 --			str[#str+1] = node2string(n)
 --		elseif n.id == whatsit and n.subtype == 7 then
 --			str[#str+1] = n.dir
+		elseif n.id == whatsit and n.subtype == dir then
+			head, _ = node.remove(head, n)
 		else
 			str = str .. object
 		end
@@ -531,12 +533,6 @@ local function process_string(str, group)
 end
 
 local function process_node(head, group)
-	for n in node.traverse(head) do
-		if n.id == whatsit and n.subtype == dir then
-			head, _ = node.remove(head, n)
-		end
-	end
-
 	local str  = node_string(head)
 	local line = process_string(str, group)
 
