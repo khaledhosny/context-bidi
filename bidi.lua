@@ -503,9 +503,13 @@ local function assign_levels(head, line)
 		local e = line[i].edir
 		if b then
 			node.set_attribute(n, bdir_attribute , dirs[b])
+		else
+			node.unset_attribute(n, bdir_attribute)
 		end
 		if e then
 			node.set_attribute(n, edir_attribute , dirs[e])
+		else
+			node.unset_attribute(n, edir_attribute)
 		end
 		i = i + 1
 	end
