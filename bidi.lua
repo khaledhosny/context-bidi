@@ -483,7 +483,7 @@ local function node_string(head)
 			str = str .. object
 		end
 	end
-	return str
+	return head, str
 end
 
 local function new_dir_node(dir)
@@ -545,8 +545,12 @@ local function process_string(str, group)
 end
 
 local function process_node(head, group)
-	local str  = node_string(head)
-	local line = process_string(str, group)
+	local str, line
+
+	head, str = node_string(head)
+	line      = process_string(str, group)
+
+	assert(#line == node.length(head))
 
 	assign_levels(head, line)
 
