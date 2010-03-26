@@ -33,6 +33,14 @@ local get_type = get_caprtl
 
 local chardata = bidi.chardata
 
+-- see http://www.unicode.org/versions/corrigendum6.html
+chardata[0x2018].mirror = "0x2019"
+chardata[0x2019].mirror = "0x2018"
+chardata[0x201C].mirror = "0x201D"
+chardata[0x201D].mirror = "0x201C"
+chardata[0x301D].mirror = "0x301E"
+chardata[0x301E].mirror = "0x301D"
+
 local ubyte    = unicode.utf8.byte
 local ugsub    = unicode.utf8.gsub
 local uchar    = unicode.utf8.char
