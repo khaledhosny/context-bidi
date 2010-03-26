@@ -32,7 +32,7 @@ bidi.chardata   = characters.data
 \startluacode
 
 function bidi.ctxprocess(namespace,attribute,start)
-    return bidi.process(start, "")
+    return bidi.process(start)
 end
 
 bidi.handle_bidi = nodes.install_attribute_handler {
