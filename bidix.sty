@@ -21,9 +21,19 @@
     require("bidi")
 
     function bidi.enable()
-       callback.add("pre_linebreak_filter", bidi.process, "BiDi processing", 1)
-       callback.add("hpack_filter",         bidi.process, "BiDi processing", 1)
+       callback.add("pre_linebreak_filter", bidi.process, "bidi processing", 1)
+       callback.add("hpack_filter",         bidi.process, "bidi processing", 1)
+    end
+
+    function bidi.disable()
+       callback.remove("pre_linebreak_filter", bidi.process, "bidi processing")
+       callback.remove("hpack_filter",         bidi.process, "bidi processing")
     end
 }
+
+\newcommand\bidion{\directlua{bidi.enable()}}
+\newcommand\bidioff{\directlua{bidi.disable()}}
+
+\bidion
 
 \endinput
