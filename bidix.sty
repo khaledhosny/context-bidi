@@ -16,7 +16,7 @@
         bidedir     = tex.attributenumber["bidiedir"],
     }
 
-    bidi.chardata   = dofile("chardata.lua")
+    bidi.chardata   = dofile(kpse.find_file("chardata.lua"))
 
     require("bidi")
 
