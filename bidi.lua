@@ -13,6 +13,30 @@ bidi.module     = {
 if not modules then modules = { } end modules ['bidi'] = bidi.module
 
 --[[
+  This code started as a line for line translation of Arabeyes' minibidi.c from
+  C to lua, excluding parts that of no use to us like shaping.
+  The C code is Copyright (c) 2004 Ahmad Khalifa, and is distributed under the
+  MIT Licence. The full license text:
+    http://svn.arabeyes.org/viewvc/projects/adawat/minibidi/LICENCE
+
+  We basically translate node list into an equivalent textual representation
+  (glyph nodes are converted to their characters, glue to spaces and the rest
+  to a   neutral Unicode object character, we might make it smarter later), then
+  the text is fed to a function that resolves its embedding levels, that is then
+  translated into insertion of begin/enddir nodes into the original node list.
+
+  The translation step was first meant to be a quick way of using the code
+  without rewriting it to work on node list, but I found the separation acts as
+  an abstraction layer, so I left it. At this stage a realized that the whole
+  reason for writing bidi implementation purely in lua is now obsolete; I don't
+  need an implementation that knows how to process a node list, a generic code
+  with this translation process would do it, so we might end with a luafribidi
+  C module that do the actual bidi processing, with glue code written in lua,
+  but it isn't a priority right now.
+--]]
+
+-- fake CAPRTL encoding for testing
+--[[
 local caprtl = {
   "on", "on", "on", "on", "l",  "r",  "on", "on", "on", "on", "on", "on", "on", "b",  "rlo","rle", -- 00-0f
   "lro","lre","pdf","ws", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on",  -- 10-1f
@@ -64,6 +88,11 @@ end
 local get_type = get_utf8
 
 local function insert_dir_points(line)
+    --[[
+    Takes a line with resolved embedding levels and inserts begin/enddir marks
+    as required.
+    --]]
+
     local max_level = 0
 
     for i in ipairs(line) do
@@ -101,9 +130,13 @@ local function insert_dir_points(line)
     return line
 end
 
-local function line_table(line)
+local function line_table(str)
+    --[[
+    Takes a string of text and convert it to our line data structure
+    --]]
+
     local t = { }
-    ugsub(line, ".", function(c)
+    ugsub(str, ".", function(c)
         t[#t+1] = { char = c, type = get_type(c), orig_type = get_type(c), level = 0 }
     end)
     return t
@@ -116,6 +149,7 @@ local function get_base_level(line)
     P3. If a character is found in P2 and it is of type AL or R, then set
     the paragraph embedding level to one; otherwise, set it to zero.
     --]]
+
     for i in ipairs(line) do
         local current_type = line[i].type
         if current_type == "r" or current_type == "al" then
@@ -285,7 +319,6 @@ local function resolve_levels(line, base_level)
     Rule (W5)
     W5. A sequence of European terminators adjacent to European numbers
     changes to all European numbers.
-    FIXME: continue
     --]]
     for i in ipairs(line) do
         if line[i].type == "et" then
@@ -446,18 +479,6 @@ local function resolve_levels(line, base_level)
     return line
 end
 
-local function has_bidi(line)
-    for i in ipairs(line) do
-        local current_type = line[i].type
-        if current_type == "al" or current_type == "r" or current_type == "lre" or
-            current_type == "lro" or current_type == "rle" or
-            current_type == "rlo" or current_type == "pdf" then
-            return true
-        end
-    end
-    return false
-end
-
 local hlist   = node.id("hlist")
 local glyph   = node.id("glyph")
 local glue    = node.id("glue")
@@ -467,6 +488,10 @@ local dir     = node.subtype("dir")
 local object  = "￼"
 
 local function node_string(head)
+    --[[
+    Takes a node list and returns its textual string representation
+    --]]
+
     local str = ""
     for n in node.traverse(head) do
         if n.id == glyph then
@@ -504,18 +529,23 @@ local dirs = {
 }
 
 local function assign_levels(head, line)
+    --[[
+    Takes a node list and sets node directional attributes based on
+    corresponding line characters.
+    --]]
+
     local i = 1
     for n in node.traverse(head) do
         node.set_attribute(n, level_attribute, line[i].level)
-        local b = line[i].bdir
-        local e = line[i].edir
-        if b then
-            node.set_attribute(n, bdir_attribute , dirs[b])
+        local bdir = line[i].bdir
+        local edir = line[i].edir
+        if bdir then
+            node.set_attribute(n, bdir_attribute , dirs[bdir])
         else
             node.unset_attribute(n, bdir_attribute)
         end
-        if e then
-            node.set_attribute(n, edir_attribute , dirs[e])
+        if edir then
+            node.set_attribute(n, edir_attribute , dirs[edir])
         else
             node.unset_attribute(n, edir_attribute)
         end
@@ -524,12 +554,12 @@ local function assign_levels(head, line)
 end
 
 local function process_string(str, group)
-    local t, base_level
+    local line, base_level
 
-    t = line_table(str)
+    line = line_table(str)
 
     if group == "" then
-        base_level = get_base_level(t)
+        base_level = get_base_level(line)
     else
         if tex.pardir == "TRT" then
             base_level = 1
@@ -538,10 +568,10 @@ local function process_string(str, group)
         end
     end
 
-    t = resolve_levels(t, base_level)
-    t = insert_dir_points(t)
+    line = resolve_levels(line, base_level)
+    line = insert_dir_points(line)
 
-    return t
+    return line
 end
 
 local function process_node(head, group)
@@ -565,31 +595,31 @@ local function process_node(head, group)
             end
         end
 
-        local b = node.has_attribute(n, bdir_attribute)
-        local e = node.has_attribute(n, edir_attribute)
+        local bdir = node.has_attribute(n, bdir_attribute)
+        local edir = node.has_attribute(n, edir_attribute)
         local new
         node.slide(head)
-        if b then
+        if bdir then
             if not n.prev and group == "" then
                 while n and n.id ~= glyph do
                     n = n.next
                 end
             end
-            if b == 1 then     -- +TRT
+            if bdir == 1 then     -- +TRT
                 head, new = node.insert_before(head, n, new_dir_node("+TRT"))
-            elseif b == 3 then -- +TLT
+            elseif bdir == 3 then -- +TLT
                 head, new = node.insert_before(head, n, new_dir_node("+TLT"))
             end
         end
-        if e then
+        if edir then
             if not n.next and group == "" then
                 while n and n.id ~= glyph do
                     n = n.prev
                 end
             end
-            if e == 2 then     -- -TRT
+            if edir == 2 then     -- -TRT
                 head, new = node.insert_after(head, n, new_dir_node("-TRT"))
-            elseif e == 4 then -- -TLT
+            elseif edir == 4 then -- -TLT
                 head, new = node.insert_after(head, n, new_dir_node("-TLT"))
             end
         end
