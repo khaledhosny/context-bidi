@@ -1,8 +1,8 @@
 %D \module
 %D   [     file=t-bidi,
-%D      version=0.01,
+%D      version=0.002,
 %D        title=Bidi Processing,
-%D     subtitle=Higher level interface to \LUATEX's multidirectional support,
+%D     subtitle=Higher level interface to \LUATEX's bidirectional support,
 %D       author=Khaled Hosny,
 %D         date=\currentdate,
 %D    copyright=Khaled Hosny,
@@ -27,7 +27,7 @@ bidi.chardata   = characters.data
 
 \stopluacode
 
-\registerctxluafile{bidi}{0.001}
+\registerctxluafile{bidi}{0.002}
 
 \startluacode
 
@@ -35,17 +35,13 @@ function bidi.ctxprocess(namespace,attribute,start)
     return bidi.process(start)
 end
 
-bidi.handle_bidi = nodes.install_attribute_handler {
+bidi.handle_bidi = nodes.installattributehandler {
     name      = "bidi",
     namespace = bidi,
     processor = bidi.ctxprocess,
 }
 
-tasks.appendaction("processors", "characters",  "bidi.handle_bidi")
-
-function bidi.enable()
-    tasks.enableaction("processors","bidi.handle_bidi")
-end
+nodes.tasks.appendaction("processors", "characters",  "bidi.handle_bidi")
 
 \stopluacode
 
