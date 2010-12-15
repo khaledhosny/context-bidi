@@ -1,20 +1,17 @@
-
-\newluatexattribute\bidiedir
-\newluatexattribute\bidibdir
-\newluatexattribute\bidilevel
+\input luatexbase.sty
 
 \directlua{
 	bidi              = bidi or { }
 	bidi.attributes   = {
-		bidilevel = tex.attributenumber["bidilevel"],
-		bidbdir   = tex.attributenumber["bidibdir"],
-		bidedir   = tex.attributenumber["bidiedir"],
+		bidilevel = luatexbase.new_attribute("bidilevel"),
+		bidbdir   = luatexbase.new_attribute("bidibdir"),
+		bidedir   = luatexbase.new_attribute("bidiedir"),
 	}
 
 	bidi.chardata     = dofile("chardata.lua")
 
 	require("bidi")
 
-	callback.add("pre_linebreak_filter", bidi.process, "BiDi processing", 1)
-	callback.add("hpack_filter",         bidi.process, "BiDi processing", 1)
+	luatexbase.add_to_callback("pre_linebreak_filter", bidi.process, "BiDi processing (pre_line)", 1)
+	luatexbase.add_to_callback("hpack_filter",         bidi.process, "BiDi processing (hpack)"   , 1)
 }
