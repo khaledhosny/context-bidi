@@ -428,11 +428,7 @@ local function resolve_levels(line, base_level)
     EN go up two levels.
     --]]
     for i in ipairs(line) do
-        if odd(line[i].level) then
-            if line[i].type == "l" or line[i].type == "en" or line[i].type == "an" then
-                line[i].level = line[i].level + 1
-            end
-        else
+        if not odd(line[i].level) then
             if line[i].type == "r" then
                 line[i].level = line[i].level + 1
             elseif line[i].type == "an" or line[i].type == "en" then
