@@ -164,7 +164,30 @@ end
 local MAX_STACK = 60
 
 local function resolve_types(line, base_level)
-    -- Rule (X1), (X2), (X3), (X4), (X5), (X6), (X7), (X8), (X9)
+    --[[
+    Rule (X1), (X2), (X3), (X4), (X5), (X6), (X7), (X8), (X9)
+    X1. Begin by setting the current embedding level to the paragraph
+        embedding level. Set the directional override status to neutral.
+    X2. With each RLE, compute the least greater odd embedding level.
+    X3. With each LRE, compute the least greater even embedding level.
+    X4. With each RLO, compute the least greater odd embedding level.
+    X5. With each LRO, compute the least greater even embedding level.
+    X6. For all types besides RLE, LRE, RLO, LRO, and PDF:
+          a.  Set the level of the current character to the current
+              embedding level.
+          b.  Whenever the directional override status is not neutral,
+                  reset the current character type to the directional
+                  override status.
+    X7. With each PDF, determine the matching embedding or override code.
+    If there was a valid matching code, restore (pop) the last
+    remembered (pushed) embedding level and directional override.
+    X8. All explicit directional embeddings and overrides are completely
+    terminated at the end of each paragraph. Paragraph separators are not
+    included in the embedding. (Useless here) NOT IMPLEMENTED
+    X9. Remove all RLE, LRE, RLO, LRO, PDF, and BN codes.
+    Here, they're converted to BN.
+    --]]
+
     local current_embedding = base_level
     local current_overrid   = "on"
     local level_stack       = { }
@@ -233,26 +256,6 @@ local function resolve_levels(line, base_level)
 
     --[[
     Rule (X1), (X2), (X3), (X4), (X5), (X6), (X7), (X8), (X9)
-    X1. Begin by setting the current embedding level to the paragraph
-        embedding level. Set the directional override status to neutral.
-    X2. With each RLE, compute the least greater odd embedding level.
-    X3. With each LRE, compute the least greater even embedding level.
-    X4. With each RLO, compute the least greater odd embedding level.
-    X5. With each LRO, compute the least greater even embedding level.
-    X6. For all types besides RLE, LRE, RLO, LRO, and PDF:
-          a.  Set the level of the current character to the current
-              embedding level.
-          b.  Whenever the directional override status is not neutral,
-                  reset the current character type to the directional
-                  override status.
-    X7. With each PDF, determine the matching embedding or override code.
-    If there was a valid matching code, restore (pop) the last
-    remembered (pushed) embedding level and directional override.
-    X8. All explicit directional embeddings and overrides are completely
-    terminated at the end of each paragraph. Paragraph separators are not
-    included in the embedding. (Useless here) NOT IMPLEMENTED
-    X9. Remove all RLE, LRE, RLO, LRO, PDF, and BN codes.
-    Here, they're converted to BN.
     --]]
         resolve_types(line, base_level)
 
