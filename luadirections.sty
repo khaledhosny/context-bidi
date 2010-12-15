@@ -1,19 +1,15 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{luadirections}
-    [2010/03/24 v0.001 Higher level interface to LuaTeX's multidirectional support]
+    [2010/12/15 v0.002 Higher level interface to LuaTeX's multidirectional support]
 
-\RequirePackage{luatextra}
-
-\newluatexattribute\bidiedir
-\newluatexattribute\bidibdir
-\newluatexattribute\bidilevel
+\RequirePackage{luatexbase}
 
 \directlua{
     bidi            = bidi or { }
     bidi.attributes = {
-        bidilevel   = tex.attributenumber["bidilevel"],
-        bidbdir     = tex.attributenumber["bidibdir"],
-        bidedir     = tex.attributenumber["bidiedir"],
+        bidilevel   = luatexbase.new_attribute("bidilevel"),
+        bidbdir     = luatexbase.new_attribute("bidibdir"),
+        bidedir     = luatexbase.new_attribute("bidiedir"),
     }
 
     bidi.chardata   = dofile(kpse.find_file("chardata.lua"))
@@ -21,19 +17,17 @@
     require("bidi")
 
     function bidi.enable()
-       callback.add("pre_linebreak_filter", bidi.process, "bidi processing", 1)
-       callback.add("hpack_filter",         bidi.process, "bidi processing", 1)
+       luatexbase.add_to_callback("pre_linebreak_filter", bidi.process, "BiDi processing (pre_line)", 1)
+       luatexbase.add_to_callback("hpack_filter",         bidi.process, "BiDi processing (hpack)"   , 1)
     end
 
     function bidi.disable()
-       callback.remove("pre_linebreak_filter", bidi.process, "bidi processing")
-       callback.remove("hpack_filter",         bidi.process, "bidi processing")
+       luatexbase.remove_from_callback("pre_linebreak_filter", bidi.process, "BiDi processing (pre_line)")
+       luatexbase.remove_from_callback("hpack_filter",         bidi.process, "BiDi processing (hpack)")
     end
 }
 
-\newcommand\bidion{\directlua{bidi.enable()}}
-\newcommand\bidioff{\directlua{bidi.disable()}}
-
-\bidion
+\def\bidion{\directlua{bidi.enable()}}
+\def\bidioff{\directlua{bidi.disable()}}
 
 \endinput
