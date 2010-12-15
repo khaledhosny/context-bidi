@@ -73,11 +73,11 @@ local function odd(x)
     return x%2 == 1 and true or false
 end
 
-local function greater_odd(x)
+local function least_greater_odd(x)
     return odd(x) and x+2 or x+1
 end
 
-local function greater_even(x)
+local function least_greater_even(x)
     return odd(x) and x+1 or x+2
 end
 
@@ -201,7 +201,7 @@ local function resolve_types(line, base_level)
                 level_stack[stack_top]    = current_embedding
                 override_stack[stack_top] = current_overrid
                 stack_top                 = stack_top + 1
-                current_embedding         = greater_odd(current_embedding)
+                current_embedding         = least_greater_odd(current_embedding)
                 current_overrid           = "on"
                 line[i].level             = current_embedding
             end
@@ -210,7 +210,7 @@ local function resolve_types(line, base_level)
                 level_stack[stack_top]    = current_embedding
                 override_stack[stack_top] = current_overrid
                 stack_top                 = stack_top + 1
-                current_embedding         = greater_even(current_embedding)
+                current_embedding         = least_greater_even(current_embedding)
                 current_overrid           = "on"
                 line[i].level             = current_embedding
             end
@@ -219,7 +219,7 @@ local function resolve_types(line, base_level)
                 level_stack[stack_top]    = current_embedding
                 override_stack[stack_top] = current_overrid
                 stack_top                 = stack_top + 1
-                current_embedding         = greater_odd(current_embedding)
+                current_embedding         = least_greater_odd(current_embedding)
                 current_overrid           = "r"
                 line[i].level             = current_embedding
             end
@@ -228,7 +228,7 @@ local function resolve_types(line, base_level)
                 level_stack[stack_top]    = current_embedding
                 override_stack[stack_top] = current_overrid
                 stack_top                 = stack_top + 1
-                current_embedding         = greater_even(current_embedding)
+                current_embedding         = least_greater_even(current_embedding)
                 current_overrid           = "l"
                 line[i].level             = current_embedding
             end
