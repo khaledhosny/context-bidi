@@ -92,4 +92,18 @@ bidi.disable()
 \def\dosetupbidi[#1]%
   {\ctxlua{bidi.setup("#1")}}
 
-\protect \endinput
+\protect
+
+\stopmodule
+
+\doifnotmode{demo}{\endinput}
+
+\usemodule[bidi]
+\usemodule[simplefonts]
+
+\setmainfont[dejavusans][features=arabic]
+\setupbidi[bidi=on,main=r2l]
+
+\starttext
+أبجد () هوز ab()cd حطي g كلمن ١٢٣٤٥ سعفص قرشت.
+\stoptext
