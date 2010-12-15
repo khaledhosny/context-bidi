@@ -203,6 +203,7 @@ local function resolve_types(line, base_level)
                 stack_top                 = stack_top + 1
                 current_embedding         = greater_odd(current_embedding)
                 current_overrid           = "on"
+                line[i].level             = current_embedding
             end
         elseif current_type == "lre" then
             if stack_top < MAX_STACK then
@@ -211,6 +212,7 @@ local function resolve_types(line, base_level)
                 stack_top                 = stack_top + 1
                 current_embedding         = greater_even(current_embedding)
                 current_overrid           = "on"
+                line[i].level             = current_embedding
             end
         elseif current_type == "rlo" then
             if stack_top < MAX_STACK then
@@ -219,6 +221,7 @@ local function resolve_types(line, base_level)
                 stack_top                 = stack_top + 1
                 current_embedding         = greater_odd(current_embedding)
                 current_overrid           = "r"
+                line[i].level             = current_embedding
             end
         elseif current_type == "lro" then
             if stack_top < MAX_STACK then
@@ -227,12 +230,14 @@ local function resolve_types(line, base_level)
                 stack_top                 = stack_top + 1
                 current_embedding         = greater_even(current_embedding)
                 current_overrid           = "l"
+                line[i].level             = current_embedding
             end
         elseif current_type == "pdf" then
             if stack_top > 0 then
                 current_embedding = level_stack[stack_top-1]
                 current_overrid   = override_stack[stack_top-1]
                 stack_top         = stack_top - 1
+                line[i].level     = current_embedding
             end
         elseif current_type == "ws" or current_type == "b" or current_type == "S" then
             -- Whitespace is treated as neutral for now
