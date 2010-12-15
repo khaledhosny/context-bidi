@@ -45,7 +45,7 @@ local caprtl = {
   "r",  "al", "al", "al", "al", "al", "al", "r",  "r",  "r",  "r",  "r",  "r",  "r",  "r",  "r",   -- 40-4f
   "r",  "r",  "r",  "r",  "r",  "r",  "r",  "r",  "r",  "r",  "r",  "on", "b",  "on", "on", "on",  -- 50-5f
   "nsm","l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",   -- 60-6f
-  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "on", "S",  "on", "on", "on",  -- 70-7f
+  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "on", "s",  "on", "on", "on",  -- 70-7f
 }
 
 local function get_caprtl(ch)
@@ -239,7 +239,7 @@ local function resolve_types(line, base_level)
                 stack_top         = stack_top - 1
                 line[i].level     = current_embedding
             end
-        elseif current_type == "ws" or current_type == "b" or current_type == "S" then
+        elseif current_type == "ws" or current_type == "b" or current_type == "s" then
             -- Whitespace is treated as neutral for now
             line[i].level = current_embedding
             current_type  = "on"
@@ -464,7 +464,7 @@ local function resolve_levels(line, base_level)
     --]]
     for i in ipairs(line) do
         local current_type = line[i].orig_type
-        if current_type == "S" or current_type == "b" then
+        if current_type == "s" or current_type == "b" then
             line[i].level = base_level
         end
     end
