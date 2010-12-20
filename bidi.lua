@@ -59,80 +59,6 @@ end
 
 local get_type = get_utf8
 
-local function insert_dir_points(line)
-    --[[
-    Takes a line with resolved embedding levels and inserts begin/enddir marks
-    as required.
-    --]]
-
-    local max_level = 0
-
-    for i in ipairs(line) do
-        if line[i].level > max_level then
-            max_level = line[i].level
-        end
-    end
-
-    for level=max_level,0,-1 do
-        for i=#line,1,-1 do
-            if line[i].level >= level then
-                local seq_end   = i
-                local seq_begin
-                local j = i
-                while j >= 1 and line[j].level >= level do
-                    seq_begin = j
-                    j = j - 1
-                end
-                local dir
-                if odd(level) then
-                    dir = "TRT"
-                else
-                    dir = "TLT"
-                end
-                if not line[seq_begin].bdir then
-                    line[seq_begin].bdir = "+"..dir
-                end
-                if not line[seq_end].edir and (not line[seq_end+1] or line[seq_end+1].level < level) then
-                    line[seq_end].edir = "-"..dir
-                end
-            end
-        end
-    end
-
-    return line
-end
-
-local function line_table(str)
-    --[[
-    Takes a string of text and convert it to our line data structure
-    --]]
-
-    local t = { }
-    ugsub(str, ".", function(c)
-        t[#t+1] = { char = c, type = get_type(c), orig_type = get_type(c), level = 0 }
-    end)
-    return t
-end
-
-local function get_base_level(line)
-    --[[
-    Rule (P2), (P3)
-    P2. In each paragraph, find the first character of type L, AL, or R.
-    P3. If a character is found in P2 and it is of type AL or R, then set
-    the paragraph embedding level to one; otherwise, set it to zero.
-    --]]
-
-    for i in ipairs(line) do
-        local current_type = line[i].type
-        if current_type == "r" or current_type == "al" then
-            return 1
-        elseif current_type == "l" then
-            return 0
-        end
-    end
-    return 0
-end
-
 local MAX_STACK = 60
 
 local function resolve_types(line, base_level)
@@ -500,6 +426,80 @@ local dirs = {
     ["+TLT"] = 3,
     ["-TLT"] = 4,
 }
+
+local function insert_dir_points(line)
+    --[[
+    Takes a line with resolved embedding levels and inserts begin/enddir marks
+    as required.
+    --]]
+
+    local max_level = 0
+
+    for i in ipairs(line) do
+        if line[i].level > max_level then
+            max_level = line[i].level
+        end
+    end
+
+    for level=max_level,0,-1 do
+        for i=#line,1,-1 do
+            if line[i].level >= level then
+                local seq_end   = i
+                local seq_begin
+                local j = i
+                while j >= 1 and line[j].level >= level do
+                    seq_begin = j
+                    j = j - 1
+                end
+                local dir
+                if odd(level) then
+                    dir = "TRT"
+                else
+                    dir = "TLT"
+                end
+                if not line[seq_begin].bdir then
+                    line[seq_begin].bdir = "+"..dir
+                end
+                if not line[seq_end].edir and (not line[seq_end+1] or line[seq_end+1].level < level) then
+                    line[seq_end].edir = "-"..dir
+                end
+            end
+        end
+    end
+
+    return line
+end
+
+local function line_table(str)
+    --[[
+    Takes a string of text and convert it to our line data structure
+    --]]
+
+    local t = { }
+    ugsub(str, ".", function(c)
+        t[#t+1] = { char = c, type = get_type(c), orig_type = get_type(c), level = 0 }
+    end)
+    return t
+end
+
+local function get_base_level(line)
+    --[[
+    Rule (P2), (P3)
+    P2. In each paragraph, find the first character of type L, AL, or R.
+    P3. If a character is found in P2 and it is of type AL or R, then set
+    the paragraph embedding level to one; otherwise, set it to zero.
+    --]]
+
+    for i in ipairs(line) do
+        local current_type = line[i].type
+        if current_type == "r" or current_type == "al" then
+            return 1
+        elseif current_type == "l" then
+            return 0
+        end
+    end
+    return 0
+end
 
 local function assign_levels(head, line)
     --[[
