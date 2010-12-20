@@ -41,6 +41,8 @@ local ubyte = unicode.utf8.byte
 local ugsub = unicode.utf8.gsub
 local uchar = unicode.utf8.char
 
+local MAX_STACK = 60
+
 local function odd(x)
     return x%2 == 1 and true or false
 end
@@ -53,13 +55,9 @@ local function least_greater_even(x)
     return odd(x) and x+1 or x+2
 end
 
-local function get_utf8(ch)
+local function get_type(ch)
     return chardata[ubyte(ch)].direction
 end
-
-local get_type = get_utf8
-
-local MAX_STACK = 60
 
 local function resolve_types(line, base_level)
     --[[
