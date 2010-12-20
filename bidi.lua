@@ -35,26 +35,6 @@ if not modules then modules = { } end modules ['bidi'] = bidi.module
   but it isn't a priority right now.
 --]]
 
--- fake CAPRTL encoding for testing
---[[
-local caprtl = {
-  "on", "on", "on", "on", "l",  "r",  "on", "on", "on", "on", "on", "on", "on", "b",  "rlo","rle", -- 00-0f
-  "lro","lre","pdf","ws", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on", "on",  -- 10-1f
-  "ws", "on", "on", "on", "et", "on", "on", "on", "on", "on", "on", "et", "cs", "on", "es", "es",  -- 20-2f
-  "en", "en", "en", "en", "en", "en", "an", "an", "an", "an", "cs", "on", "on", "on", "on", "on",  -- 30-3f
-  "r",  "al", "al", "al", "al", "al", "al", "r",  "r",  "r",  "r",  "r",  "r",  "r",  "r",  "r",   -- 40-4f
-  "r",  "r",  "r",  "r",  "r",  "r",  "r",  "r",  "r",  "r",  "r",  "on", "b",  "on", "on", "on",  -- 50-5f
-  "nsm","l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",   -- 60-6f
-  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "l",  "on", "s",  "on", "on", "on",  -- 70-7f
-}
-
-local function get_caprtl(ch)
-    return caprtl[string.byte(ch)+ 1] or "r"
-end
-
-local get_type = get_caprtl
---]]
-
 local chardata = bidi.chardata
 
 -- see http://www.unicode.org/versions/corrigendum6.html
