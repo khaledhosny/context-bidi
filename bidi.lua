@@ -22,7 +22,7 @@ if not modules then modules = { } end modules ['bidi'] = bidi.module
 
   We basically translate node list into an equivalent textual representation
   (glyph nodes are converted to their characters, glue to spaces and the rest
-  to a   neutral Unicode object character, we might make it smarter later), then
+  to a neutral Unicode object character, we might make it smarter later), then
   the text is fed to a function that resolves its embedding levels, that is then
   translated into insertion of begin/enddir nodes into the original node list.
 --]]
@@ -37,9 +37,9 @@ chardata[0x201D].mirror = "0x201C"
 chardata[0x301D].mirror = "0x301E"
 chardata[0x301E].mirror = "0x301D"
 
-local ubyte    = unicode.utf8.byte
-local ugsub    = unicode.utf8.gsub
-local uchar    = unicode.utf8.char
+local ubyte = unicode.utf8.byte
+local ugsub = unicode.utf8.gsub
+local uchar = unicode.utf8.char
 
 local function odd(x)
     return x%2 == 1 and true or false
@@ -230,11 +230,8 @@ local function resolve_types(line, base_level)
 end
 
 local function resolve_levels(line, base_level)
-
-    --[[
-    Rule (X1), (X2), (X3), (X4), (X5), (X6), (X7), (X8), (X9)
-    --]]
-        resolve_types(line, base_level)
+    -- Rule (X1), (X2), (X3), (X4), (X5), (X6), (X7), (X8), (X9)
+    resolve_types(line, base_level)
 
     for i in ipairs(line) do
         if line[i].type == "nsm" then
