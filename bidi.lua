@@ -15,6 +15,7 @@ if not modules then modules = { } end modules ['bidi'] = bidi.module
 --[[
   This code started as a line for line translation of Arabeyes' minibidi.c from
   C to lua, excluding parts that of no use to us like shaping.
+
   The C code is Copyright (c) 2004 Ahmad Khalifa, and is distributed under the
   MIT Licence. The full license text:
     http://svn.arabeyes.org/viewvc/projects/adawat/minibidi/LICENCE
@@ -24,15 +25,6 @@ if not modules then modules = { } end modules ['bidi'] = bidi.module
   to a   neutral Unicode object character, we might make it smarter later), then
   the text is fed to a function that resolves its embedding levels, that is then
   translated into insertion of begin/enddir nodes into the original node list.
-
-  The translation step was first meant to be a quick way of using the code
-  without rewriting it to work on node list, but I found the separation acts as
-  an abstraction layer, so I left it. At this stage a realized that the whole
-  reason for writing bidi implementation purely in lua is now obsolete; I don't
-  need an implementation that knows how to process a node list, a generic code
-  with this translation process would do it, so we might end with a luafribidi
-  C module that do the actual bidi processing, with glue code written in lua,
-  but it isn't a priority right now.
 --]]
 
 local chardata = bidi.chardata
