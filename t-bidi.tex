@@ -31,10 +31,6 @@ bidi.chardata   = characters.data
 
 \startluacode
 
-function bidi.ctxprocess(namespace,attribute,start)
-    return bidi.process(start)
-end
-
 function bidi.enable()
     nodes.tasks.enableaction("processors", "bidi.handle_bidi")
 end
@@ -74,13 +70,7 @@ function bidi.setup(str)
     end
 end
 
-bidi.handle_bidi = nodes.installattributehandler {
-    name      = "bidi",
-    namespace = bidi,
-    processor = bidi.ctxprocess,
-}
-
-nodes.tasks.appendaction("processors", "characters",  "bidi.handle_bidi")
+nodes.tasks.appendaction("processors", "characters",  "bidi.process")
 
 bidi.disable()
 
