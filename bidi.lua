@@ -376,7 +376,6 @@ local function resolve_levels(line, base_level)
     return line
 end
 
-local hlist   = node.id("hlist")
 local glyph   = node.id("glyph")
 local glue    = node.id("glue")
 local whatsit = node.id("whatsit")
@@ -395,10 +394,6 @@ local function node_string(head)
             str = str .. uchar(n.char)
         elseif n.id == glue then
             str = str .. " "
---        elseif n.id == hlist then
---            str[#str+1] = node2string(n)
---        elseif n.id == whatsit and n.subtype == 7 then
---            str[#str+1] = n.dir
         elseif n.id == whatsit and n.subtype == dir then
             head, _ = node.remove(head, n)
         else

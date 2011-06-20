@@ -32,11 +32,11 @@ bidi.chardata   = characters.data
 \startluacode
 
 function bidi.enable()
-    nodes.tasks.enableaction("processors", "bidi.handle_bidi")
+    nodes.tasks.enableaction("processors", "bidi.process")
 end
 
 function bidi.disable()
-    nodes.tasks.disableaction("processors", "bidi.handle_bidi")
+    nodes.tasks.disableaction("processors", "bidi.process")
 end
 
 function bidi.setmaindir(dir)
