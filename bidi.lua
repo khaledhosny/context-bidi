@@ -38,7 +38,6 @@ chardata[0x301D].mirror = "0x301E"
 chardata[0x301E].mirror = "0x301D"
 
 local ubyte = unicode.utf8.byte
-local ugsub = unicode.utf8.gsub
 local uchar = unicode.utf8.char
 
 local MAX_STACK = 60
@@ -388,19 +387,21 @@ local function node_string(head)
     local dir     = node.subtype("dir")
     local object  = "￼"
 
-    local str = ""
+    local line = {}
     for n in node.traverse(head) do
+        local c
         if n.id == glyph then
-            str = str .. uchar(n.char)
+            c = uchar(n.char)
         elseif n.id == glue then
-            str = str .. " "
+            c = " "
         elseif n.id == whatsit and n.subtype == dir then
             head, _ = node.remove(head, n)
         else
-            str = str .. object
+            c = object
         end
+        line[#line+1] = { char = c, type = get_type(c), orig_type = get_type(c), level = 0 }
     end
-    return head, str
+    return head, line
 end
 
 local function new_dir_node(dir)
@@ -463,18 +464,6 @@ local function insert_dir_points(line)
     return line
 end
 
-local function line_table(str)
-    --[[
-    Takes a string of text and convert it to our line data structure
-    --]]
-
-    local t = { }
-    ugsub(str, ".", function(c)
-        t[#t+1] = { char = c, type = get_type(c), orig_type = get_type(c), level = 0 }
-    end)
-    return t
-end
-
 local function get_base_level(line)
     --[[
     Rule (P2), (P3)
@@ -519,10 +508,8 @@ local function assign_levels(head, line)
     end
 end
 
-local function process_string(str, group)
-    local line, base_level
-
-    line = line_table(str)
+local function process_string(line, group)
+    local base_level
 
     if group == "" then
         base_level = get_base_level(line)
@@ -541,10 +528,10 @@ local function process_string(str, group)
 end
 
 local function process_node(head, group)
-    local str, line
+    local line
 
-    head, str = node_string(head)
-    line      = process_string(str, group)
+    head, line = node_string(head)
+    line       = process_string(line, group)
 
     assert(#line == node.length(head))
 
