@@ -37,8 +37,6 @@ chardata[0x201D].mirror = "0x201C"
 chardata[0x301D].mirror = "0x301E"
 chardata[0x301E].mirror = "0x301D"
 
-local uchar = unicode.utf8.char
-
 local MAX_STACK = 60
 
 local function odd(x)
@@ -397,7 +395,7 @@ local function node_string(head)
         else
             c = 0xFFFC -- object replacement character
         end
-        line[#line+1] = { char = uchar(c), type = get_type(c), orig_type = get_type(c), level = 0 }
+        line[#line+1] = { type = get_type(c), orig_type = get_type(c), level = 0 }
     end
     return head, line
 end
