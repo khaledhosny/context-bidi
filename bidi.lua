@@ -378,15 +378,15 @@ end
 
 local glyph   = node.id("glyph")
 local glue    = node.id("glue")
-local whatsit = node.id("whatsit")
-local dir     = node.subtype("dir")
-
-local object  = "￼"
 
 local function node_string(head)
     --[[
     Takes a node list and returns its textual string representation
     --]]
+
+    local whatsit = node.id("whatsit")
+    local dir     = node.subtype("dir")
+    local object  = "￼"
 
     local str = ""
     for n in node.traverse(head) do
