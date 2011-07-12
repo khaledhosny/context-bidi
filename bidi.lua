@@ -375,7 +375,7 @@ end
 local glyph   = node.id("glyph")
 local glue    = node.id("glue")
 
-local function node_string(head)
+local function node_to_table(head)
     --[[
     Takes a node list and returns its textual representation
     --]]
@@ -406,12 +406,6 @@ local function node_string(head)
     end
 
     return line
-end
-
-local function new_dir_node(dir)
-    local n = node.new("whatsit","dir")
-    n.dir = dir
-    return n
 end
 
 local function insert_dir_points(line)
@@ -476,8 +470,9 @@ local function get_base_level(line)
     return 0
 end
 
-local function process_string(line, group)
+local function do_bidi(head, group)
     local base_level
+    local line = node_to_table(head)
 
     if group == "" then
         base_level = get_base_level(line)
@@ -495,12 +490,16 @@ local function process_string(line, group)
     return line
 end
 
-local function process_node(head, group)
+local function new_dir_node(dir)
+    local n = node.new("whatsit","dir")
+    n.dir = dir
+    return n
+end
+
+local function process(head, group)
     local line
 
-    line = node_string(head)
-    line       = process_string(line, group)
-
+    line = do_bidi(head, group)
     assert(#line == node.length(head))
 
     local i = 1
@@ -535,4 +534,4 @@ local function process_node(head, group)
     return head
 end
 
-bidi.process   = process_node
+bidi.process = process
