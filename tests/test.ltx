@@ -7,5 +7,16 @@
 \bidion
 
 \begin{document}
-أبجد () هوز ab()cd حطي g كلمن ١٢٣٤٥ سعفص قرشت.
+\let\textdir\luatextextdir
+\def\TEST{أبجد () هوز ab()cd حطي g كلمن ١٢٣٤٥ سعفص قرشت.}
+
+\TEST
+
+أبجد () هوز ab()cd حطي g كلمن {\textdir TRT ١٢٣٤٥} سعفص {\textdir TLT قرشت}.
+
+\halign{\hfil\it # & # \hfil\cr
+3 cl & \TEST\cr
+2 cl & \TEST\cr
+1.5 cl & \TEST\cr}
+
 \end{document}

@@ -89,5 +89,18 @@ bidi.disable()
 \setupbidi[bidi=on,main=r2l]
 
 \starttext
-أبجد () هوز ab()cd حطي g كلمن ١٢٣٤٥ سعفص قرشت.
+
+\donknuthmode
+
+\def\TEST{أبجد () هوز ab()cd حطي g كلمن ١٢٣٤٥ سعفص قرشت.}
+
+\TEST
+
+أبجد () هوز ab()cd حطي g كلمن {\textdir TRT ١٢٣٤٥} سعفص {\textdir TLT قرشت}.
+
+\halign{\hfil\it # & # \hfil\cr
+3 cl & \TEST\cr
+2 cl & \TEST\cr
+1.5 cl & \TEST\cr}
+
 \stoptext

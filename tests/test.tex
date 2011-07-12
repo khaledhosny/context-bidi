@@ -1,10 +1,16 @@
 \input luaotfload.sty
 \input luadirections
 
-\font\test={name:DejaVu Sans:mode=node;script=arab} at 10pt
+\font\test={name:DejaVu Sans:mode=node;script=arab} at 10pt \test
+\def\TEST{أبجد () هوز ab()cd حطي g كلمن ١٢٣٤٥ سعفص قرشت.}
 
-\test
-أبجد () هوز ab()cd حطي g كلمن ١٢٣٤٥ سعفص قرست.
+\TEST
 
-أبجد () هوز ab()cd حطي g كلمن {\textdir TRT ١٢٣٤٥} سعفص {\textdir TLT قرست}.
+أبجد () هوز ab()cd حطي g كلمن {\textdir TRT ١٢٣٤٥} سعفص {\textdir TLT قرشت}.
+
+\halign{\hfil\it # & # \hfil\cr
+3 cl & \TEST\cr
+2 cl & \TEST\cr
+1.5 cl & \TEST\cr}
+
 \bye
