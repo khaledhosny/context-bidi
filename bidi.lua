@@ -402,7 +402,7 @@ local function node_string(head)
         else
             c = 0xFFFC -- object replacement character
         end
-        line[#line+1] = { type = get_type(c), orig_type = get_type(c), level = 0 }
+        line[#line+1] = { char = c, type = get_type(c), orig_type = get_type(c), level = 0 }
     end
 
     return line
@@ -507,6 +507,7 @@ local function process_node(head, group)
     local n = head
     while n do
         if n.id == glyph then
+            assert(line[i].char == n.char)
             local v = line[i].level
             if v and odd(v) then
                 local mirror = chardata[n.char].mirror
