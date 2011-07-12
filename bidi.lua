@@ -414,17 +414,6 @@ local function new_dir_node(dir)
     return n
 end
 
-local level_attribute = bidi.attributes.bidilevel
-local bdir_attribute  = bidi.attributes.bidbdir
-local edir_attribute  = bidi.attributes.bidedir
-
-local dirs = {
-    ["+TRT"] = 1,
-    ["-TRT"] = 2,
-    ["+TLT"] = 3,
-    ["-TLT"] = 4,
-}
-
 local function insert_dir_points(line)
     --[[
     Takes a line with resolved embedding levels and inserts begin/enddir marks
@@ -487,31 +476,6 @@ local function get_base_level(line)
     return 0
 end
 
-local function assign_levels(head, line)
-    --[[
-    Takes a node list and sets node directional attributes based on
-    corresponding line characters.
-    --]]
-
-    local i = 1
-    for n in node.traverse(head) do
-        node.set_attribute(n, level_attribute, line[i].level)
-        local bdir = line[i].bdir
-        local edir = line[i].edir
-        if bdir then
-            node.set_attribute(n, bdir_attribute , dirs[bdir])
-        else
-            node.unset_attribute(n, bdir_attribute)
-        end
-        if edir then
-            node.set_attribute(n, edir_attribute , dirs[edir])
-        else
-            node.unset_attribute(n, edir_attribute)
-        end
-        i = i + 1
-    end
-end
-
 local function process_string(line, group)
     local base_level
 
@@ -539,11 +503,11 @@ local function process_node(head, group)
 
     assert(#line == node.length(head))
 
-    assign_levels(head, line)
-
-    for n in node.traverse(head) do
+    local i = 1
+    local n = head
+    while n do
         if n.id == glyph then
-            local v = node.has_attribute(n, level_attribute)
+            local v = line[i].level
             if v and odd(v) then
                 local mirror = chardata[n.char].mirror
                 if mirror then
@@ -552,39 +516,19 @@ local function process_node(head, group)
             end
         end
 
-        local bdir = node.has_attribute(n, bdir_attribute)
-        local edir = node.has_attribute(n, edir_attribute)
-        local new
-        node.slide(head)
+        local bdir = line[i].bdir
+        local edir = line[i].edir
+
         if bdir then
-            if not n.prev and group == "" then
-                while n and n.id ~= glyph do
-                    n = n.next
-                end
-            end
-            if bdir == 1 then     -- +TRT
-                head, new = node.insert_before(head, n, new_dir_node("+TRT"))
-            elseif bdir == 3 then -- +TLT
-                head, new = node.insert_before(head, n, new_dir_node("+TLT"))
-            end
-        end
-        if edir then
-            if not n.next and group == "" then
-                while n and n.id ~= glyph do
-                    n = n.prev
-                end
-            end
-            if edir == 2 then     -- -TRT
-                head, new = node.insert_after(head, n, new_dir_node("-TRT"))
-            elseif edir == 4 then -- -TLT
-                head, new = node.insert_after(head, n, new_dir_node("-TLT"))
-            end
-        end
-        if new then
-            node.unset_attribute(new, bdir_attribute)
-            node.unset_attribute(new, edir_attribute)
+            head = node.insert_before(head, n, new_dir_node(bdir))
         end
 
+        if edir then
+            head, n = node.insert_after(head, n, new_dir_node(edir))
+        end
+
+        i = i + 1
+        n = n.next
     end
 
     return head

@@ -6,12 +6,6 @@
 
 \directlua{
     bidi            = bidi or { }
-    bidi.attributes = {
-        bidilevel   = luatexbase.new_attribute("bidilevel"),
-        bidbdir     = luatexbase.new_attribute("bidibdir"),
-        bidedir     = luatexbase.new_attribute("bidiedir"),
-    }
-
     bidi.chardata   = dofile(kpse.find_file("chardata.lua"))
 
     require("bidi")
