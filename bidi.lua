@@ -377,7 +377,7 @@ local glue    = node.id("glue")
 
 local function node_string(head)
     --[[
-    Takes a node list and returns its textual string representation
+    Takes a node list and returns its textual representation
     --]]
 
     local whatsit = node.id("whatsit")
@@ -391,13 +391,21 @@ local function node_string(head)
         elseif n.id == glue then
             c = 0x0020 -- space
         elseif n.id == whatsit and n.subtype == dir then
-            head, _ = node.remove(head, n)
+            -- XXX handle all supported directions
+            if n.dir == "+TLT" then
+                c = 0x202D -- lro
+            elseif n.dir == "+TRT" then
+                c = 0x202E -- rlo
+            elseif n.dir == "-TLT" or n.dir == "-TRT" then
+                c = 0x202C -- pdf
+            end
         else
             c = 0xFFFC -- object replacement character
         end
         line[#line+1] = { type = get_type(c), orig_type = get_type(c), level = 0 }
     end
-    return head, line
+
+    return line
 end
 
 local function new_dir_node(dir)
@@ -526,7 +534,7 @@ end
 local function process_node(head, group)
     local line
 
-    head, line = node_string(head)
+    line = node_string(head)
     line       = process_string(line, group)
 
     assert(#line == node.length(head))
