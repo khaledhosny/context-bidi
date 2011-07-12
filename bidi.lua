@@ -502,6 +502,12 @@ local function process(head, group)
     line = do_bidi(head, group)
     assert(#line == node.length(head))
 
+    if group == "fin_row" then
+        -- workaround for crash with \halign
+        -- see http://tug.org/pipermail/luatex/2011-July/003107.html
+        return head
+    end
+
     local i = 1
     local n = head
     while n do
