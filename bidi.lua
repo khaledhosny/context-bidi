@@ -37,7 +37,6 @@ chardata[0x201D].mirror = "0x201C"
 chardata[0x301D].mirror = "0x301E"
 chardata[0x301E].mirror = "0x301D"
 
-local ubyte = unicode.utf8.byte
 local uchar = unicode.utf8.char
 
 local MAX_STACK = 60
@@ -55,7 +54,7 @@ local function least_greater_even(x)
 end
 
 local function get_type(ch)
-    return chardata[ubyte(ch)].direction
+    return chardata[ch].direction
 end
 
 local function resolve_types(line, base_level)
@@ -385,21 +384,20 @@ local function node_string(head)
 
     local whatsit = node.id("whatsit")
     local dir     = node.subtype("dir")
-    local object  = "￼"
 
     local line = {}
     for n in node.traverse(head) do
         local c
         if n.id == glyph then
-            c = uchar(n.char)
+            c = n.char
         elseif n.id == glue then
-            c = " "
+            c = 0x0020 -- space
         elseif n.id == whatsit and n.subtype == dir then
             head, _ = node.remove(head, n)
         else
-            c = object
+            c = 0xFFFC -- object replacement character
         end
-        line[#line+1] = { char = c, type = get_type(c), orig_type = get_type(c), level = 0 }
+        line[#line+1] = { char = uchar(c), type = get_type(c), orig_type = get_type(c), level = 0 }
     end
     return head, line
 end
