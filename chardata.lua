@@ -1,20704 +1,20704 @@
 return {
  [0]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="s",
+  ["dir"]="s",
  },
  {
-  ["direction"]="b",
+  ["dir"]="b",
  },
  {
-  ["direction"]="s",
+  ["dir"]="s",
  },
  {
-  ["direction"]="ws",
+  ["dir"]="ws",
  },
  {
-  ["direction"]="b",
+  ["dir"]="b",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="b",
+  ["dir"]="b",
  },
  {
-  ["direction"]="b",
+  ["dir"]="b",
  },
  {
-  ["direction"]="b",
+  ["dir"]="b",
  },
  {
-  ["direction"]="s",
+  ["dir"]="s",
  },
  {
-  ["direction"]="ws",
+  ["dir"]="ws",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="et",
+  ["dir"]="et",
  },
  {
-  ["direction"]="et",
+  ["dir"]="et",
  },
  {
-  ["direction"]="et",
+  ["dir"]="et",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=41,
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=40,
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="es",
+  ["dir"]="es",
  },
  {
-  ["direction"]="cs",
+  ["dir"]="cs",
  },
  {
-  ["direction"]="es",
+  ["dir"]="es",
  },
  {
-  ["direction"]="cs",
+  ["dir"]="cs",
  },
  {
-  ["direction"]="cs",
+  ["dir"]="cs",
  },
  {
-  ["direction"]="en",
+  ["dir"]="en",
  },
  {
-  ["direction"]="en",
+  ["dir"]="en",
  },
  {
-  ["direction"]="en",
+  ["dir"]="en",
  },
  {
-  ["direction"]="en",
+  ["dir"]="en",
  },
  {
-  ["direction"]="en",
+  ["dir"]="en",
  },
  {
-  ["direction"]="en",
+  ["dir"]="en",
  },
  {
-  ["direction"]="en",
+  ["dir"]="en",
  },
  {
-  ["direction"]="en",
+  ["dir"]="en",
  },
  {
-  ["direction"]="en",
+  ["dir"]="en",
  },
  {
-  ["direction"]="en",
+  ["dir"]="en",
  },
  {
-  ["direction"]="cs",
+  ["dir"]="cs",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=62,
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=60,
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=93,
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=91,
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=125,
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=123,
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="b",
+  ["dir"]="b",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="cs",
+  ["dir"]="cs",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="et",
+  ["dir"]="et",
  },
  {
-  ["direction"]="et",
+  ["dir"]="et",
  },
  {
-  ["direction"]="et",
+  ["dir"]="et",
  },
  {
-  ["direction"]="et",
+  ["dir"]="et",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=187,
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="et",
+  ["dir"]="et",
  },
  {
-  ["direction"]="et",
+  ["dir"]="et",
  },
  {
-  ["direction"]="en",
+  ["dir"]="en",
  },
  {
-  ["direction"]="en",
+  ["dir"]="en",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="en",
+  ["dir"]="en",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=171,
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  {
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [894]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [900]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [901]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [903]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [1014]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [1155]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1156]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1157]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1158]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1159]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1160]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1161]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1418]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [1425]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1426]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1427]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1428]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1429]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1430]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1431]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1432]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1433]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1434]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1435]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1436]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1437]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1438]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1439]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1440]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1441]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1442]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1443]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1444]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1445]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1446]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1447]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1448]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1449]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1450]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1451]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1452]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1453]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1454]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1455]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1456]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1457]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1458]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1459]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1460]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1461]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1462]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1463]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1464]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1465]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1466]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1467]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1468]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1469]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1470]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1471]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1472]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1473]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1474]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1475]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1476]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1477]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1478]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1479]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1488]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1489]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1490]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1491]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1492]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1493]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1494]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1495]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1496]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1497]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1498]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1499]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1500]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1501]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1502]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1503]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1504]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1505]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1506]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1507]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1508]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1509]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1510]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1511]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1512]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1513]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1514]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1520]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1521]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1522]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1523]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1524]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1536]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [1537]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [1538]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [1539]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [1542]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [1543]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [1544]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1545]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [1546]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [1547]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1548]={
-  ["direction"]="cs",
+  ["dir"]="cs",
  },
  [1549]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1550]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [1551]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [1552]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1553]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1554]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1555]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1556]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1557]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1558]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1559]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1560]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1561]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1562]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1563]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1566]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1567]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1569]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1570]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1571]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1572]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1573]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1574]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1575]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1576]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1577]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1578]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1579]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1580]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1581]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1582]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1583]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1584]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1585]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1586]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1587]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1588]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1589]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1590]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1591]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1592]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1593]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1594]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1595]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1596]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1597]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1598]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1599]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1600]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1601]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1602]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1603]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1604]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1605]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1606]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1607]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1608]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1609]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1610]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1611]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1612]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1613]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1614]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1615]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1616]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1617]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1618]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1619]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1620]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1621]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1622]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1623]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1624]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1625]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1626]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1627]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1628]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1629]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1630]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1632]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [1633]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [1634]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [1635]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [1636]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [1637]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [1638]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [1639]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [1640]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [1641]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [1642]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [1643]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [1644]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [1645]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1646]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1647]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1648]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1649]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1650]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1651]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1652]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1653]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1654]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1655]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1656]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1657]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1658]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1659]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1660]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1661]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1662]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1663]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1664]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1665]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1666]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1667]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1668]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1669]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1670]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1671]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1672]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1673]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1674]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1675]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1676]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1677]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1678]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1679]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1680]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1681]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1682]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1683]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1684]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1685]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1686]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1687]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1688]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1689]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1690]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1691]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1692]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1693]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1694]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1695]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1696]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1697]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1698]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1699]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1700]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1701]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1702]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1703]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1704]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1705]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1706]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1707]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1708]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1709]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1710]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1711]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1712]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1713]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1714]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1715]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1716]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1717]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1718]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1719]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1720]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1721]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1722]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1723]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1724]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1725]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1726]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1727]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1728]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1729]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1730]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1731]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1732]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1733]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1734]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1735]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1736]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1737]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1738]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1739]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1740]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1741]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1742]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1743]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1744]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1745]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1746]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1747]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1748]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1749]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1750]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1751]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1752]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1753]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1754]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1755]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1756]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1757]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [1758]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1759]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1760]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1761]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1762]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1763]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1764]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1765]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1766]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1767]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1768]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1769]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [1770]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1771]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1772]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1773]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1774]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1775]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1776]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [1777]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [1778]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [1779]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [1780]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [1781]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [1782]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [1783]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [1784]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [1785]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [1786]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1787]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1788]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1789]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1790]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1791]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1792]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1793]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1794]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1795]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1796]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1797]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1798]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1799]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1800]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1801]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1802]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1803]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1804]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1805]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1807]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [1808]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1809]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1810]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1811]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1812]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1813]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1814]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1815]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1816]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1817]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1818]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1819]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1820]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1821]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1822]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1823]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1824]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1825]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1826]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1827]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1828]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1829]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1830]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1831]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1832]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1833]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1834]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1835]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1836]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1837]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1838]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1839]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1840]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1841]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1842]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1843]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1844]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1845]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1846]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1847]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1848]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1849]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1850]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1851]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1852]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1853]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1854]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1855]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1856]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1857]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1858]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1859]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1860]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1861]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1862]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1863]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1864]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1865]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1866]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1869]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1870]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1871]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1872]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1873]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1874]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1875]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1876]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1877]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1878]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1879]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1880]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1881]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1882]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1883]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1884]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1885]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1886]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1887]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1888]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1889]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1890]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1891]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1892]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1893]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1894]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1895]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1896]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1897]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1898]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1899]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1900]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1901]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1902]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1903]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1904]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1905]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1906]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1907]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1908]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1909]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1910]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1911]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1912]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1913]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1914]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1915]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1916]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1917]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1918]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1919]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1920]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1921]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1922]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1923]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1924]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1925]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1926]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1927]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1928]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1929]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1930]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1931]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1932]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1933]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1934]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1935]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1936]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1937]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1938]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1939]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1940]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1941]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1942]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1943]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1944]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1945]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1946]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1947]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1948]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1949]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1950]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1951]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1952]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1953]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1954]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1955]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1956]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1957]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1958]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1959]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1960]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1961]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1962]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1963]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1964]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1965]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1966]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1967]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1968]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [1969]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [1984]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1985]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1986]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1987]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1988]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1989]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1990]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1991]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1992]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1993]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1994]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1995]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1996]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1997]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1998]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [1999]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2000]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2001]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2002]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2003]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2004]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2005]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2006]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2007]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2008]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2009]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2010]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2011]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2012]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2013]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2014]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2015]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2016]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2017]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2018]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2019]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2020]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2021]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2022]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2023]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2024]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2025]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2026]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2027]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2028]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2029]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2030]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2031]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2032]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2033]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2034]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2035]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2036]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2037]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2038]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [2039]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [2040]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [2041]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [2042]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2048]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2049]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2050]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2051]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2052]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2053]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2054]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2055]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2056]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2057]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2058]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2059]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2060]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2061]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2062]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2063]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2064]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2065]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2066]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2067]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2068]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2069]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2070]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2071]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2072]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2073]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2074]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2075]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2076]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2077]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2078]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2079]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2080]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2081]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2082]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2083]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2084]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2085]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2086]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2087]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2088]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2089]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2090]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2091]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2092]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2093]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2096]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2097]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2098]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2099]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2100]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2101]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2102]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2103]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2104]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2105]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2106]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2107]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2108]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2109]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2110]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [2304]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2305]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2306]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2364]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2369]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2370]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2371]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2372]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2373]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2374]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2375]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2376]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2381]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2385]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2386]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2387]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2388]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2389]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2402]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2403]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2433]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2492]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2497]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2498]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2499]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2500]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2509]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2530]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2531]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2546]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [2547]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [2555]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [2561]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2562]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2620]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2625]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2626]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2631]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2632]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2635]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2636]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2637]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2641]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2672]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2673]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2677]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2689]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2690]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2748]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2753]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2754]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2755]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2756]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2757]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2759]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2760]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2765]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2786]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2787]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2801]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [2817]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2876]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2879]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2881]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2882]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2883]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2884]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2893]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2902]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2914]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2915]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [2946]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3008]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3021]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3059]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [3060]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [3061]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [3062]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [3063]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [3064]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [3065]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [3066]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [3134]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3135]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3136]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3142]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3143]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3144]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3146]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3147]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3148]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3149]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3157]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3158]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3170]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3171]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3192]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [3193]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [3194]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [3195]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [3196]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [3197]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [3198]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [3260]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3276]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3277]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3298]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3299]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3313]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [3314]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [3393]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3394]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3395]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3396]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3405]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3426]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3427]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3530]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3538]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3539]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3540]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3542]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3633]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3636]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3637]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3638]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3639]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3640]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3641]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3642]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3647]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [3655]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3656]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3657]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3658]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3659]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3660]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3661]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3662]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3761]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3764]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3765]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3766]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3767]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3768]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3769]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3771]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3772]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3784]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3785]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3786]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3787]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3788]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3789]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3864]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3865]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3893]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3895]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3897]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3898]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=3899,
  },
  [3899]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=3898,
  },
  [3900]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=3901,
  },
  [3901]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=3900,
  },
  [3953]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3954]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3955]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3956]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3957]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3958]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3959]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3960]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3961]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3962]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3963]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3964]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3965]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3966]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3968]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3969]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3970]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3971]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3972]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3974]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3975]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3984]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3985]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3986]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3987]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3988]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3989]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3990]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3991]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3993]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3994]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3995]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3996]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3997]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3998]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [3999]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4000]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4001]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4002]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4003]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4004]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4005]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4006]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4007]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4008]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4009]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4010]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4011]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4012]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4013]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4014]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4015]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4016]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4017]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4018]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4019]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4020]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4021]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4022]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4023]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4024]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4025]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4026]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4027]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4028]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4038]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4141]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4142]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4143]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4144]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4146]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4147]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4148]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4149]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4150]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4151]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4153]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4154]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4157]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4158]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4184]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4185]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4190]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4191]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4192]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4209]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4210]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4211]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4212]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4226]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4229]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4230]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4237]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4253]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [4959]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [5008]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [5009]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [5010]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [5011]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [5012]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [5013]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [5014]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [5015]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [5016]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [5017]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [5120]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [5760]={
-  ["direction"]="ws",
+  ["dir"]="ws",
  },
  [5787]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=5788,
  },
  [5788]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=5787,
  },
  [5906]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [5907]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [5908]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [5938]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [5939]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [5940]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [5970]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [5971]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6002]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6003]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6071]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6072]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6073]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6074]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6075]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6076]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6077]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6086]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6089]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6090]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6091]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6092]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6093]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6094]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6095]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6096]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6097]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6098]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6099]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6107]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [6109]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6128]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6129]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6130]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6131]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6132]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6133]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6134]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6135]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6136]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6137]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6144]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6145]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6146]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6147]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6148]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6149]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6150]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6151]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6152]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6153]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6154]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6155]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6156]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6157]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6158]={
-  ["direction"]="ws",
+  ["dir"]="ws",
  },
  [6313]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6432]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6433]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6434]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6439]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6440]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6450]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6457]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6458]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6459]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6464]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6468]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6469]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6622]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6623]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6624]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6625]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6626]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6627]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6628]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6629]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6630]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6631]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6632]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6633]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6634]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6635]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6636]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6637]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6638]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6639]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6640]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6641]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6642]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6643]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6644]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6645]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6646]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6647]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6648]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6649]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6650]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6651]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6652]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6653]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6654]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6655]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [6679]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6680]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6742]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6744]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6745]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6746]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6747]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6748]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6749]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6750]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6752]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6754]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6757]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6758]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6759]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6760]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6761]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6762]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6763]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6764]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6771]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6772]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6773]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6774]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6775]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6776]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6777]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6778]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6779]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6780]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6783]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6912]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6913]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6914]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6915]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6964]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6966]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6967]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6968]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6969]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6970]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6972]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [6978]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7019]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7020]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7021]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7022]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7023]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7024]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7025]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7026]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7027]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7040]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7041]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7074]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7075]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7076]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7077]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7080]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7081]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7212]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7213]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7214]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7215]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7216]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7217]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7218]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7219]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7222]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7223]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7376]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7377]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7378]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7380]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7381]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7382]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7383]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7384]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7385]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7386]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7387]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7388]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7389]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7390]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7391]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7392]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7394]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7395]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7396]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7397]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7398]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7399]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7400]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7405]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7616]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7617]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7618]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7619]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7620]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7621]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7622]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7623]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7624]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7625]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7626]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7627]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7628]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7629]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7630]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7631]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7632]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7633]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7634]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7635]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7636]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7637]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7638]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7639]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7640]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7641]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7642]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7643]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7644]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7645]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7646]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7647]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7648]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7649]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7650]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7651]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7652]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7653]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7654]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7677]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7678]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [7679]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8125]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8127]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8128]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8129]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8141]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8142]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8143]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8157]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8158]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8159]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8173]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8174]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8175]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8189]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8190]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8192]={
-  ["direction"]="ws",
+  ["dir"]="ws",
  },
  [8193]={
-  ["direction"]="ws",
+  ["dir"]="ws",
  },
  [8194]={
-  ["direction"]="ws",
+  ["dir"]="ws",
  },
  [8195]={
-  ["direction"]="ws",
+  ["dir"]="ws",
  },
  [8196]={
-  ["direction"]="ws",
+  ["dir"]="ws",
  },
  [8197]={
-  ["direction"]="ws",
+  ["dir"]="ws",
  },
  [8198]={
-  ["direction"]="ws",
+  ["dir"]="ws",
  },
  [8199]={
-  ["direction"]="ws",
+  ["dir"]="ws",
  },
  [8200]={
-  ["direction"]="ws",
+  ["dir"]="ws",
  },
  [8201]={
-  ["direction"]="ws",
+  ["dir"]="ws",
  },
  [8202]={
-  ["direction"]="ws",
+  ["dir"]="ws",
  },
  [8203]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [8204]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [8205]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [8207]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [8208]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8209]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8210]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8211]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8212]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8213]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8214]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8215]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8216]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8217]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8218]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8219]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8220]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8221]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8222]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8223]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8224]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8225]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8226]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8227]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8228]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8229]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8230]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8231]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8232]={
-  ["direction"]="ws",
+  ["dir"]="ws",
  },
  [8233]={
-  ["direction"]="b",
+  ["dir"]="b",
  },
  [8234]={
-  ["direction"]="lre",
+  ["dir"]="lre",
  },
  [8235]={
-  ["direction"]="rle",
+  ["dir"]="rle",
  },
  [8236]={
-  ["direction"]="pdf",
+  ["dir"]="pdf",
  },
  [8237]={
-  ["direction"]="lro",
+  ["dir"]="lro",
  },
  [8238]={
-  ["direction"]="rlo",
+  ["dir"]="rlo",
  },
  [8239]={
-  ["direction"]="cs",
+  ["dir"]="cs",
  },
  [8240]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [8241]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [8242]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [8243]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [8244]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [8245]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8246]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8247]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8248]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8249]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8250,
  },
  [8250]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8249,
  },
  [8251]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8252]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8253]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8254]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8255]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8256]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8257]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8258]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8259]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8260]={
-  ["direction"]="cs",
+  ["dir"]="cs",
  },
  [8261]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8262,
  },
  [8262]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8261,
  },
  [8263]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8264]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8265]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8266]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8267]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8268]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8269]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8270]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8271]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8272]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8273]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8274]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8275]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8276]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8277]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8278]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8279]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8280]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8281]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8282]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8283]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8284]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8285]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8286]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8287]={
-  ["direction"]="ws",
+  ["dir"]="ws",
  },
  [8288]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [8289]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [8290]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [8291]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [8292]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [8298]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [8299]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [8300]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [8301]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [8302]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [8303]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [8304]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [8308]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [8309]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [8310]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [8311]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [8312]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [8313]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [8314]={
-  ["direction"]="es",
+  ["dir"]="es",
  },
  [8315]={
-  ["direction"]="es",
+  ["dir"]="es",
  },
  [8316]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8317]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8318,
  },
  [8318]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8317,
  },
  [8320]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [8321]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [8322]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [8323]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [8324]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [8325]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [8326]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [8327]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [8328]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [8329]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [8330]={
-  ["direction"]="es",
+  ["dir"]="es",
  },
  [8331]={
-  ["direction"]="es",
+  ["dir"]="es",
  },
  [8332]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8333]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8334,
  },
  [8334]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8333,
  },
  [8352]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [8353]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [8354]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [8355]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [8356]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [8357]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [8358]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [8359]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [8360]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [8361]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [8362]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [8363]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [8364]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [8365]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [8366]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [8367]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [8368]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [8369]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [8370]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [8371]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [8372]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [8373]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [8374]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [8375]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [8376]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [8400]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8401]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8402]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8403]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8404]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8405]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8406]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8407]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8408]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8409]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8410]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8411]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8412]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8413]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8414]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8415]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8416]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8417]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8418]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8419]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8420]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8421]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8422]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8423]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8424]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8425]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8426]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8427]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8428]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8429]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8430]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8431]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8432]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [8448]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8449]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8451]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8452]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8453]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8454]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8456]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8457]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8468]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8470]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8471]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8472]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8478]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8479]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8480]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8481]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8482]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8483]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8485]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8487]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8489]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8494]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [8506]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8507]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8512]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8513]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8514]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8515]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8516]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8522]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8523]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8524]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8525]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8528]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8529]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8530]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8531]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8532]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8533]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8534]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8535]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8536]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8537]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8538]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8539]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8540]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8541]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8542]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8543]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8585]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8592]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8593]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8594]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8595]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8596]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8597]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8598]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8599]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8600]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8601]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8602]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8603]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8604]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8605]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8606]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8607]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8608]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8609]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8610]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8611]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8612]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8613]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8614]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8615]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8616]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8617]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8618]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8619]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8620]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8621]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8622]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8623]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8624]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8625]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8626]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8627]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8628]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8629]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8630]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8631]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8632]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8633]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8634]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8635]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8636]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8637]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8638]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8639]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8640]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8641]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8642]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8643]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8644]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8645]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8646]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8647]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8648]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8649]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8650]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8651]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8652]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8653]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8654]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8655]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8656]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8657]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8658]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8659]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8660]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8661]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8662]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8663]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8664]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8665]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8666]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8667]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8668]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8669]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8670]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8671]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8672]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8673]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8674]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8675]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8676]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8677]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8678]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8679]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8680]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8681]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8682]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8683]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8684]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8685]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8686]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8687]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8688]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8689]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8690]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8691]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8692]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8693]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8694]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8695]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8696]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8697]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8698]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8699]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8700]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8701]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8702]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8703]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8704]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8705]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8706]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8707]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8708]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8709]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8710]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8711]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8712]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8715,
  },
  [8713]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8716,
  },
  [8714]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8717,
  },
  [8715]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8712,
  },
  [8716]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8713,
  },
  [8717]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8714,
  },
  [8718]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8719]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8720]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8721]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8722]={
-  ["direction"]="es",
+  ["dir"]="es",
  },
  [8723]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [8724]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8725]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10741,
  },
  [8726]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8727]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8728]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8729]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8730]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8731]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8732]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8733]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8734]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8735]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8736]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8737]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8738]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8739]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8740]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8741]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8742]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8743]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8744]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8745]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8746]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8747]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8748]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8749]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8750]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8751]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8752]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8753]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8754]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8755]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8756]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8757]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8758]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8759]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8760]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8761]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8762]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8763]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8764]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8765,
  },
  [8765]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8764,
  },
  [8766]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8767]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8768]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8769]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8770]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8771]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8909,
  },
  [8772]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8773]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8774]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8775]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8776]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8777]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8778]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8779]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8780]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8781]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8782]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8783]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8784]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8785]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8786]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8787,
  },
  [8787]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8786,
  },
  [8788]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8789,
  },
  [8789]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8788,
  },
  [8790]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8791]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8792]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8793]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8794]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8795]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8796]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8797]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8798]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8799]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8800]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8801]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8802]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8803]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8804]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8805,
  },
  [8805]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8804,
  },
  [8806]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8807,
  },
  [8807]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8806,
  },
  [8808]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8809,
  },
  [8809]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8808,
  },
  [8810]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8811,
  },
  [8811]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8810,
  },
  [8812]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8813]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8814]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8815,
  },
  [8815]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8814,
  },
  [8816]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8817,
  },
  [8817]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8816,
  },
  [8818]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8819,
  },
  [8819]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8818,
  },
  [8820]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8821,
  },
  [8821]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8820,
  },
  [8822]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8823,
  },
  [8823]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8822,
  },
  [8824]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8825,
  },
  [8825]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8824,
  },
  [8826]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8827,
  },
  [8827]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8826,
  },
  [8828]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8829,
  },
  [8829]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8828,
  },
  [8830]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8831,
  },
  [8831]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8830,
  },
  [8832]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8833,
  },
  [8833]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8832,
  },
  [8834]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8835,
  },
  [8835]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8834,
  },
  [8836]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8837,
  },
  [8837]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8836,
  },
  [8838]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8839,
  },
  [8839]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8838,
  },
  [8840]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8841,
  },
  [8841]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8840,
  },
  [8842]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8843,
  },
  [8843]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8842,
  },
  [8844]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8845]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8846]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8847]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8848,
  },
  [8848]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8847,
  },
  [8849]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8850,
  },
  [8850]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8849,
  },
  [8851]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8852]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8853]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8854]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8855]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8856]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10680,
  },
  [8857]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8858]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8859]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8860]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8861]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8862]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8863]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8864]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8865]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8866]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8867,
  },
  [8867]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8866,
  },
  [8868]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8869]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8870]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10974,
  },
  [8871]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8872]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10980,
  },
  [8873]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10979,
  },
  [8874]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8875]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10981,
  },
  [8876]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8877]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8878]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8879]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8880]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8881,
  },
  [8881]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8880,
  },
  [8882]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8883,
  },
  [8883]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8882,
  },
  [8884]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8885,
  },
  [8885]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8884,
  },
  [8886]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8887,
  },
  [8887]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8886,
  },
  [8888]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8889]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8890]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8891]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8892]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8893]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8894]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8895]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8896]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8897]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8898]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8899]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8900]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8901]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8902]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8903]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8904]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8905]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8906,
  },
  [8906]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8905,
  },
  [8907]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8908,
  },
  [8908]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8907,
  },
  [8909]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8771,
  },
  [8910]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8911]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8912]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8913,
  },
  [8913]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8912,
  },
  [8914]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8915]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8916]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8917]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8918]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8919,
  },
  [8919]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8918,
  },
  [8920]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8921,
  },
  [8921]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8920,
  },
  [8922]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8923,
  },
  [8923]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8922,
  },
  [8924]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8925,
  },
  [8925]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8924,
  },
  [8926]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8927,
  },
  [8927]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8926,
  },
  [8928]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8929,
  },
  [8929]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8928,
  },
  [8930]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8931,
  },
  [8931]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8930,
  },
  [8932]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8933,
  },
  [8933]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8932,
  },
  [8934]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8935,
  },
  [8935]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8934,
  },
  [8936]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8937,
  },
  [8937]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8936,
  },
  [8938]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8939,
  },
  [8939]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8938,
  },
  [8940]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8941,
  },
  [8941]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8940,
  },
  [8942]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8943]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8944]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8945,
  },
  [8945]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8944,
  },
  [8946]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8954,
  },
  [8947]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8955,
  },
  [8948]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8956,
  },
  [8949]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8950]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8957,
  },
  [8951]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8958,
  },
  [8952]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8953]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8954]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8946,
  },
  [8955]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8947,
  },
  [8956]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8948,
  },
  [8957]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8950,
  },
  [8958]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8951,
  },
  [8959]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8960]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8961]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8962]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8963]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8964]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8965]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8966]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8967]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8968]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8969,
  },
  [8969]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8968,
  },
  [8970]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8971,
  },
  [8971]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8970,
  },
  [8972]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8973]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8974]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8975]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8976]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8977]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8978]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8979]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8980]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8981]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8982]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8983]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8984]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8985]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8986]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8987]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8988]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8989]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8990]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8991]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8992]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8993]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8994]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8995]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8996]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8997]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8998]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [8999]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9000]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9001]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=9002,
  },
  [9002]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=9001,
  },
  [9003]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9004]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9005]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9006]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9007]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9008]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9009]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9010]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9011]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9012]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9013]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9083]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9084]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9085]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9086]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9087]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9088]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9089]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9090]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9091]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9092]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9093]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9094]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9095]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9096]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9097]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9098]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9099]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9100]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9101]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9102]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9103]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9104]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9105]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9106]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9107]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9108]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9110]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9111]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9112]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9113]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9114]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9115]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9116]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9117]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9118]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9119]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9120]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9121]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9122]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9123]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9124]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9125]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9126]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9127]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9128]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9129]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9130]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9131]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9132]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9133]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9134]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9135]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9136]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9137]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9138]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9139]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9140]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9141]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9142]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9143]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9144]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9145]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9146]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9147]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9148]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9149]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9150]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9151]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9152]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9153]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9154]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9155]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9156]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9157]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9158]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9159]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9160]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9161]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9162]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9163]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9164]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9165]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9166]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9167]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9168]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9169]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9170]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9171]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9172]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9173]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9174]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9175]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9176]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9177]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9178]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9179]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9180]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9181]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9182]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9183]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9184]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9185]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9186]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9187]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9188]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9189]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9190]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9191]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9192]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9216]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9217]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9218]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9219]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9220]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9221]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9222]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9223]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9224]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9225]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9226]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9227]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9228]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9229]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9230]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9231]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9232]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9233]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9234]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9235]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9236]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9237]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9238]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9239]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9240]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9241]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9242]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9243]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9244]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9245]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9246]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9247]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9248]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9249]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9250]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9251]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9252]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9253]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9254]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9280]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9281]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9282]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9283]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9284]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9285]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9286]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9287]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9288]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9289]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9290]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9312]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9313]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9314]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9315]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9316]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9317]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9318]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9319]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9320]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9321]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9322]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9323]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9324]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9325]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9326]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9327]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9328]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9329]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9330]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9331]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9332]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9333]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9334]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9335]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9336]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9337]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9338]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9339]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9340]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9341]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9342]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9343]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9344]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9345]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9346]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9347]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9348]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9349]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9350]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9351]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9352]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [9353]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [9354]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [9355]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [9356]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [9357]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [9358]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [9359]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [9360]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [9361]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [9362]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [9363]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [9364]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [9365]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [9366]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [9367]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [9368]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [9369]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [9370]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [9371]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [9450]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9451]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9452]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9453]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9454]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9455]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9456]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9457]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9458]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9459]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9460]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9461]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9462]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9463]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9464]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9465]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9466]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9467]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9468]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9469]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9470]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9471]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9472]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9473]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9474]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9475]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9476]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9477]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9478]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9479]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9480]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9481]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9482]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9483]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9484]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9485]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9486]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9487]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9488]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9489]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9490]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9491]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9492]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9493]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9494]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9495]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9496]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9497]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9498]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9499]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9500]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9501]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9502]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9503]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9504]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9505]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9506]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9507]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9508]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9509]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9510]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9511]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9512]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9513]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9514]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9515]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9516]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9517]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9518]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9519]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9520]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9521]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9522]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9523]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9524]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9525]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9526]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9527]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9528]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9529]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9530]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9531]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9532]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9533]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9534]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9535]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9536]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9537]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9538]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9539]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9540]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9541]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9542]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9543]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9544]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9545]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9546]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9547]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9548]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9549]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9550]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9551]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9552]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9553]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9554]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9555]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9556]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9557]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9558]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9559]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9560]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9561]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9562]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9563]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9564]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9565]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9566]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9567]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9568]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9569]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9570]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9571]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9572]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9573]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9574]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9575]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9576]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9577]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9578]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9579]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9580]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9581]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9582]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9583]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9584]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9585]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9586]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9587]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9588]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9589]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9590]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9591]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9592]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9593]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9594]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9595]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9596]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9597]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9598]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9599]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9600]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9601]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9602]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9603]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9604]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9605]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9606]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9607]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9608]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9609]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9610]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9611]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9612]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9613]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9614]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9615]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9616]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9617]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9618]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9619]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9620]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9621]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9622]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9623]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9624]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9625]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9626]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9627]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9628]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9629]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9630]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9631]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9632]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9633]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9634]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9635]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9636]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9637]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9638]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9639]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9640]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9641]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9642]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9643]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9644]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9645]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9646]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9647]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9648]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9649]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9650]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9651]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9652]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9653]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9654]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9655]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9656]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9657]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9658]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9659]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9660]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9661]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9662]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9663]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9664]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9665]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9666]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9667]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9668]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9669]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9670]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9671]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9672]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9673]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9674]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9675]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9676]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9677]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9678]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9679]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9680]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9681]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9682]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9683]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9684]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9685]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9686]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9687]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9688]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9689]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9690]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9691]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9692]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9693]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9694]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9695]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9696]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9697]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9698]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9699]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9700]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9701]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9702]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9703]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9704]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9705]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9706]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9707]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9708]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9709]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9710]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9711]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9712]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9713]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9714]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9715]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9716]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9717]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9718]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9719]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9720]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9721]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9722]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9723]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9724]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9725]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9726]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9727]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9728]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9729]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9730]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9731]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9732]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9733]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9734]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9735]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9736]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9737]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9738]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9739]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9740]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9741]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9742]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9743]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9744]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9745]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9746]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9747]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9748]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9749]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9750]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9751]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9752]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9753]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9754]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9755]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9756]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9757]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9758]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9759]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9760]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9761]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9762]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9763]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9764]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9765]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9766]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9767]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9768]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9769]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9770]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9771]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9772]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9773]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9774]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9775]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9776]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9777]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9778]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9779]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9780]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9781]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9782]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9783]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9784]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9785]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9786]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9787]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9788]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9789]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9790]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9791]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9792]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9793]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9794]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9795]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9796]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9797]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9798]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9799]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9800]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9801]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9802]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9803]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9804]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9805]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9806]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9807]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9808]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9809]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9810]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9811]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9812]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9813]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9814]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9815]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9816]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9817]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9818]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9819]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9820]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9821]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9822]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9823]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9824]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9825]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9826]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9827]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9828]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9829]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9830]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9831]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9832]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9833]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9834]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9835]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9836]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9837]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9838]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9839]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9840]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9841]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9842]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9843]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9844]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9845]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9846]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9847]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9848]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9849]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9850]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9851]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9852]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9853]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9854]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9855]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9856]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9857]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9858]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9859]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9860]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9861]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9862]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9863]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9864]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9865]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9866]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9867]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9868]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9869]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9870]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9871]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9872]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9873]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9874]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9875]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9876]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9877]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9878]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9879]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9880]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9881]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9882]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9883]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9884]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9885]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9886]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9887]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9888]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9889]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9890]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9891]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9892]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9893]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9894]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9895]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9896]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9897]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9898]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9899]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9901]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9902]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9903]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9904]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9905]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9906]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9907]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9908]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9909]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9910]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9911]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9912]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9913]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9914]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9915]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9916]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9917]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9918]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9919]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9920]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9921]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9922]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9923]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9924]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9925]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9926]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9927]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9928]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9929]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9930]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9931]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9932]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9933]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9935]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9936]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9937]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9938]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9939]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9940]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9941]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9942]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9943]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9944]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9945]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9946]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9947]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9948]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9949]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9950]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9951]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9952]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9953]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9955]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9960]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9961]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9962]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9963]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9964]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9965]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9966]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9967]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9968]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9969]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9970]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9971]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9972]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9973]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9974]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9975]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9976]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9977]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9978]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9979]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9980]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9981]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9982]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9983]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9985]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9986]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9987]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9988]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9990]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9991]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9992]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9993]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9996]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9997]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9998]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [9999]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10000]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10001]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10002]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10003]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10004]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10005]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10006]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10007]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10008]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10009]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10010]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10011]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10012]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10013]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10014]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10015]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10016]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10017]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10018]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10019]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10020]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10021]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10022]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10023]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10025]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10026]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10027]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10028]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10029]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10030]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10031]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10032]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10033]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10034]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10035]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10036]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10037]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10038]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10039]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10040]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10041]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10042]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10043]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10044]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10045]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10046]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10047]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10048]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10049]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10050]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10051]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10052]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10053]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10054]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10055]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10056]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10057]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10058]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10059]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10061]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10063]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10064]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10065]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10066]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10070]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10071]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10072]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10073]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10074]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10075]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10076]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10077]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10078]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10081]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10082]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10083]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10084]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10085]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10086]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10087]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10088]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10089,
  },
  [10089]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10088,
  },
  [10090]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10091,
  },
  [10091]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10090,
  },
  [10092]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10093,
  },
  [10093]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10092,
  },
  [10094]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10095,
  },
  [10095]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10094,
  },
  [10096]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10097,
  },
  [10097]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10096,
  },
  [10098]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10099,
  },
  [10099]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10098,
  },
  [10100]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10101,
  },
  [10101]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10100,
  },
  [10102]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10103]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10104]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10105]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10106]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10107]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10108]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10109]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10110]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10111]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10112]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10113]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10114]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10115]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10116]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10117]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10118]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10119]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10120]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10121]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10122]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10123]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10124]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10125]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10126]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10127]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10128]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10129]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10130]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10131]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10132]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10136]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10137]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10138]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10139]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10140]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10141]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10142]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10143]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10144]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10145]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10146]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10147]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10148]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10149]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10150]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10151]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10152]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10153]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10154]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10155]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10156]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10157]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10158]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10159]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10161]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10162]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10163]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10164]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10165]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10166]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10167]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10168]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10169]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10170]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10171]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10172]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10173]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10174]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10176]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10177]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10178]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10179]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10180,
  },
  [10180]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10179,
  },
  [10181]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10182,
  },
  [10182]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10181,
  },
  [10183]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10184]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10185,
  },
  [10185]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10184,
  },
  [10186]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10188]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10192]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10193]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10194]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10195]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10196]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10197]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10198,
  },
  [10198]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10197,
  },
  [10199]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10200]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10201]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10202]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10203]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10204]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10205]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10206,
  },
  [10206]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10205,
  },
  [10207]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10208]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10209]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10210]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10211,
  },
  [10211]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10210,
  },
  [10212]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10213,
  },
  [10213]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10212,
  },
  [10214]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10215,
  },
  [10215]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10214,
  },
  [10216]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10217,
  },
  [10217]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10216,
  },
  [10218]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10219,
  },
  [10219]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10218,
  },
  [10220]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10221,
  },
  [10221]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10220,
  },
  [10222]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10223,
  },
  [10223]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10222,
  },
  [10224]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10225]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10226]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10227]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10228]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10229]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10230]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10231]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10232]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10233]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10234]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10235]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10236]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10237]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10238]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10239]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10496]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10497]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10498]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10499]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10500]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10501]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10502]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10503]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10504]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10505]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10506]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10507]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10508]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10509]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10510]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10511]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10512]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10513]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10514]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10515]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10516]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10517]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10518]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10519]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10520]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10521]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10522]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10523]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10524]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10525]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10526]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10527]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10528]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10529]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10530]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10531]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10532]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10533]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10534]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10535]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10536]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10537]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10538]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10539]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10540]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10541]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10542]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10543]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10544]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10545]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10546]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10547]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10548]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10549]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10550]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10551]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10552]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10553]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10554]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10555]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10556]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10557]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10558]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10559]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10560]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10561]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10562]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10563]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10564]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10565]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10566]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10567]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10568]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10569]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10570]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10571]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10572]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10573]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10574]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10575]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10576]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10577]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10578]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10579]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10580]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10581]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10582]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10583]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10584]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10585]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10586]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10587]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10588]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10589]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10590]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10591]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10592]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10593]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10594]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10595]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10596]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10597]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10598]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10599]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10600]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10601]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10602]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10603]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10604]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10605]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10606]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10607]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10608]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10609]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10610]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10611]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10612]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10613]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10614]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10615]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10616]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10617]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10618]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10619]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10620]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10621]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10622]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10623]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10624]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10625]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10626]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10627]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10628,
  },
  [10628]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10627,
  },
  [10629]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10630,
  },
  [10630]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10629,
  },
  [10631]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10632,
  },
  [10632]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10631,
  },
  [10633]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10634,
  },
  [10634]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10633,
  },
  [10635]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10636,
  },
  [10636]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10635,
  },
  [10637]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10640,
  },
  [10638]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10639,
  },
  [10639]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10638,
  },
  [10640]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10637,
  },
  [10641]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10642,
  },
  [10642]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10641,
  },
  [10643]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10644,
  },
  [10644]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10643,
  },
  [10645]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10646,
  },
  [10646]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10645,
  },
  [10647]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10648,
  },
  [10648]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10647,
  },
  [10649]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10650]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10651]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10652]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10653]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10654]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10655]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10656]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10657]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10658]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10659]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10660]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10661]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10662]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10663]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10664]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10665]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10666]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10667]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10668]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10669]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10670]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10671]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10672]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10673]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10674]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10675]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10676]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10677]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10678]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10679]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10680]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8856,
  },
  [10681]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10682]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10683]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10684]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10685]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10686]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10687]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10688]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10689,
  },
  [10689]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10688,
  },
  [10690]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10691]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10692]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10693,
  },
  [10693]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10692,
  },
  [10694]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10695]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10696]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10697]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10698]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10699]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10700]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10701]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10702]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10703]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10704,
  },
  [10704]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10703,
  },
  [10705]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10706,
  },
  [10706]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10705,
  },
  [10707]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10708]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10709,
  },
  [10709]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10708,
  },
  [10710]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10711]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10712]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10713,
  },
  [10713]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10712,
  },
  [10714]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10715,
  },
  [10715]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10714,
  },
  [10716]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10717]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10718]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10719]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10720]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10721]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10722]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10723]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10724]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10725]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10726]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10727]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10728]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10729]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10730]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10731]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10732]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10733]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10734]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10735]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10736]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10737]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10738]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10739]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10740]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10741]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8725,
  },
  [10742]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10743]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10744]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10745,
  },
  [10745]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10744,
  },
  [10746]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10747]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10748]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10749,
  },
  [10749]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10748,
  },
  [10750]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10751]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10752]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10753]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10754]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10755]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10756]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10757]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10758]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10759]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10760]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10761]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10762]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10763]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10764]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10765]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10766]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10767]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10768]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10769]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10770]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10771]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10772]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10773]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10774]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10775]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10776]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10777]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10778]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10779]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10780]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10781]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10782]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10783]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10784]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10785]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10786]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10787]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10788]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10789]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10790]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10791]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10792]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10793]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10794]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10795]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10796,
  },
  [10796]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10795,
  },
  [10797]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10798,
  },
  [10798]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10797,
  },
  [10799]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10800]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10801]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10802]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10803]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10804]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10805,
  },
  [10805]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10804,
  },
  [10806]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10807]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10808]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10809]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10810]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10811]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10812]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10813,
  },
  [10813]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10812,
  },
  [10814]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10815]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10816]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10817]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10818]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10819]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10820]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10821]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10822]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10823]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10824]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10825]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10826]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10827]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10828]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10829]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10830]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10831]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10832]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10833]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10834]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10835]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10836]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10837]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10838]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10839]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10840]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10841]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10842]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10843]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10844]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10845]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10846]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10847]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10848]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10849]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10850]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10851]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10852]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10853,
  },
  [10853]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10852,
  },
  [10854]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10855]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10856]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10857]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10858]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10859]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10860]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10861]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10862]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10863]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10864]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10865]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10866]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10867]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10868]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10869]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10870]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10871]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10872]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10873]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10874,
  },
  [10874]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10873,
  },
  [10875]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10876]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10877]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10878,
  },
  [10878]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10877,
  },
  [10879]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10880,
  },
  [10880]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10879,
  },
  [10881]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10882,
  },
  [10882]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10881,
  },
  [10883]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10884,
  },
  [10884]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10883,
  },
  [10885]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10886]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10887]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10888]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10889]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10890]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10891]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10892,
  },
  [10892]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10891,
  },
  [10893]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10894]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10895]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10896]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10897]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10898,
  },
  [10898]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10897,
  },
  [10899]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10900,
  },
  [10900]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10899,
  },
  [10901]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10902,
  },
  [10902]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10901,
  },
  [10903]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10904,
  },
  [10904]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10903,
  },
  [10905]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10906,
  },
  [10906]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10905,
  },
  [10907]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10908,
  },
  [10908]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10907,
  },
  [10909]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10910]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10911]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10912]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10913]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10914,
  },
  [10914]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10913,
  },
  [10915]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10916]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10917]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10918]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10919,
  },
  [10919]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10918,
  },
  [10920]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10921,
  },
  [10921]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10920,
  },
  [10922]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10923,
  },
  [10923]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10922,
  },
  [10924]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10925,
  },
  [10925]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10924,
  },
  [10926]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10927]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10928,
  },
  [10928]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10927,
  },
  [10929]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10930]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10931]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10932,
  },
  [10932]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10931,
  },
  [10933]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10934]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10935]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10936]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10937]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10938]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10939]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10940,
  },
  [10940]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10939,
  },
  [10941]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10942,
  },
  [10942]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10941,
  },
  [10943]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10944,
  },
  [10944]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10943,
  },
  [10945]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10946,
  },
  [10946]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10945,
  },
  [10947]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10948,
  },
  [10948]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10947,
  },
  [10949]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10950,
  },
  [10950]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10949,
  },
  [10951]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10952]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10953]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10954]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10955]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10956]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10957]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10958,
  },
  [10958]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10957,
  },
  [10959]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10960,
  },
  [10960]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10959,
  },
  [10961]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10962,
  },
  [10962]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10961,
  },
  [10963]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10964,
  },
  [10964]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10963,
  },
  [10965]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10966,
  },
  [10966]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10965,
  },
  [10967]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10968]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10969]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10970]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10971]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10972]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10973]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10974]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8870,
  },
  [10975]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10976]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10977]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10978]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10979]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8873,
  },
  [10980]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8872,
  },
  [10981]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=8875,
  },
  [10982]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10983]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10984]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10985]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10986]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10987]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10988]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10989,
  },
  [10989]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10988,
  },
  [10990]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10991]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10992]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10993]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10994]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10995]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10996]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10997]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10998]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [10999]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=11000,
  },
  [11000]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=10999,
  },
  [11001]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=11002,
  },
  [11002]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=11001,
  },
  [11003]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11004]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11005]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11006]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11007]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11008]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11009]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11010]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11011]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11012]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11013]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11014]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11015]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11016]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11017]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11018]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11019]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11020]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11021]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11022]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11023]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11024]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11025]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11026]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11027]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11028]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11029]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11030]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11031]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11032]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11033]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11034]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11035]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11036]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11037]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11038]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11039]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11040]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11041]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11042]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11043]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11044]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11045]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11046]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11047]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11048]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11049]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11050]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11051]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11052]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11053]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11054]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11055]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11056]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11057]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11058]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11059]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11060]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11061]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11062]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11063]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11064]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11065]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11066]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11067]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11068]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11069]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11070]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11071]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11072]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11073]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11074]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11075]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11076]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11077]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11078]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11079]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11080]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11081]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11082]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11083]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11084]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11088]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11089]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11090]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11091]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11092]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11093]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11094]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11095]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11096]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11097]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11493]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11494]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11495]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11496]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11497]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11498]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11503]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11504]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11505]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11513]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11514]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11515]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11516]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11517]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11518]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11519]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11744]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11745]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11746]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11747]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11748]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11749]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11750]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11751]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11752]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11753]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11754]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11755]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11756]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11757]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11758]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11759]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11760]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11761]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11762]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11763]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11764]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11765]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11766]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11767]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11768]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11769]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11770]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11771]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11772]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11773]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11774]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11775]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [11776]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11777]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11778]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=11779,
  },
  [11779]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=11778,
  },
  [11780]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=11781,
  },
  [11781]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=11780,
  },
  [11782]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11783]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11784]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11785]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=11786,
  },
  [11786]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=11785,
  },
  [11787]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11788]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=11789,
  },
  [11789]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=11788,
  },
  [11790]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11791]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11792]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11793]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11794]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11795]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11796]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11797]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11798]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11799]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11800]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11801]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11802]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11803]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11804]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=11805,
  },
  [11805]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=11804,
  },
  [11806]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11807]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11808]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=11809,
  },
  [11809]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=11808,
  },
  [11810]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=11811,
  },
  [11811]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=11810,
  },
  [11812]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=11813,
  },
  [11813]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=11812,
  },
  [11814]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=11815,
  },
  [11815]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=11814,
  },
  [11816]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=11817,
  },
  [11817]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=11816,
  },
  [11818]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11819]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11820]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11821]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11822]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11823]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11824]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11825]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11904]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11905]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11906]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11907]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11908]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11909]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11910]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11911]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11912]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11913]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11914]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11915]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11916]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11917]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11918]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11919]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11920]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11921]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11922]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11923]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11924]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11925]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11926]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11927]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11928]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11929]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11931]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11932]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11933]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11934]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11935]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11936]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11937]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11938]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11939]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11940]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11941]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11942]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11943]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11944]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11945]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11946]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11947]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11948]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11949]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11950]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11951]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11952]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11953]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11954]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11955]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11956]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11957]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11958]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11959]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11960]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11961]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11962]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11963]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11964]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11965]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11966]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11967]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11968]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11969]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11970]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11971]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11972]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11973]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11974]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11975]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11976]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11977]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11978]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11979]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11980]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11981]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11982]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11983]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11984]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11985]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11986]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11987]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11988]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11989]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11990]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11991]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11992]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11993]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11994]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11995]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11996]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11997]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11998]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [11999]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12000]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12001]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12002]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12003]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12004]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12005]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12006]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12007]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12008]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12009]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12010]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12011]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12012]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12013]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12014]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12015]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12016]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12017]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12018]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12019]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12032]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12033]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12034]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12035]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12036]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12037]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12038]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12039]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12040]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12041]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12042]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12043]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12044]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12045]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12046]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12047]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12048]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12049]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12050]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12051]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12052]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12053]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12054]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12055]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12056]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12057]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12058]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12059]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12060]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12061]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12062]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12063]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12064]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12065]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12066]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12067]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12068]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12069]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12070]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12071]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12072]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12073]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12074]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12075]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12076]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12077]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12078]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12079]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12080]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12081]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12082]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12083]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12084]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12085]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12086]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12087]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12088]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12089]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12090]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12091]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12092]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12093]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12094]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12095]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12096]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12097]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12098]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12099]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12100]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12101]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12102]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12103]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12104]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12105]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12106]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12107]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12108]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12109]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12110]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12111]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12112]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12113]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12114]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12115]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12116]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12117]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12118]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12119]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12120]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12121]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12122]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12123]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12124]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12125]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12126]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12127]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12128]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12129]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12130]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12131]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12132]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12133]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12134]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12135]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12136]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12137]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12138]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12139]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12140]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12141]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12142]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12143]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12144]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12145]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12146]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12147]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12148]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12149]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12150]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12151]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12152]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12153]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12154]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12155]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12156]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12157]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12158]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12159]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12160]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12161]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12162]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12163]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12164]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12165]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12166]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12167]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12168]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12169]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12170]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12171]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12172]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12173]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12174]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12175]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12176]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12177]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12178]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12179]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12180]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12181]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12182]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12183]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12184]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12185]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12186]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12187]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12188]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12189]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12190]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12191]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12192]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12193]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12194]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12195]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12196]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12197]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12198]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12199]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12200]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12201]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12202]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12203]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12204]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12205]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12206]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12207]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12208]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12209]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12210]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12211]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12212]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12213]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12214]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12215]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12216]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12217]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12218]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12219]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12220]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12221]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12222]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12223]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12224]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12225]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12226]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12227]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12228]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12229]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12230]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12231]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12232]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12233]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12234]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12235]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12236]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12237]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12238]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12239]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12240]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12241]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12242]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12243]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12244]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12245]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12272]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12273]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12274]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12275]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12276]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12277]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12278]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12279]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12280]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12281]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12282]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12283]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12288]={
-  ["direction"]="ws",
+  ["dir"]="ws",
  },
  [12289]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12290]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12291]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12292]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12296]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=12297,
  },
  [12297]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=12296,
  },
  [12298]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=12299,
  },
  [12299]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=12298,
  },
  [12300]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=12301,
  },
  [12301]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=12300,
  },
  [12302]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=12303,
  },
  [12303]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=12302,
  },
  [12304]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=12305,
  },
  [12305]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=12304,
  },
  [12306]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12307]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12308]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=12309,
  },
  [12309]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=12308,
  },
  [12310]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=12311,
  },
  [12311]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=12310,
  },
  [12312]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=12313,
  },
  [12313]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=12312,
  },
  [12314]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=12315,
  },
  [12315]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=12314,
  },
  [12316]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12317]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12318]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12319]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12320]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12330]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [12331]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [12332]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [12333]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [12334]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [12335]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [12336]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12342]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12343]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12349]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12350]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12351]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12441]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [12442]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [12443]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12444]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12448]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12539]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12736]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12737]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12738]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12739]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12740]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12741]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12742]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12743]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12744]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12745]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12746]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12747]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12748]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12749]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12750]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12751]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12752]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12753]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12754]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12755]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12756]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12757]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12758]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12759]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12760]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12761]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12762]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12763]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12764]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12765]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12766]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12767]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12768]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12769]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12770]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12771]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12829]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12830]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12880]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12881]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12882]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12883]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12884]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12885]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12886]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12887]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12888]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12889]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12890]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12891]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12892]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12893]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12894]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12895]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12924]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12925]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12926]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12977]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12978]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12979]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12980]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12981]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12982]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12983]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12984]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12985]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12986]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12987]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12988]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12989]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12990]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [12991]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [13004]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [13005]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [13006]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [13007]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [13175]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [13176]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [13177]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [13178]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [13278]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [13279]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [13311]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19904]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19905]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19906]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19907]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19908]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19909]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19910]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19911]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19912]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19913]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19914]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19915]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19916]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19917]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19918]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19919]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19920]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19921]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19922]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19923]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19924]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19925]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19926]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19927]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19928]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19929]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19930]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19931]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19932]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19933]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19934]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19935]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19936]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19937]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19938]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19939]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19940]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19941]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19942]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19943]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19944]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19945]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19946]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19947]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19948]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19949]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19950]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19951]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19952]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19953]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19954]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19955]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19956]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19957]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19958]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19959]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19960]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19961]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19962]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19963]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19964]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19965]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19966]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [19967]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42128]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42129]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42130]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42131]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42132]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42133]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42134]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42135]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42136]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42137]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42138]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42139]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42140]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42141]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42142]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42143]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42144]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42145]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42146]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42147]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42148]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42149]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42150]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42151]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42152]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42153]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42154]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42155]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42156]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42157]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42158]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42159]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42160]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42161]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42162]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42163]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42164]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42165]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42166]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42167]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42168]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42169]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42170]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42171]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42172]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42173]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42174]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42175]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42176]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42177]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42178]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42179]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42180]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42181]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42182]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42509]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42510]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42511]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42607]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [42608]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [42609]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [42610]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [42611]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42620]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [42621]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [42622]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42623]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42736]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [42737]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [42752]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42753]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42754]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42755]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42756]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42757]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42758]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42759]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42760]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42761]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42762]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42763]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42764]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42765]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42766]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42767]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42768]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42769]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42770]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42771]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42772]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42773]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42774]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42775]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42776]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42777]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42778]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42779]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42780]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42781]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42782]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42783]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42784]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42785]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [42888]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [43010]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43014]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43019]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43045]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43046]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43048]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [43049]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [43050]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [43051]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [43064]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [43065]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [43124]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [43125]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [43126]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [43127]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [43204]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43232]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43233]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43234]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43235]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43236]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43237]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43238]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43239]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43240]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43241]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43242]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43243]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43244]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43245]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43246]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43247]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43248]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43249]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43302]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43303]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43304]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43305]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43306]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43307]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43308]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43309]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43335]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43336]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43337]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43338]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43339]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43340]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43341]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43342]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43343]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43344]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43345]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43392]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43393]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43394]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43443]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43446]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43447]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43448]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43449]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43452]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43561]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43562]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43563]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43564]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43565]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43566]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43569]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43570]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43573]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43574]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43587]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43596]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43696]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43698]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43699]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43700]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43703]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43704]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43710]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43711]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [43713]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [44005]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [44008]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [44013]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [64285]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64286]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [64287]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64288]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64289]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64290]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64291]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64292]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64293]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64294]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64295]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64296]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64297]={
-  ["direction"]="es",
+  ["dir"]="es",
  },
  [64298]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64299]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64300]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64301]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64302]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64303]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64304]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64305]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64306]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64307]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64308]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64309]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64310]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64312]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64313]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64314]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64315]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64316]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64318]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64320]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64321]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64323]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64324]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64326]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64327]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64328]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64329]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64330]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64331]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64332]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64333]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64334]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64335]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [64336]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64337]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64338]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64339]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64340]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64341]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64342]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64343]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64344]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64345]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64346]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64347]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64348]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64349]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64350]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64351]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64352]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64353]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64354]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64355]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64356]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64357]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64358]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64359]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64360]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64361]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64362]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64363]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64364]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64365]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64366]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64367]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64368]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64369]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64370]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64371]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64372]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64373]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64374]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64375]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64376]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64377]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64378]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64379]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64380]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64381]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64382]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64383]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64384]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64385]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64386]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64387]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64388]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64389]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64390]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64391]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64392]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64393]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64394]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64395]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64396]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64397]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64398]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64399]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64400]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64401]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64402]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64403]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64404]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64405]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64406]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64407]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64408]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64409]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64410]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64411]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64412]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64413]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64414]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64415]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64416]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64417]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64418]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64419]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64420]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64421]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64422]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64423]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64424]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64425]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64426]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64427]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64428]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64429]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64430]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64431]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64432]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64433]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64467]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64468]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64469]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64470]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64471]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64472]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64473]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64474]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64475]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64476]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64477]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64478]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64479]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64480]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64481]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64482]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64483]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64484]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64485]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64486]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64487]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64488]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64489]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64490]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64491]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64492]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64493]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64494]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64495]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64496]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64497]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64498]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64499]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64500]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64501]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64502]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64503]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64504]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64505]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64506]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64507]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64508]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64509]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64510]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64511]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64512]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64513]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64514]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64515]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64516]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64517]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64518]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64519]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64520]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64521]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64522]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64523]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64524]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64525]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64526]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64527]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64528]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64529]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64530]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64531]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64532]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64533]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64534]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64535]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64536]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64537]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64538]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64539]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64540]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64541]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64542]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64543]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64544]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64545]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64546]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64547]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64548]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64549]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64550]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64551]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64552]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64553]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64554]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64555]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64556]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64557]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64558]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64559]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64560]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64561]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64562]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64563]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64564]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64565]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64566]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64567]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64568]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64569]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64570]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64571]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64572]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64573]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64574]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64575]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64576]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64577]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64578]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64579]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64580]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64581]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64582]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64583]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64584]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64585]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64586]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64587]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64588]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64589]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64590]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64591]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64592]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64593]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64594]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64595]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64596]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64597]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64598]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64599]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64600]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64601]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64602]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64603]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64604]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64605]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64606]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64607]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64608]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64609]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64610]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64611]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64612]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64613]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64614]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64615]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64616]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64617]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64618]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64619]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64620]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64621]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64622]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64623]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64624]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64625]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64626]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64627]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64628]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64629]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64630]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64631]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64632]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64633]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64634]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64635]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64636]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64637]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64638]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64639]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64640]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64641]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64642]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64643]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64644]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64645]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64646]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64647]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64648]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64649]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64650]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64651]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64652]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64653]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64654]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64655]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64656]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64657]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64658]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64659]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64660]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64661]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64662]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64663]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64664]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64665]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64666]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64667]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64668]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64669]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64670]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64671]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64672]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64673]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64674]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64675]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64676]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64677]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64678]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64679]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64680]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64681]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64682]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64683]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64684]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64685]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64686]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64687]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64688]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64689]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64690]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64691]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64692]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64693]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64694]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64695]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64696]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64697]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64698]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64699]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64700]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64701]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64702]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64703]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64704]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64705]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64706]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64707]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64708]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64709]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64710]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64711]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64712]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64713]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64714]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64715]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64716]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64717]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64718]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64719]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64720]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64721]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64722]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64723]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64724]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64725]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64726]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64727]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64728]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64729]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64730]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64731]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64732]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64733]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64734]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64735]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64736]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64737]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64738]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64739]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64740]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64741]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64742]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64743]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64744]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64745]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64746]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64747]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64748]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64749]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64750]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64751]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64752]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64753]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64754]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64755]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64756]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64757]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64758]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64759]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64760]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64761]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64762]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64763]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64764]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64765]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64766]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64767]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64768]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64769]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64770]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64771]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64772]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64773]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64774]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64775]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64776]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64777]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64778]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64779]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64780]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64781]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64782]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64783]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64784]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64785]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64786]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64787]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64788]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64789]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64790]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64791]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64792]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64793]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64794]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64795]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64796]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64797]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64798]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64799]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64800]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64801]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64802]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64803]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64804]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64805]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64806]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64807]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64808]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64809]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64810]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64811]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64812]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64813]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64814]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64815]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64816]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64817]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64818]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64819]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64820]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64821]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64822]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64823]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64824]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64825]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64826]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64827]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64828]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64829]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64830]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [64831]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [64848]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64849]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64850]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64851]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64852]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64853]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64854]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64855]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64856]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64857]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64858]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64859]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64860]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64861]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64862]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64863]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64864]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64865]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64866]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64867]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64868]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64869]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64870]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64871]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64872]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64873]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64874]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64875]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64876]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64877]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64878]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64879]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64880]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64881]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64882]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64883]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64884]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64885]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64886]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64887]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64888]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64889]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64890]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64891]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64892]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64893]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64894]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64895]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64896]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64897]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64898]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64899]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64900]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64901]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64902]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64903]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64904]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64905]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64906]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64907]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64908]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64909]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64910]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64911]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64914]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64915]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64916]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64917]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64918]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64919]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64920]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64921]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64922]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64923]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64924]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64925]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64926]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64927]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64928]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64929]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64930]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64931]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64932]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64933]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64934]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64935]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64936]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64937]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64938]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64939]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64940]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64941]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64942]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64943]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64944]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64945]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64946]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64947]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64948]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64949]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64950]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64951]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64952]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64953]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64954]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64955]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64956]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64957]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64958]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64959]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64960]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64961]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64962]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64963]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64964]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64965]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64966]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [64967]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65008]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65009]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65010]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65011]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65012]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65013]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65014]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65015]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65016]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65017]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65018]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65019]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65020]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65021]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65024]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [65025]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [65026]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [65027]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [65028]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [65029]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [65030]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [65031]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [65032]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [65033]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [65034]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [65035]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [65036]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [65037]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [65038]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [65039]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [65040]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65041]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65042]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65043]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65044]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65045]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65046]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65047]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65048]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65049]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65056]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [65057]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [65058]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [65059]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [65060]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [65061]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [65062]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [65072]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65073]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65074]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65075]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65076]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65077]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65078]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65079]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65080]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65081]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65082]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65083]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65084]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65085]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65086]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65087]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65088]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65089]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65090]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65091]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65092]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65093]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65094]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65095]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65096]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65097]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65098]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65099]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65100]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65101]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65102]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65103]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65104]={
-  ["direction"]="cs",
+  ["dir"]="cs",
  },
  [65105]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65106]={
-  ["direction"]="cs",
+  ["dir"]="cs",
  },
  [65108]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65109]={
-  ["direction"]="cs",
+  ["dir"]="cs",
  },
  [65110]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65111]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65112]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65113]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=65114,
  },
  [65114]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=65113,
  },
  [65115]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=65116,
  },
  [65116]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=65115,
  },
  [65117]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=65118,
  },
  [65118]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=65117,
  },
  [65119]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [65120]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65121]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65122]={
-  ["direction"]="es",
+  ["dir"]="es",
  },
  [65123]={
-  ["direction"]="es",
+  ["dir"]="es",
  },
  [65124]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=65125,
  },
  [65125]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=65124,
  },
  [65126]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65128]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65129]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [65130]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [65131]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65136]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65137]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65138]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65139]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65140]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65142]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65143]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65144]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65145]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65146]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65147]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65148]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65149]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65150]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65151]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65152]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65153]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65154]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65155]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65156]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65157]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65158]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65159]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65160]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65161]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65162]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65163]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65164]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65165]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65166]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65167]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65168]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65169]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65170]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65171]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65172]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65173]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65174]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65175]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65176]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65177]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65178]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65179]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65180]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65181]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65182]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65183]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65184]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65185]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65186]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65187]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65188]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65189]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65190]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65191]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65192]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65193]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65194]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65195]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65196]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65197]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65198]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65199]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65200]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65201]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65202]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65203]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65204]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65205]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65206]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65207]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65208]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65209]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65210]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65211]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65212]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65213]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65214]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65215]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65216]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65217]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65218]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65219]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65220]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65221]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65222]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65223]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65224]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65225]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65226]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65227]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65228]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65229]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65230]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65231]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65232]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65233]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65234]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65235]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65236]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65237]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65238]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65239]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65240]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65241]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65242]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65243]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65244]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65245]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65246]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65247]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65248]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65249]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65250]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65251]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65252]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65253]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65254]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65255]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65256]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65257]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65258]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65259]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65260]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65261]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65262]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65263]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65264]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65265]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65266]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65267]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65268]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65269]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65270]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65271]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65272]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65273]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65274]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65275]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65276]={
-  ["direction"]="al",
+  ["dir"]="al",
  },
  [65279]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [65281]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65282]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65283]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [65284]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [65285]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [65286]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65287]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65288]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=65289,
  },
  [65289]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=65288,
  },
  [65290]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65291]={
-  ["direction"]="es",
+  ["dir"]="es",
  },
  [65292]={
-  ["direction"]="cs",
+  ["dir"]="cs",
  },
  [65293]={
-  ["direction"]="es",
+  ["dir"]="es",
  },
  [65294]={
-  ["direction"]="cs",
+  ["dir"]="cs",
  },
  [65295]={
-  ["direction"]="cs",
+  ["dir"]="cs",
  },
  [65296]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [65297]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [65298]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [65299]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [65300]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [65301]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [65302]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [65303]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [65304]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [65305]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [65306]={
-  ["direction"]="cs",
+  ["dir"]="cs",
  },
  [65307]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65308]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=65310,
  },
  [65309]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65310]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=65308,
  },
  [65311]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65312]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65339]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=65341,
  },
  [65340]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65341]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=65339,
  },
  [65342]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65343]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65344]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65371]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=65373,
  },
  [65372]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65373]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=65371,
  },
  [65374]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65375]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=65376,
  },
  [65376]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=65375,
  },
  [65377]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65378]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=65379,
  },
  [65379]={
-  ["direction"]="on",
+  ["dir"]="on",
   ["mirror"]=65378,
  },
  [65380]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65381]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65504]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [65505]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [65506]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65507]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65508]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65509]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [65510]={
-  ["direction"]="et",
+  ["dir"]="et",
  },
  [65512]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65513]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65514]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65515]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65516]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65517]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65518]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65529]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65530]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65531]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65532]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65533]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65793]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65856]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65857]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65858]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65859]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65860]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65861]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65862]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65863]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65864]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65865]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65866]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65867]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65868]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65869]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65870]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65871]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65872]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65873]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65874]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65875]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65876]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65877]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65878]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65879]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65880]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65881]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65882]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65883]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65884]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65885]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65886]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65887]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65888]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65889]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65890]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65891]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65892]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65893]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65894]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65895]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65896]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65897]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65898]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65899]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65900]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65901]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65902]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65903]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65904]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65905]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65906]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65907]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65908]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65909]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65910]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65911]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65912]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65913]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65914]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65915]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65916]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65917]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65918]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65919]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65920]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65921]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65922]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65923]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65924]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65925]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65926]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65927]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65928]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65929]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65930]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65936]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65937]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65938]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65939]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65940]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65941]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65942]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65943]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65944]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65945]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65946]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [65947]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [66045]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [67584]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67585]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67586]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67587]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67588]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67589]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67592]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67594]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67595]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67596]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67597]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67598]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67599]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67600]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67601]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67602]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67603]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67604]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67605]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67606]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67607]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67608]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67609]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67610]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67611]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67612]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67613]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67614]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67615]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67616]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67617]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67618]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67619]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67620]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67621]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67622]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67623]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67624]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67625]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67626]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67627]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67628]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67629]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67630]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67631]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67632]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67633]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67634]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67635]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67636]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67637]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67639]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67640]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67644]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67647]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67648]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67649]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67650]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67651]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67652]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67653]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67654]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67655]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67656]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67657]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67658]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67659]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67660]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67661]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67662]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67663]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67664]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67665]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67666]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67667]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67668]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67669]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67671]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67672]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67673]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67674]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67675]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67676]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67677]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67678]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67679]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67840]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67841]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67842]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67843]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67844]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67845]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67846]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67847]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67848]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67849]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67850]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67851]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67852]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67853]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67854]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67855]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67856]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67857]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67858]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67859]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67860]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67861]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67862]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67863]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67864]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67865]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67866]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67867]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67871]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [67872]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67873]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67874]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67875]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67876]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67877]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67878]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67879]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67880]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67881]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67882]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67883]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67884]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67885]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67886]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67887]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67888]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67889]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67890]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67891]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67892]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67893]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67894]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67895]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67896]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67897]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [67903]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68096]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68097]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [68098]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [68099]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [68101]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [68102]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [68108]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [68109]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [68110]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [68111]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [68112]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68113]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68114]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68115]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68117]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68118]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68119]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68121]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68122]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68123]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68124]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68125]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68126]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68127]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68128]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68129]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68130]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68131]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68132]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68133]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68134]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68135]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68136]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68137]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68138]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68139]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68140]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68141]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68142]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68143]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68144]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68145]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68146]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68147]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68152]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [68153]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [68154]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [68159]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [68160]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68161]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68162]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68163]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68164]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68165]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68166]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68167]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68176]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68177]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68178]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68179]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68180]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68181]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68182]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68183]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68184]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68192]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68193]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68194]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68195]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68196]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68197]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68198]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68199]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68200]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68201]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68202]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68203]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68204]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68205]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68206]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68207]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68208]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68209]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68210]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68211]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68212]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68213]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68214]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68215]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68216]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68217]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68218]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68219]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68220]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68221]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68222]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68223]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68352]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68353]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68354]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68355]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68356]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68357]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68358]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68359]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68360]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68361]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68362]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68363]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68364]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68365]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68366]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68367]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68368]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68369]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68370]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68371]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68372]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68373]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68374]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68375]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68376]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68377]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68378]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68379]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68380]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68381]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68382]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68383]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68384]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68385]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68386]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68387]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68388]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68389]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68390]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68391]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68392]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68393]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68394]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68395]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68396]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68397]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68398]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68399]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68400]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68401]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68402]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68403]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68404]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68405]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68409]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [68410]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [68411]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [68412]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [68413]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [68414]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [68415]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [68416]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68417]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68418]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68419]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68420]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68421]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68422]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68423]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68424]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68425]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68426]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68427]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68428]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68429]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68430]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68431]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68432]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68433]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68434]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68435]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68436]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68437]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68440]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68441]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68442]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68443]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68444]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68445]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68446]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68447]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68448]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68449]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68450]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68451]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68452]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68453]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68454]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68455]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68456]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68457]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68458]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68459]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68460]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68461]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68462]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68463]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68464]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68465]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68466]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68472]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68473]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68474]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68475]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68476]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68477]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68478]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68479]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68608]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68609]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68610]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68611]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68612]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68613]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68614]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68615]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68616]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68617]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68618]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68619]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68620]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68621]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68622]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68623]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68624]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68625]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68626]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68627]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68628]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68629]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68630]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68631]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68632]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68633]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68634]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68635]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68636]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68637]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68638]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68639]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68640]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68641]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68642]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68643]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68644]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68645]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68646]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68647]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68648]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68649]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68650]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68651]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68652]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68653]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68654]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68655]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68656]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68657]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68658]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68659]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68660]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68661]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68662]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68663]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68664]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68665]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68666]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68667]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68668]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68669]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68670]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68671]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68672]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68673]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68674]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68675]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68676]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68677]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68678]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68679]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [68680]={
-  ["direction"]="r",
+  ["dir"]="r",
  },
  [69216]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [69217]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [69218]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [69219]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [69220]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [69221]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [69222]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [69223]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [69224]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [69225]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [69226]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [69227]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [69228]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [69229]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [69230]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [69231]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [69232]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [69233]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [69234]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [69235]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [69236]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [69237]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [69238]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [69239]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [69240]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [69241]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [69242]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [69243]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [69244]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [69245]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [69246]={
-  ["direction"]="an",
+  ["dir"]="an",
  },
  [69760]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [69761]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [69811]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [69812]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [69813]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [69814]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [69817]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [69818]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [119143]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [119144]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [119145]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [119155]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [119156]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [119157]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [119158]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [119159]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [119160]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [119161]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [119162]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [119163]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [119164]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [119165]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [119166]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [119167]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [119168]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [119169]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [119170]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [119173]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [119174]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [119175]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [119176]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [119177]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [119178]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [119179]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [119210]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [119211]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [119212]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [119213]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [119296]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119297]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119298]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119299]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119300]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119301]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119302]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119303]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119304]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119305]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119306]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119307]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119308]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119309]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119310]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119311]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119312]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119313]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119314]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119315]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119316]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119317]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119318]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119319]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119320]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119321]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119322]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119323]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119324]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119325]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119326]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119327]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119328]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119329]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119330]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119331]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119332]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119333]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119334]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119335]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119336]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119337]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119338]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119339]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119340]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119341]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119342]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119343]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119344]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119345]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119346]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119347]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119348]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119349]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119350]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119351]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119352]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119353]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119354]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119355]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119356]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119357]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119358]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119359]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119360]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119361]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119362]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [119363]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [119364]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [119365]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119552]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119553]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119554]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119555]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119556]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119557]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119558]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119559]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119560]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119561]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119562]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119563]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119564]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119565]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119566]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119567]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119568]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119569]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119570]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119571]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119572]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119573]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119574]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119575]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119576]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119577]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119578]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119579]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119580]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119581]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119582]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119583]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119584]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119585]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119586]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119587]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119588]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119589]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119590]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119591]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119592]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119593]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119594]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119595]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119596]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119597]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119598]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119599]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119600]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119601]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119602]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119603]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119604]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119605]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119606]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119607]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119608]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119609]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119610]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119611]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119612]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119613]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119614]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119615]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119616]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119617]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119618]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119619]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119620]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119621]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119622]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119623]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119624]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119625]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119626]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119627]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119628]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119629]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119630]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119631]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119632]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119633]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119634]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119635]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119636]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119637]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [119638]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [120539]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [120597]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [120655]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [120713]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [120771]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [120782]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120783]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120784]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120785]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120786]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120787]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120788]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120789]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120790]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120791]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120792]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120793]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120794]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120795]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120796]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120797]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120798]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120799]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120800]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120801]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120802]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120803]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120804]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120805]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120806]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120807]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120808]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120809]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120810]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120811]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120812]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120813]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120814]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120815]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120816]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120817]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120818]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120819]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120820]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120821]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120822]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120823]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120824]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120825]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120826]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120827]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120828]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120829]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120830]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [120831]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [126976]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [126977]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [126978]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [126979]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [126980]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [126981]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [126982]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [126983]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [126984]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [126985]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [126986]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [126987]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [126988]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [126989]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [126990]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [126991]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [126992]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [126993]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [126994]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [126995]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [126996]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [126997]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [126998]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [126999]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127000]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127001]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127002]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127003]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127004]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127005]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127006]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127007]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127008]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127009]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127010]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127011]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127012]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127013]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127014]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127015]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127016]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127017]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127018]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127019]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127024]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127025]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127026]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127027]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127028]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127029]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127030]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127031]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127032]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127033]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127034]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127035]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127036]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127037]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127038]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127039]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127040]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127041]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127042]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127043]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127044]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127045]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127046]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127047]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127048]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127049]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127050]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127051]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127052]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127053]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127054]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127055]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127056]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127057]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127058]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127059]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127060]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127061]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127062]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127063]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127064]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127065]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127066]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127067]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127068]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127069]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127070]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127071]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127072]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127073]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127074]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127075]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127076]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127077]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127078]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127079]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127080]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127081]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127082]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127083]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127084]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127085]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127086]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127087]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127088]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127089]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127090]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127091]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127092]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127093]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127094]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127095]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127096]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127097]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127098]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127099]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127100]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127101]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127102]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127103]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127104]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127105]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127106]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127107]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127108]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127109]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127110]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127111]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127112]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127113]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127114]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127115]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127116]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127117]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127118]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127119]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127120]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127121]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127122]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127123]={
-  ["direction"]="on",
+  ["dir"]="on",
  },
  [127232]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [127233]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [127234]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [127235]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [127236]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [127237]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [127238]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [127239]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [127240]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [127241]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [127242]={
-  ["direction"]="en",
+  ["dir"]="en",
  },
  [917505]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917536]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917537]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917538]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917539]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917540]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917541]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917542]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917543]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917544]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917545]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917546]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917547]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917548]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917549]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917550]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917551]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917552]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917553]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917554]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917555]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917556]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917557]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917558]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917559]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917560]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917561]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917562]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917563]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917564]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917565]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917566]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917567]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917568]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917569]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917570]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917571]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917572]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917573]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917574]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917575]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917576]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917577]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917578]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917579]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917580]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917581]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917582]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917583]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917584]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917585]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917586]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917587]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917588]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917589]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917590]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917591]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917592]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917593]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917594]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917595]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917596]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917597]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917598]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917599]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917600]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917601]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917602]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917603]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917604]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917605]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917606]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917607]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917608]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917609]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917610]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917611]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917612]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917613]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917614]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917615]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917616]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917617]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917618]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917619]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917620]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917621]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917622]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917623]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917624]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917625]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917626]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917627]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917628]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917629]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917630]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917631]={
-  ["direction"]="bn",
+  ["dir"]="bn",
  },
  [917760]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917761]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917762]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917763]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917764]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917765]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917766]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917767]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917768]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917769]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917770]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917771]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917772]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917773]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917774]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917775]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917776]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917777]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917778]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917779]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917780]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917781]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917782]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917783]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917784]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917785]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917786]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917787]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917788]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917789]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917790]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917791]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917792]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917793]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917794]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917795]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917796]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917797]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917798]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917799]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917800]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917801]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917802]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917803]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917804]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917805]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917806]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917807]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917808]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917809]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917810]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917811]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917812]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917813]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917814]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917815]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917816]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917817]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917818]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917819]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917820]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917821]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917822]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917823]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917824]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917825]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917826]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917827]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917828]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917829]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917830]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917831]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917832]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917833]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917834]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917835]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917836]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917837]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917838]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917839]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917840]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917841]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917842]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917843]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917844]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917845]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917846]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917847]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917848]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917849]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917850]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917851]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917852]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917853]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917854]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917855]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917856]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917857]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917858]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917859]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917860]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917861]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917862]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917863]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917864]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917865]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917866]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917867]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917868]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917869]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917870]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917871]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917872]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917873]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917874]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917875]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917876]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917877]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917878]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917879]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917880]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917881]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917882]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917883]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917884]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917885]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917886]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917887]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917888]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917889]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917890]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917891]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917892]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917893]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917894]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917895]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917896]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917897]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917898]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917899]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917900]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917901]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917902]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917903]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917904]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917905]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917906]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917907]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917908]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917909]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917910]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917911]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917912]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917913]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917914]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917915]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917916]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917917]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917918]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917919]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917920]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917921]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917922]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917923]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917924]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917925]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917926]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917927]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917928]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917929]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917930]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917931]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917932]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917933]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917934]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917935]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917936]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917937]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917938]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917939]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917940]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917941]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917942]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917943]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917944]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917945]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917946]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917947]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917948]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917949]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917950]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917951]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917952]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917953]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917954]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917955]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917956]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917957]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917958]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917959]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917960]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917961]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917962]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917963]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917964]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917965]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917966]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917967]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917968]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917969]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917970]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917971]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917972]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917973]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917974]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917975]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917976]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917977]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917978]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917979]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917980]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917981]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917982]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917983]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917984]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917985]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917986]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917987]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917988]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917989]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917990]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917991]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917992]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917993]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917994]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917995]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917996]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917997]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917998]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
  [917999]={
-  ["direction"]="nsm",
+  ["dir"]="nsm",
  },
 }
