@@ -8,6 +8,11 @@
     bidi            = bidi or { }
     bidi.chardata   = dofile(kpse.find_file("chardata.lua"))
 
+    function bidi.get_direction(c)
+        local dir = bidi.chardata[c] and bidi.chardata[c].direction or "l"
+        return dir
+    end
+
     require("bidi")
 
     function bidi.enable()

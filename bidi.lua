@@ -51,9 +51,7 @@ local function least_greater_even(x)
     return odd(x) and x+1 or x+2
 end
 
-local function get_type(ch)
-    return chardata[ch].direction
-end
+local get_type = bidi.get_direction
 
 local function resolve_types(line, base_level)
     --[[

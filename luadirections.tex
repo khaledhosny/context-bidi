@@ -4,6 +4,11 @@
 	bidi              = bidi or { }
 	bidi.chardata     = dofile("chardata.lua")
 
+	function bidi.get_direction(c)
+		local dir = bidi.chardata[c] and bidi.chardata[c].direction or "l"
+		return dir
+	end
+
 	require("bidi")
 
 	luatexbase.add_to_callback("pre_linebreak_filter", bidi.process, "BiDi processing (pre_line)", 1)

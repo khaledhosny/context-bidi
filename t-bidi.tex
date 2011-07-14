@@ -19,6 +19,11 @@
 bidi            = bidi or { }
 bidi.chardata   = characters.data
 
+function bidi.get_direction(c)
+    local dir = bidi.chardata[c] and bidi.chardata[c].direction or "l"
+    return dir
+end
+
 \stopluacode
 
 \registerctxluafile{bidi}{0.002}
