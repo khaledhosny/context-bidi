@@ -27,15 +27,17 @@ if not modules then modules = { } end modules ['bidi'] = bidi.module
   translated into insertion of begin/enddir nodes into the original node list.
 --]]
 
-local chardata = bidi.chardata
+local get_type = bidi.get_direction
+local get_mirr = bidi.get_mirror
+local set_mirr = bidi.set_mirror
 
 -- see http://www.unicode.org/versions/corrigendum6.html
-chardata[0x2018].mirror = "0x2019"
-chardata[0x2019].mirror = "0x2018"
-chardata[0x201C].mirror = "0x201D"
-chardata[0x201D].mirror = "0x201C"
-chardata[0x301D].mirror = "0x301E"
-chardata[0x301E].mirror = "0x301D"
+for i in next, { 0x2018, 0x201C, 0x301D } do
+    set_mirr(i, i+1)
+end
+for i in next, { 0x2019, 0x201D, 0x301E } do
+    set_mirr(i, i-1)
+end
 
 local MAX_STACK = 60
 
@@ -50,8 +52,6 @@ end
 local function least_greater_even(x)
     return odd(x) and x+1 or x+2
 end
-
-local get_type = bidi.get_direction
 
 local function resolve_types(line, base_level)
     --[[
@@ -518,7 +518,7 @@ local function process(head, group)
                 assert(line[i].char == n.char)
                 local v = line[i].level
                 if v and odd(v) then
-                    local mirror = chardata[n.char].mirror
+                    local mirror = get_mirr(n.char)
                     if mirror then
                         n.char = mirror
                     end

@@ -17,11 +17,22 @@
 \startluacode
 
 bidi            = bidi or { }
-bidi.chardata   = characters.data
+local chardata  = characters.data
 
 function bidi.get_direction(c)
-    local dir = bidi.chardata[c] and bidi.chardata[c].direction or "l"
+    local dir = chardata[c] and chardata[c].direction or "l"
     return dir
+end
+
+function bidi.get_mirror(c)
+    local mir = chardata[c] and chardata[c].mirror
+    return mir
+end
+
+function bidi.set_mirror(c, m)
+    if chardata[c] then
+        chardata[c].mirror = m
+    end
 end
 
 \stopluacode
