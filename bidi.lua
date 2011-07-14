@@ -513,31 +513,31 @@ local function process(head, group)
     local i = 1
     local n = head
     while n do
-    if n.id == hlist or n.id == vlist then
-        n.list = process(n.list)
-    else
-        if n.id == glyph then
-            assert(line[i].char == n.char)
-            local v = line[i].level
-            if v and odd(v) then
-                local mirror = chardata[n.char].mirror
-                if mirror then
-                    n.char = mirror
+        if n.id == hlist or n.id == vlist then
+            n.list = process(n.list)
+        else
+            if n.id == glyph then
+                assert(line[i].char == n.char)
+                local v = line[i].level
+                if v and odd(v) then
+                    local mirror = chardata[n.char].mirror
+                    if mirror then
+                        n.char = mirror
+                    end
                 end
             end
-        end
 
-        local bdir = line[i].bdir
-        local edir = line[i].edir
+            local bdir = line[i].bdir
+            local edir = line[i].edir
 
-        if bdir then
-            head = node.insert_before(head, n, new_dir_node(bdir))
-        end
+            if bdir then
+                head = node.insert_before(head, n, new_dir_node(bdir))
+            end
 
-        if edir then
-            head, n = node.insert_after(head, n, new_dir_node(edir))
+            if edir then
+                head, n = node.insert_after(head, n, new_dir_node(edir))
+            end
         end
-    end
 
         i = i + 1
         n = n.next
