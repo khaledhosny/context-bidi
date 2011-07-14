@@ -1,16 +1,26 @@
 \input luatexbase.sty
 
 \directlua{
-	bidi              = bidi or { }
-	bidi.chardata     = dofile("chardata.lua")
+    bidi            = bidi or { }
+    bidi.chardata   = dofile(kpse.find_file("chardata.lua"))
 
-	function bidi.get_direction(c)
-		local dir = bidi.chardata[c] and bidi.chardata[c].direction or "l"
-		return dir
-	end
+    function bidi.get_direction(c)
+        local dir = bidi.chardata[c] and bidi.chardata[c].direction or "l"
+        return dir
+    end
 
-	require("bidi")
+    require("bidi")
 
-	luatexbase.add_to_callback("pre_linebreak_filter", bidi.process, "BiDi processing (pre_line)", 1)
-	luatexbase.add_to_callback("hpack_filter",         bidi.process, "BiDi processing (hpack)"   , 1)
+    function bidi.enable()
+       luatexbase.add_to_callback("pre_linebreak_filter", bidi.process, "BiDi processing (pre_line)", 1)
+       luatexbase.add_to_callback("hpack_filter",         bidi.process, "BiDi processing (hpack)"   , 1)
+    end
+
+    function bidi.disable()
+       luatexbase.remove_from_callback("pre_linebreak_filter", bidi.process, "BiDi processing (pre_line)")
+       luatexbase.remove_from_callback("hpack_filter",         bidi.process, "BiDi processing (hpack)")
+    end
 }
+
+\def\bidion{\directlua{bidi.enable()}}
+\def\bidioff{\directlua{bidi.disable()}}
