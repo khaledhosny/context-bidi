@@ -374,6 +374,8 @@ end
 
 local glyph   = node.id("glyph")
 local glue    = node.id("glue")
+local hlist   = node.id("hlist")
+local vlist   = node.id("vlist")
 
 local function node_to_table(head)
     --[[
@@ -511,6 +513,9 @@ local function process(head, group)
     local i = 1
     local n = head
     while n do
+    if n.id == hlist or n.id == vlist then
+        n.list = process(n.list)
+    else
         if n.id == glyph then
             assert(line[i].char == n.char)
             local v = line[i].level
@@ -532,6 +537,7 @@ local function process(head, group)
         if edir then
             head, n = node.insert_after(head, n, new_dir_node(edir))
         end
+    end
 
         i = i + 1
         n = n.next
