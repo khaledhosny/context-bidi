@@ -147,8 +147,8 @@ local function resolve_weak(line, base_level, start, limit, sor, eor)
     for i = start, limit do
         local c = line[i]
         if c.type == "nsm" then
-            if i == 1 then
-                c.type = base_level
+            if i == start then
+                c.type = sor
             else
                 c.type = line[i-1].type
             end
