@@ -84,8 +84,8 @@ local function resolve_types(line, base_level)
     local override_stack    = { }
     local stack_top         = 0
 
-    for i in ipairs(line) do
-        local current_type = line[i].type
+    for _,c in next, line do
+        local current_type = c.type
         if current_type == "rle" then
             if stack_top < MAX_STACK then
                 level_stack[stack_top]    = current_embedding
@@ -93,7 +93,7 @@ local function resolve_types(line, base_level)
                 stack_top                 = stack_top + 1
                 current_embedding         = least_greater_odd(current_embedding)
                 current_overrid           = "on"
-                line[i].level             = current_embedding
+                c.level                   = current_embedding
             end
         elseif current_type == "lre" then
             if stack_top < MAX_STACK then
@@ -102,7 +102,7 @@ local function resolve_types(line, base_level)
                 stack_top                 = stack_top + 1
                 current_embedding         = least_greater_even(current_embedding)
                 current_overrid           = "on"
-                line[i].level             = current_embedding
+                c.level                   = current_embedding
             end
         elseif current_type == "rlo" then
             if stack_top < MAX_STACK then
@@ -111,7 +111,7 @@ local function resolve_types(line, base_level)
                 stack_top                 = stack_top + 1
                 current_embedding         = least_greater_odd(current_embedding)
                 current_overrid           = "r"
-                line[i].level             = current_embedding
+                c.level                   = current_embedding
             end
         elseif current_type == "lro" then
             if stack_top < MAX_STACK then
@@ -120,29 +120,29 @@ local function resolve_types(line, base_level)
                 stack_top                 = stack_top + 1
                 current_embedding         = least_greater_even(current_embedding)
                 current_overrid           = "l"
-                line[i].level             = current_embedding
+                c.level                   = current_embedding
             end
         elseif current_type == "pdf" then
             if stack_top > 0 then
                 current_embedding = level_stack[stack_top-1]
                 current_overrid   = override_stack[stack_top-1]
                 stack_top         = stack_top - 1
-                line[i].level     = current_embedding
+                c.level           = current_embedding
             end
         elseif current_type == "ws" or current_type == "b" or current_type == "s" then
             -- Whitespace is treated as neutral for now
-            line[i].level = current_embedding
+            c.level       = current_embedding
             current_type  = "on"
             if current_overrid ~= "on" then
                 current_type = current_overrid
             end
-            line[i].type  = current_type
+            c.type  = current_type
         else
-            line[i].level = current_embedding
+            c.level = current_embedding
             if current_overrid ~= "on" then
                 current_type = current_overrid
             end
-            line[i].type  = current_type
+            c.type  = current_type
         end
     end
 end
@@ -151,12 +151,12 @@ local function resolve_levels(line, base_level)
     -- Rule (X1), (X2), (X3), (X4), (X5), (X6), (X7), (X8), (X9)
     resolve_types(line, base_level)
 
-    for i in ipairs(line) do
-        if line[i].type == "nsm" then
+    for i,c in next, line do
+        if c.type == "nsm" then
             if i == 1 then
-                line[i].type = base_level
+                c.type = base_level
             else
-                line[i].type = line[i-1].type
+                c.type = line[i-1].type
             end
         end
     end
@@ -167,7 +167,7 @@ local function resolve_levels(line, base_level)
     first strong type (R, L, AL, or sor) is found.  If an AL is found,
     change the type of the European number to Arabic number.
     --]]
-    for i in ipairs(line) do
+    for i in next, line do
         if line[i].type == "en" then
             for j=i,1,-1 do
                 if line[j].type == "al" then
@@ -184,9 +184,9 @@ local function resolve_levels(line, base_level)
     Rule (W3)
     W3. Change all ALs to R.
     --]]
-    for i in ipairs(line) do
-        if line[i].type == "al" then
-            line[i].type = "r"
+    for _,c in next, line do
+        if c.type == "al" then
+            c.type = "r"
         end
     end
 
@@ -196,16 +196,17 @@ local function resolve_levels(line, base_level)
     to a European number. A single common separator between two numbers
     of the same type changes to that type.
     --]]
-    for i in ipairs(line) do
-        if line[i].type == "es" then
-            if (line[i-1] and line[i-1].type == "en") and (line[i+1] and line[i+1].type == "en") then
-                line[i].type = "en"
+    for i,c in next, line do
+        local pc, nc = line[i-1], line[i+1]
+        if c.type == "es" then
+            if (pc and pc.type == "en") and (nc and nc.type == "en") then
+                c.type = "en"
             end
         elseif line[i].type == "cs" then
-            if (line[i-1] and line[i-1].type == "en") and (line[i+1] and line[i+1].type == "en") then
-                line[i].type = "en"
-            elseif (line [i-1] and line[i-1].type == "an") and (line[i+1] and line[i+1].type == "an") then
-                line[i].type = "an"
+            if (pc and pc.type == "en") and (nc and nc.type == "en") then
+                c.type = "en"
+            elseif (pc and pc.type == "an") and (nc and nc.type == "an") then
+                c.type = "an"
             end
         end
     end
@@ -215,7 +216,7 @@ local function resolve_levels(line, base_level)
     W5. A sequence of European terminators adjacent to European numbers
     changes to all European numbers.
     --]]
-    for i in ipairs(line) do
+    for i in next, line do
         if line[i].type == "et" then
             if line[i-1] and line[i-1].type == "en" then
                 line[i].type = "en"
@@ -237,9 +238,9 @@ local function resolve_levels(line, base_level)
     Rule (W6)
     W6. Otherwise, separators and terminators change to Other Neutral:
     --]]
-    for i in ipairs(line) do
-        if line[i].type == "es" or line[i].type == "et" or line[i].type == "cs" then
-            line[i].type = "on"
+    for _,c in next, line do
+        if c.type == "es" or c.type == "et" or c.type == "cs" then
+            c.type = "on"
         end
     end
 
@@ -249,7 +250,7 @@ local function resolve_levels(line, base_level)
     the first strong type (R, L, or sor) is found. If an L is found,
     then change the type of the European number to L.
     --]]
-    for i in ipairs(line) do
+    for i in next, line do
         if line[i].type == "en" then
             local j = i
             while j>0 and line[j].level == line[i].level do
@@ -270,7 +271,7 @@ local function resolve_levels(line, base_level)
     strong text if the text on both sides has the same direction. European
     and Arabic numbers are treated as though they were R.
     --]]
-    for i in ipairs(line) do
+    for i in next, line do
         local pre_dir
         local post_dir
         if line[i].type == "on" and line[i-1] and line[i+1] then
@@ -298,12 +299,12 @@ local function resolve_levels(line, base_level)
     Rule (N2)
     N2. Any remaining neutrals take the embedding direction.
     --]]
-    for i in ipairs(line) do
-        if line[i].type == "on" then
-            if odd(line[i].level) then
-                line[i].type = "r"
+    for _,c in next, line do
+        if c.type == "on" then
+            if odd(c.level) then
+                c.type = "r"
             else
-                line[i].type = "l"
+                c.type = "l"
             end
         end
     end
@@ -314,12 +315,12 @@ local function resolve_levels(line, base_level)
     direction, those of type R go up one level and those of type AN or
     EN go up two levels.
     --]]
-    for i in ipairs(line) do
-        if not odd(line[i].level) then
-            if line[i].type == "r" then
-                line[i].level = line[i].level + 1
-            elseif line[i].type == "an" or line[i].type == "en" then
-                line[i].level = line[i].level + 2
+    for _,c in next, line do
+        if not odd(c.level) then
+            if c.type == "r" then
+                c.level = c.level + 1
+            elseif c.type == "an" or c.type == "en" then
+                c.level = c.level + 2
             end
         end
     end
@@ -329,10 +330,10 @@ local function resolve_levels(line, base_level)
     I2. For all characters with an odd (right-to-left) embedding direction,
     those of type L, EN or AN go up one level.
     --]]
-    for i in ipairs(line) do
-        if odd(line[i].level) then
-            if line[i].type == "l" or line[i].type == "en" or line[i].type == "an" then
-                line[i].level = line[i].level + 1
+    for _,c in next, line do
+        if odd(c.level) then
+            if c.type == "l" or c.type == "en" or c.type == "an" then
+                c.level = c.level + 1
             end
         end
     end
@@ -349,10 +350,9 @@ local function resolve_levels(line, base_level)
     The types of characters used here are the original types, not those
     modified by the previous phase.
     --]]
-    for i in ipairs(line) do
-        local current_type = line[i].orig_type
-        if current_type == "s" or current_type == "b" then
-            line[i].level = base_level
+    for _,c in next, line do
+        if c.orig_type == "s" or c.orig_type == "b" then
+            c.level = base_level
         end
     end
 
@@ -416,9 +416,9 @@ local function insert_dir_points(line)
 
     local max_level = 0
 
-    for i in ipairs(line) do
-        if line[i].level > max_level then
-            max_level = line[i].level
+    for _,c in next, line do
+        if c.level > max_level then
+            max_level = c.level
         end
     end
 
@@ -458,12 +458,10 @@ local function get_base_level(line)
     P3. If a character is found in P2 and it is of type AL or R, then set
     the paragraph embedding level to one; otherwise, set it to zero.
     --]]
-
-    for i in ipairs(line) do
-        local current_type = line[i].type
-        if current_type == "r" or current_type == "al" then
+    for _,c in next, line do
+        if c.type == "r" or c.type == "al" then
             return 1
-        elseif current_type == "l" then
+        elseif c.type == "l" then
             return 0
         end
     end
