@@ -142,10 +142,8 @@ local function resolve_explicit(line, base_level)
     end
 end
 
-local function resolve_levels(line, base_level)
-    -- Rules (X1), (X2), (X3), (X4), (X5), (X6), (X7), (X8), (X9)
-    resolve_explicit(line, base_level)
-
+local function resolve_weak(line, base_level)
+    -- W1
     for i,c in next, line do
         if c.type == "nsm" then
             if i == 1 then
@@ -259,7 +257,9 @@ local function resolve_levels(line, base_level)
             end
         end
     end
+end
 
+local function resolve_neutral(line, base_level)
     --[[
     Rule (N1)
     N1. A sequence of neutrals takes the direction of the surrounding
@@ -303,7 +303,9 @@ local function resolve_levels(line, base_level)
             end
         end
     end
+end
 
+local function resolve_implicit(line, base_level)
     --[[
     Rule (I1)
     I1. For all characters with an even (left-to-right) embedding
@@ -332,6 +334,20 @@ local function resolve_levels(line, base_level)
             end
         end
     end
+end
+
+local function resolve_levels(line, base_level)
+    -- Rules X1 to X9
+    resolve_explicit(line, base_level)
+
+    -- Rules W1 to W7
+    resolve_weak(line, base_level)
+
+    -- Rules N1 and N2
+    resolve_neutral(line, base_level)
+
+    -- Rules I1 and I2
+    resolve_implicit(line, base_level)
 
     --[[
     Rule (L1)
