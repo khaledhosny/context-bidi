@@ -142,7 +142,7 @@ local function resolve_explicit(line, base_level)
     end
 end
 
-local function resolve_weak(line, base_level, start, limit)
+local function resolve_weak(line, base_level, start, limit, sor, eor)
     -- W1
     for i = start, limit do
         local c = line[i]
@@ -262,7 +262,7 @@ local function resolve_weak(line, base_level, start, limit)
     end
 end
 
-local function resolve_neutral(line, base_level, start, limit)
+local function resolve_neutral(line, base_level, start, limit, sor, eor)
     --[[
     Rule (N1)
     N1. A sequence of neutrals takes the direction of the surrounding
@@ -309,7 +309,7 @@ local function resolve_neutral(line, base_level, start, limit)
     end
 end
 
-local function resolve_implicit(line, base_level, start, limit)
+local function resolve_implicit(line, base_level, start, limit, sor, eor)
     --[[
     Rule (I1)
     I1. For all characters with an even (left-to-right) embedding
@@ -347,21 +347,29 @@ local function resolve_levels(line, base_level)
     resolve_explicit(line, base_level)
 
     -- X10
-    start = 1
+    local start = 1
     while start < #line do
-        limit = start + 1
-        while limit < #line and line[limit].level == line[start].level do
+        local level = line[start].level
+
+        local limit = start + 1
+        while limit < #line and line[limit].level == level do
             limit = limit + 1
         end
 
+        local prev_level = (start == 1 and base_level) or line[start-1].level
+        local next_level = (limit == #line and base_level) or line[limit+1].level
+        local sor = odd(math.max(level, prev_level)) and "r" or "l"
+        local eor = odd(math.max(level, next_level)) and "r" or "l"
+
+
         -- Rules W1 to W7
-        resolve_weak(line, base_level, start, limit)
+        resolve_weak(line, base_level, start, limit, sor, eor)
 
         -- Rules N1 and N2
-        resolve_neutral(line, base_level, start, limit)
+        resolve_neutral(line, base_level, start, limit, sor, eor)
 
         -- Rules I1 and I2
-        resolve_implicit(line, base_level, start, limit)
+        resolve_implicit(line, base_level, start, limit, sor, eor)
 
         start = limit
     end
