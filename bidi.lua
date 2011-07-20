@@ -84,74 +84,60 @@ local function resolve_explicit(line, base_level)
     Here, they're converted to BN.
     --]]
 
-    local current_embedding = base_level
-    local current_overrid   = "on"
-    local level_stack       = { }
-    local override_stack    = { }
-    local stack_top         = 0
+    local curr_level    = base_level
+    local curr_override =  "on"
+    local stack         = { }
 
     for _,c in next, line do
-        local current_type = c.type
         -- X2
-        if current_type == "rle" then
-            if stack_top < MAX_STACK then
-                level_stack[stack_top]    = current_embedding
-                override_stack[stack_top] = current_overrid
-                stack_top                 = stack_top + 1
-                current_embedding         = least_greater_odd(current_embedding)
-                current_overrid           = "on"
-                c.level                   = current_embedding
-                c.type                    = "bn"
+        if c.type == "rle" then
+            if #stack <= MAX_STACK then
+                table.insert  (stack, {curr_level, curr_override})
+                curr_level    = least_greater_odd(curr_level)
+                curr_override =  "on"
+                c.level       = curr_level
+                c.type        = "bn"
             end
         -- X3
-        elseif current_type == "lre" then
-            if stack_top < MAX_STACK then
-                level_stack[stack_top]    = current_embedding
-                override_stack[stack_top] = current_overrid
-                stack_top                 = stack_top + 1
-                current_embedding         = least_greater_even(current_embedding)
-                current_overrid           = "on"
-                c.level                   = current_embedding
-                c.type                    = "bn"
+        elseif c.type == "lre" then
+            if #stack < MAX_STACK then
+                table.insert  (stack, {curr_level, curr_override})
+                curr_level    = least_greater_even(curr_level)
+                curr_override =  "on"
+                c.level       = curr_level
+                c.type        = "bn"
             end
         -- X4
-        elseif current_type == "rlo" then
-            if stack_top < MAX_STACK then
-                level_stack[stack_top]    = current_embedding
-                override_stack[stack_top] = current_overrid
-                stack_top                 = stack_top + 1
-                current_embedding         = least_greater_odd(current_embedding)
-                current_overrid           = "r"
-                c.level                   = current_embedding
-                c.type                    = "bn"
+        elseif c.type == "rlo" then
+            if #stack <= MAX_STACK then
+                table.insert  (stack, {curr_level, curr_override})
+                curr_level    = least_greater_odd(curr_level)
+                curr_override = "r"
+                c.level       = curr_level
+                c.type        = "bn"
             end
         -- X5
-        elseif current_type == "lro" then
-            if stack_top < MAX_STACK then
-                level_stack[stack_top]    = current_embedding
-                override_stack[stack_top] = current_overrid
-                stack_top                 = stack_top + 1
-                current_embedding         = least_greater_even(current_embedding)
-                current_overrid           = "l"
-                c.level                   = current_embedding
-                c.type                    = "bn"
+        elseif c.type == "lro" then
+            if #stack < MAX_STACK then
+                table.insert  (stack, {curr_level, curr_override})
+                curr_level    = least_greater_even(curr_level)
+                curr_override = "l"
+                c.level       = curr_level
+                c.type        = "bn"
             end
         -- X7
-        elseif current_type == "pdf" then
-            if stack_top > 0 then
-                current_embedding = level_stack[stack_top-1]
-                current_overrid   = override_stack[stack_top-1]
-                stack_top         = stack_top - 1
-                c.level           = current_embedding
-                c.type            = "bn"
+        elseif c.type == "pdf" then
+            if #stack > 0 then
+                curr_level, curr_override = unpack(table.remove(stack))
+                c.level = curr_level
+                c.type  = "bn"
             end
         -- X6
         else
-            c.level = current_embedding
-            if current_overrid ~= "on" then
-                current_type = current_overrid
+            c.level = curr_level
+            if curr_override ~= "on" then
+                c.type  = curr_override
             end
-            c.type  = current_type
         end
     end
 end

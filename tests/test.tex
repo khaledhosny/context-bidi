@@ -4,10 +4,28 @@
 
 \font\test={name:DejaVu Sans:mode=node;script=arab} at 10pt \test
 \def\TEST{أبجد () هوز ab()cd حطي g كلمن ١٢٣٤٥ سعفص قرشت.}
+\def\lre{\char"202A}
+\def\rle{\char"202B}
+\def\lro{\char"202D}
+\def\rlo{\char"202E}
+\def\pdf{\char"202C}
+\def\LRE#1{{\lre #1\pdf}}
+\def\RLE#1{{\rle #1\pdf}}
+\def\LRO#1{{\lro #1\pdf}}
+\def\RLO#1{{\rlo #1\pdf}}
+
 
 \TEST
 
 أبجد () هوز ab()cd حطي g كلمن {\textdir TRT ١٢٣٤٥} سعفص {\textdir TLT قرشت}.
+
+نص عربي \LRE{before عربي after} عربي
+
+نص عربي before عربي after عربي
+
+نص عربي \LRE{before \LRO{عربي} after} عربي
+
+نص عربي \LRE{before \RLE{قبل english بعد} after} عربي
 
 \halign{\hfil\it # & # \hfil\cr
 3 cl & \TEST\cr
