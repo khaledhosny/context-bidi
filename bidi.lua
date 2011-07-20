@@ -70,9 +70,8 @@ local function get_base_level(line)
     return 0
 end
 
-local function resolve_types(line, base_level)
+local function resolve_explicit(line, base_level)
     --[[
-    Rule (X1), (X2), (X3), (X4), (X5), (X6), (X7), (X8), (X9)
     X1. Begin by setting the current embedding level to the paragraph
         embedding level. Set the directional override status to neutral.
     X2. With each RLE, compute the least greater odd embedding level.
@@ -165,8 +164,8 @@ local function resolve_types(line, base_level)
 end
 
 local function resolve_levels(line, base_level)
-    -- Rule (X1), (X2), (X3), (X4), (X5), (X6), (X7), (X8), (X9)
-    resolve_types(line, base_level)
+    -- Rules (X1), (X2), (X3), (X4), (X5), (X6), (X7), (X8), (X9)
+    resolve_explicit(line, base_level)
 
     for i,c in next, line do
         if c.type == "nsm" then
