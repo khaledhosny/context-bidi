@@ -71,22 +71,12 @@ local function get_base_level(line)
 end
 
 local function resolve_explicit(line, base_level)
+    -- Rules (X1), (X2), (X3), (X4), (X5), (X6), (X7), (X8), (X9)
+
     --[[
+    to be checked:
     X1. Begin by setting the current embedding level to the paragraph
         embedding level. Set the directional override status to neutral.
-    X2. With each RLE, compute the least greater odd embedding level.
-    X3. With each LRE, compute the least greater even embedding level.
-    X4. With each RLO, compute the least greater odd embedding level.
-    X5. With each LRO, compute the least greater even embedding level.
-    X6. For all types besides RLE, LRE, RLO, LRO, and PDF:
-          a.  Set the level of the current character to the current
-              embedding level.
-          b.  Whenever the directional override status is not neutral,
-                  reset the current character type to the directional
-                  override status.
-    X7. With each PDF, determine the matching embedding or override code.
-    If there was a valid matching code, restore (pop) the last
-    remembered (pushed) embedding level and directional override.
     X8. All explicit directional embeddings and overrides are completely
     terminated at the end of each paragraph. Paragraph separators are not
     included in the embedding. (Useless here) NOT IMPLEMENTED
@@ -102,6 +92,7 @@ local function resolve_explicit(line, base_level)
 
     for _,c in next, line do
         local current_type = c.type
+        -- X2
         if current_type == "rle" then
             if stack_top < MAX_STACK then
                 level_stack[stack_top]    = current_embedding
@@ -111,6 +102,7 @@ local function resolve_explicit(line, base_level)
                 current_overrid           = "on"
                 c.level                   = current_embedding
             end
+        -- X3
         elseif current_type == "lre" then
             if stack_top < MAX_STACK then
                 level_stack[stack_top]    = current_embedding
@@ -120,6 +112,7 @@ local function resolve_explicit(line, base_level)
                 current_overrid           = "on"
                 c.level                   = current_embedding
             end
+        -- X4
         elseif current_type == "rlo" then
             if stack_top < MAX_STACK then
                 level_stack[stack_top]    = current_embedding
@@ -129,6 +122,7 @@ local function resolve_explicit(line, base_level)
                 current_overrid           = "r"
                 c.level                   = current_embedding
             end
+        -- X5
         elseif current_type == "lro" then
             if stack_top < MAX_STACK then
                 level_stack[stack_top]    = current_embedding
@@ -138,6 +132,7 @@ local function resolve_explicit(line, base_level)
                 current_overrid           = "l"
                 c.level                   = current_embedding
             end
+        -- X7
         elseif current_type == "pdf" then
             if stack_top > 0 then
                 current_embedding = level_stack[stack_top-1]
@@ -153,6 +148,7 @@ local function resolve_explicit(line, base_level)
                 current_type = current_overrid
             end
             c.type  = current_type
+        -- X6
         else
             c.level = current_embedding
             if current_overrid ~= "on" then
