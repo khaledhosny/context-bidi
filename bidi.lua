@@ -145,14 +145,6 @@ local function resolve_explicit(line, base_level)
                 c.level           = current_embedding
                 c.type            = "bn"
             end
-        elseif current_type == "ws" or current_type == "b" or current_type == "s" then
-            -- Whitespace is treated as neutral for now
-            c.level       = current_embedding
-            current_type  = "on"
-            if current_overrid ~= "on" then
-                current_type = current_overrid
-            end
-            c.type  = current_type
         -- X6
         else
             c.level = current_embedding
