@@ -142,9 +142,10 @@ local function resolve_explicit(line, base_level)
     end
 end
 
-local function resolve_weak(line, base_level)
+local function resolve_weak(line, base_level, start, limit)
     -- W1
-    for i,c in next, line do
+    for i = start, limit do
+        local c = line[i]
         if c.type == "nsm" then
             if i == 1 then
                 c.type = base_level
@@ -160,9 +161,9 @@ local function resolve_weak(line, base_level)
     first strong type (R, L, AL, or sor) is found.  If an AL is found,
     change the type of the European number to Arabic number.
     --]]
-    for i in next, line do
+    for i = start, limit do
         if line[i].type == "en" then
-            for j=i,1,-1 do
+            for j = i, start,-1 do
                 if line[j].type == "al" then
                     line[i].type = "an"
                     break
@@ -177,7 +178,8 @@ local function resolve_weak(line, base_level)
     Rule (W3)
     W3. Change all ALs to R.
     --]]
-    for _,c in next, line do
+    for i = start, limit do
+        local c = line[i]
         if c.type == "al" then
             c.type = "r"
         end
@@ -189,8 +191,8 @@ local function resolve_weak(line, base_level)
     to a European number. A single common separator between two numbers
     of the same type changes to that type.
     --]]
-    for i,c in next, line do
-        local pc, nc = line[i-1], line[i+1]
+    for i = start, limit do
+        local c, pc, nc = line[i], line[i-1], line[i+1]
         if c.type == "es" then
             if (pc and pc.type == "en") and (nc and nc.type == "en") then
                 c.type = "en"
@@ -209,7 +211,7 @@ local function resolve_weak(line, base_level)
     W5. A sequence of European terminators adjacent to European numbers
     changes to all European numbers.
     --]]
-    for i in next, line do
+    for i = start, limit do
         if line[i].type == "et" then
             if line[i-1] and line[i-1].type == "en" then
                 line[i].type = "en"
@@ -217,7 +219,7 @@ local function resolve_weak(line, base_level)
                 line[i].type = "en"
             elseif line[i+1] and line[i+1].type == "et" then
                 local j = i
-                while j < #line and line[j].type == "et" do
+                while j <= limit and line[j].type == "et" do
                     j = j + 1
                 end
                 if line[j].type == "en" then
@@ -231,7 +233,8 @@ local function resolve_weak(line, base_level)
     Rule (W6)
     W6. Otherwise, separators and terminators change to Other Neutral:
     --]]
-    for _,c in next, line do
+    for i = start, limit do
+        local c = line[i]
         if c.type == "es" or c.type == "et" or c.type == "cs" then
             c.type = "on"
         end
@@ -243,10 +246,10 @@ local function resolve_weak(line, base_level)
     the first strong type (R, L, or sor) is found. If an L is found,
     then change the type of the European number to L.
     --]]
-    for i in next, line do
+    for i = start, limit do
         if line[i].type == "en" then
             local j = i
-            while j>0 and line[j].level == line[i].level do
+            while j > start and line[j].level == line[i].level do
                 if line[j].type == "l" then
                     line[i].type = "l"
                     break
@@ -259,14 +262,14 @@ local function resolve_weak(line, base_level)
     end
 end
 
-local function resolve_neutral(line, base_level)
+local function resolve_neutral(line, base_level, start, limit)
     --[[
     Rule (N1)
     N1. A sequence of neutrals takes the direction of the surrounding
     strong text if the text on both sides has the same direction. European
     and Arabic numbers are treated as though they were R.
     --]]
-    for i in next, line do
+    for i = start, limit do
         local pre_dir
         local post_dir
         if line[i].type == "on" and line[i-1] and line[i+1] then
@@ -275,7 +278,7 @@ local function resolve_neutral(line, base_level)
             elseif line[i-1].type == "l" then
                 pre_dir = "l"
             end
-            for j=i+1,#line do
+            for j = i + 1, limit do
                 if line[j].type == "r" or line[j].type == "en" or line[j].type == "an" then
                     post_dir = "r"
                     break
@@ -294,7 +297,8 @@ local function resolve_neutral(line, base_level)
     Rule (N2)
     N2. Any remaining neutrals take the embedding direction.
     --]]
-    for _,c in next, line do
+    for i = start, limit do
+        c = line[i]
         if c.type == "on" then
             if odd(c.level) then
                 c.type = "r"
@@ -305,14 +309,15 @@ local function resolve_neutral(line, base_level)
     end
 end
 
-local function resolve_implicit(line, base_level)
+local function resolve_implicit(line, base_level, start, limit)
     --[[
     Rule (I1)
     I1. For all characters with an even (left-to-right) embedding
     direction, those of type R go up one level and those of type AN or
     EN go up two levels.
     --]]
-    for _,c in next, line do
+    for i = start, limit do
+        c = line[i]
         if not odd(c.level) then
             if c.type == "r" then
                 c.level = c.level + 1
@@ -327,7 +332,8 @@ local function resolve_implicit(line, base_level)
     I2. For all characters with an odd (right-to-left) embedding direction,
     those of type L, EN or AN go up one level.
     --]]
-    for _,c in next, line do
+    for i = start, limit do
+        c = line[i]
         if odd(c.level) then
             if c.type == "l" or c.type == "en" or c.type == "an" then
                 c.level = c.level + 1
@@ -340,14 +346,25 @@ local function resolve_levels(line, base_level)
     -- Rules X1 to X9
     resolve_explicit(line, base_level)
 
-    -- Rules W1 to W7
-    resolve_weak(line, base_level)
+    -- X10
+    start = 1
+    while start < #line do
+        limit = start + 1
+        while limit < #line and line[limit].level == line[start].level do
+            limit = limit + 1
+        end
 
-    -- Rules N1 and N2
-    resolve_neutral(line, base_level)
+        -- Rules W1 to W7
+        resolve_weak(line, base_level, start, limit)
 
-    -- Rules I1 and I2
-    resolve_implicit(line, base_level)
+        -- Rules N1 and N2
+        resolve_neutral(line, base_level, start, limit)
+
+        -- Rules I1 and I2
+        resolve_implicit(line, base_level, start, limit)
+
+        start = limit
+    end
 
     --[[
     Rule (L1)
