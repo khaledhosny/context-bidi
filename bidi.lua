@@ -53,6 +53,23 @@ local function least_greater_even(x)
     return odd(x) and x+1 or x+2
 end
 
+local function get_base_level(line)
+    --[[
+    Rule (P2), (P3)
+    P2. In each paragraph, find the first character of type L, AL, or R.
+    P3. If a character is found in P2 and it is of type AL or R, then set
+    the paragraph embedding level to one; otherwise, set it to zero.
+    --]]
+    for _,c in next, line do
+        if c.type == "r" or c.type == "al" then
+            return 1
+        elseif c.type == "l" then
+            return 0
+        end
+    end
+    return 0
+end
+
 local function resolve_types(line, base_level)
     --[[
     Rule (X1), (X2), (X3), (X4), (X5), (X6), (X7), (X8), (X9)
@@ -449,23 +466,6 @@ local function insert_dir_points(line)
     end
 
     return line
-end
-
-local function get_base_level(line)
-    --[[
-    Rule (P2), (P3)
-    P2. In each paragraph, find the first character of type L, AL, or R.
-    P3. If a character is found in P2 and it is of type AL or R, then set
-    the paragraph embedding level to one; otherwise, set it to zero.
-    --]]
-    for _,c in next, line do
-        if c.type == "r" or c.type == "al" then
-            return 1
-        elseif c.type == "l" then
-            return 0
-        end
-    end
-    return 0
 end
 
 local function do_bidi(head, group)
