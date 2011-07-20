@@ -101,6 +101,7 @@ local function resolve_explicit(line, base_level)
                 current_embedding         = least_greater_odd(current_embedding)
                 current_overrid           = "on"
                 c.level                   = current_embedding
+                c.type                    = "bn"
             end
         -- X3
         elseif current_type == "lre" then
@@ -111,6 +112,7 @@ local function resolve_explicit(line, base_level)
                 current_embedding         = least_greater_even(current_embedding)
                 current_overrid           = "on"
                 c.level                   = current_embedding
+                c.type                    = "bn"
             end
         -- X4
         elseif current_type == "rlo" then
@@ -121,6 +123,7 @@ local function resolve_explicit(line, base_level)
                 current_embedding         = least_greater_odd(current_embedding)
                 current_overrid           = "r"
                 c.level                   = current_embedding
+                c.type                    = "bn"
             end
         -- X5
         elseif current_type == "lro" then
@@ -131,6 +134,7 @@ local function resolve_explicit(line, base_level)
                 current_embedding         = least_greater_even(current_embedding)
                 current_overrid           = "l"
                 c.level                   = current_embedding
+                c.type                    = "bn"
             end
         -- X7
         elseif current_type == "pdf" then
@@ -139,6 +143,7 @@ local function resolve_explicit(line, base_level)
                 current_overrid   = override_stack[stack_top-1]
                 stack_top         = stack_top - 1
                 c.level           = current_embedding
+                c.type            = "bn"
             end
         elseif current_type == "ws" or current_type == "b" or current_type == "s" then
             -- Whitespace is treated as neutral for now
