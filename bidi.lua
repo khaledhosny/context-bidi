@@ -155,29 +155,23 @@ local function resolve_weak(line, base_level, start, limit, sor, eor)
         end
     end
 
-    --[[
-    Rule (W2)
-    W2. Search backwards from each instance of a European number until the
-    first strong type (R, L, AL, or sor) is found.  If an AL is found,
-    change the type of the European number to Arabic number.
-    --]]
+    -- W2
     for i = start, limit do
-        if line[i].type == "en" then
-            for j = i, start,-1 do
-                if line[j].type == "al" then
-                    line[i].type = "an"
+        local c = line[i]
+        if c.type == "en" then
+            for j = i - 1, start, -1 do
+                local bc = line[j]
+                if bc.type == "al" then
+                    c.type = "an"
                     break
-                elseif line[j].type == "r" or line[j].type == "l" then
+                elseif bc.type == "r" or bc.type == "l" then
                     break
                 end
             end
         end
     end
 
-    --[[
-    Rule (W3)
-    W3. Change all ALs to R.
-    --]]
+    -- W3
     for i = start, limit do
         local c = line[i]
         if c.type == "al" then
@@ -185,19 +179,14 @@ local function resolve_weak(line, base_level, start, limit, sor, eor)
         end
     end
 
-    --[[
-    Rule (W4)
-    W4. A single European separator between two European numbers changes
-    to a European number. A single common separator between two numbers
-    of the same type changes to that type.
-    --]]
+    -- W4
     for i = start, limit do
         local c, pc, nc = line[i], line[i-1], line[i+1]
         if c.type == "es" then
             if (pc and pc.type == "en") and (nc and nc.type == "en") then
                 c.type = "en"
             end
-        elseif line[i].type == "cs" then
+        elseif c.type == "cs" then
             if (pc and pc.type == "en") and (nc and nc.type == "en") then
                 c.type = "en"
             elseif (pc and pc.type == "an") and (nc and nc.type == "an") then
