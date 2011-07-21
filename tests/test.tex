@@ -4,7 +4,7 @@
 %textdir TRT
 
 \font\test={name:DejaVu Sans:mode=node;script=arab} at 10pt \test
-\def\TEST{أَبْجَدْ () هَوَّزْ ab()cd حُطِّي g كَلَمُنْ ١٢,٣٤٥ سَعْفَصْ قَرَشَتْ 12.345.}
+\def\TEST{أَبْجَدْ () هَوَّزْ ab()cd حُطِّي g كَلَمُنْ ١٢,٣٤٥ سَعْفَصْ قَرَشَتْ 12.345\%\%\$.}
 \def\lre{\char"202A}
 \def\rle{\char"202B}
 \def\lro{\char"202D}
@@ -18,7 +18,7 @@
 
 \TEST
 
-أبجد () هوز ab()cd حطي g كلمن {\textdir TRT ١٢٣٤٥} سعفص {\textdir TLT قرشت}.
+أبجد () هوز ab()cd حطي g كلمن {\textdir TRT ١٢٣٤٥} سعفص {\textdir TLT قرشت}\%a\$.
 
 نص عربي \LRE{before عربي after} عربي
 

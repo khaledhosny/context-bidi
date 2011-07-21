@@ -53,10 +53,19 @@ local function least_greater_even(x)
     return odd(x) and x+1 or x+2
 end
 
-local function find_run_limit(line, run_start, limit, run_type)
+local function v_equal_or_table(v, t)
+    for _,tt in next, t do
+        if v ~= tt then
+            return false
+        end
+    end
+    return true
+end
+
+local function find_run_limit(line, run_start, limit, types)
     local run_limit
     i = run_start
-    while line[i].type == run_type do
+    while i <= limit and v_equal_or_table(line[i].type, types) do
         run_limit = i
         i = i + 1
     end
@@ -211,7 +220,7 @@ local function resolve_weak(line, base_level, start, limit, sor, eor)
         local c, pc, nc = line[i], line[i-1], line[i+1]
         if c.type == "et" then
             local et_start = i
-            local et_limit = find_run_limit(line, et_start, limit, "et")
+            local et_limit = find_run_limit(line, et_start, limit, {"et"})
             local t = (et_start == start and sor) or line[et_start-1].type
             if t ~= "en"then
                 t = (et_limit == limit and eor) or line[et_limit+1].type
