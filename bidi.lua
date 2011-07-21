@@ -31,15 +31,6 @@ local format, upper, max = string.format, string.upper, math.max
 
 local get_type = bidi.get_direction
 local get_mirr = bidi.get_mirror
-local set_mirr = bidi.set_mirror
-
--- see http://www.unicode.org/versions/corrigendum6.html
-for i in next, { 0x2018, 0x201C, 0x301D } do
-    set_mirr(i, i+1)
-end
-for i in next, { 0x2019, 0x201D, 0x301E } do
-    set_mirr(i, i-1)
-end
 
 local MAX_STACK = 60
 

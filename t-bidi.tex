@@ -29,10 +29,18 @@ function bidi.get_mirror(c)
     return mir
 end
 
-function bidi.set_mirror(c, m)
+local function set_mirror(c, m)
     if chardata[c] then
         chardata[c].mirror = m
     end
+end
+
+-- see http://www.unicode.org/versions/corrigendum6.html
+for _,v in next, { 0x2018, 0x201C, 0x301D } do
+    set_mirror(v, v+1)
+end
+for _,v in next, { 0x2019, 0x201D, 0x301E } do
+    set_mirror(v, v-1)
 end
 
 \stopluacode

@@ -18,12 +18,6 @@
        return mir
     end
 
-    function bidi.set_mirror(c, m)
-        if chardata[c] then
-            chardata[c].mirror = m
-        end
-    end
-
     require("bidi")
 
     function bidi.enable()

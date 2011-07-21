@@ -20579,9 +20579,11 @@ return {
  },
  [8216]={
   ["direction"]="on",
+  ["mirror"]=8217,
  },
  [8217]={
   ["direction"]="on",
+  ["mirror"]=8216,
  },
  [8218]={
   ["direction"]="on",
@@ -20591,9 +20593,11 @@ return {
  },
  [8220]={
   ["direction"]="on",
+  ["mirror"]=8221,
  },
  [8221]={
   ["direction"]="on",
+  ["mirror"]=8220,
  },
  [8222]={
   ["direction"]="on",
@@ -31678,9 +31682,11 @@ return {
  },
  [12317]={
   ["direction"]="on",
+  ["mirror"]=12318,
  },
  [12318]={
   ["direction"]="on",
+  ["mirror"]=12317,
  },
  [12319]={
   ["direction"]="on",
