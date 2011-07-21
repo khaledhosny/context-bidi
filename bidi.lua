@@ -27,6 +27,8 @@ if not modules then modules = { } end modules ['bidi'] = bidi.module
   translated into insertion of begin/enddir nodes into the original node list.
 --]]
 
+local format, upper, max = string.format, string.upper, math.max
+
 local get_type = bidi.get_direction
 local get_mirr = bidi.get_mirror
 local set_mirr = bidi.set_mirror
@@ -78,12 +80,7 @@ local function find_run_limit(line, run_start, limit, types)
 end
 
 local function get_base_level(line)
-    --[[
-    Rule (P2), (P3)
-    P2. In each paragraph, find the first character of type L, AL, or R.
-    P3. If a character is found in P2 and it is of type AL or R, then set
-    the paragraph embedding level to one; otherwise, set it to zero.
-    --]]
+    -- P2, P3
     for _,c in next, line do
         if c.type == "r" or c.type == "al" then
             return 1
@@ -95,8 +92,6 @@ local function get_base_level(line)
 end
 
 local function resolve_explicit(line, base_level)
-    -- Rules (X1), (X2), (X3), (X4), (X5), (X6), (X7), (X8), (X9)
-
     --[[
     to be checked:
     X1. Begin by setting the current embedding level to the paragraph
@@ -109,7 +104,7 @@ local function resolve_explicit(line, base_level)
     --]]
 
     local curr_level    = base_level
-    local curr_override =  "on"
+    local curr_override = "on"
     local stack         = { }
 
     for _,c in next, line do
@@ -222,14 +217,17 @@ local function resolve_weak(line, base_level, start, limit, sor, eor)
     -- W5
     local i = start
     while i <= limit do
-        local c, pc, nc = line[i], line[i-1], line[i+1]
-        if c.type == "et" then
-            local et_start = i
-            local et_limit = find_run_limit(line, et_start, limit, {"et"})
-            local t = (et_start == start and sor) or line[et_start-1].type
-            if t ~= "en"then
+        if line[i].type == "et" then
+            local et_start, et_limit, t
+            et_start = i
+            et_limit = find_run_limit(line, et_start, limit, {"et"})
+
+            t = (et_start == start and sor) or line[et_start-1].type
+
+            if t ~= "en" then
                 t = (et_limit == limit and eor) or line[et_limit+1].type
             end
+
             if t == "en" then
                 for j = et_start, et_limit do
                     line[j].type = "en"
@@ -308,12 +306,7 @@ local function resolve_neutral(line, base_level, start, limit, sor, eor)
 end
 
 local function resolve_implicit(line, base_level, start, limit, sor, eor)
-    --[[
-    Rule (I1)
-    I1. For all characters with an even (left-to-right) embedding
-    direction, those of type R go up one level and those of type AN or
-    EN go up two levels.
-    --]]
+    -- I1
     for i = start, limit do
         c = line[i]
         if not odd(c.level) then
@@ -325,11 +318,7 @@ local function resolve_implicit(line, base_level, start, limit, sor, eor)
         end
     end
 
-    --[[
-    Rule (I2)
-    I2. For all characters with an odd (right-to-left) embedding direction,
-    those of type L, EN or AN go up one level.
-    --]]
+    -- I2
     for i = start, limit do
         c = line[i]
         if odd(c.level) then
@@ -356,8 +345,8 @@ local function resolve_levels(line, base_level)
 
         local prev_level = (start == 1 and base_level) or line[start-1].level
         local next_level = (limit == #line and base_level) or line[limit+1].level
-        local sor = type_of_level(math.max(level, prev_level))
-        local eor = type_of_level(math.max(level, next_level))
+        local sor = type_of_level(max(level, prev_level))
+        local eor = type_of_level(max(level, next_level))
 
         -- Rules W1 to W7
         resolve_weak(line, base_level, start, limit, sor, eor)
@@ -465,7 +454,7 @@ local function insert_dir_points(line)
                     seq_begin = j
                     j = j - 1
                 end
-                local dir = string.format("T%sT", string.upper(type_of_level(level)))
+                local dir = format("T%sT", upper(type_of_level(level)))
                 if not line[seq_begin].bdir then
                     line[seq_begin].bdir = "+"..dir
                 end
