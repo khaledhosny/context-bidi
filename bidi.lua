@@ -255,13 +255,14 @@ local function resolve_weak(line, base_level, start, limit, sor, eor)
     for i = start, limit do
         local c = line[i]
         if c.type == "en" then
+            local prev_strong = sor
             for j = i - 1, start, -1 do
-                if line[j].type == "l" then
-                    c.type = "l"
-                    break
-                elseif line[j].type == "r" then
-                    break
+                if line[j].type == "l" or line[j].type == "r" then
+                    prev_strong = line[j].type
                 end
+            end
+            if prev_strong == "l" then
+                c.type = "l"
             end
         end
     end
