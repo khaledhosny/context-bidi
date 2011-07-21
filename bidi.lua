@@ -64,6 +64,7 @@ end
 
 local function find_run_limit(line, run_start, limit, types)
     local run_limit
+    run_limit = run_start
     i = run_start
     while i <= limit and v_equal_or_table(line[i].type, types) do
         run_limit = i
@@ -260,49 +261,45 @@ local function resolve_weak(line, base_level, start, limit, sor, eor)
 end
 
 local function resolve_neutral(line, base_level, start, limit, sor, eor)
-    --[[
-    Rule (N1)
-    N1. A sequence of neutrals takes the direction of the surrounding
-    strong text if the text on both sides has the same direction. European
-    and Arabic numbers are treated as though they were R.
-    --]]
+    -- N1, N2
     for i = start, limit do
-        local pre_dir
-        local post_dir
-        if line[i].type == "on" and line[i-1] and line[i+1] then
-            if line[i-1].type == "r" or line[i-1].type == "en" or line[i-1].type == "an" then
-                pre_dir = "r"
-            elseif line[i-1].type == "l" then
-                pre_dir = "l"
-            end
-            for j = i + 1, limit do
-                if line[j].type == "r" or line[j].type == "en" or line[j].type == "an" then
-                    post_dir = "r"
-                    break
-                elseif line[j].type == "l" then
-                    post_dir = "l"
-                    break
+        local c = line[i]
+        if c.type == "b" or c.type == "s" or c.type == "ws" or c.type == "on" then
+            local n_start, n_limit, leadind_type, trailing_type, resolved_type
+            n_start = i
+            n_limit = find_run_limit(line, n_start, limit, {"b", "s", "ws", "on"})
+
+            if n_start == start then
+                leadind_type = sor
+            else
+                leading_type = line[n_start-1].type
+                if leading_type == "en" or leading_type == "ar" then
+                    leading_type = "r"
                 end
             end
-            if pre_dir and post_dir and (pre_dir == post_dir) then
-                line[i].type = post_dir
-            end
-        end
-    end
 
-    --[[
-    Rule (N2)
-    N2. Any remaining neutrals take the embedding direction.
-    --]]
-    for i = start, limit do
-        c = line[i]
-        if c.type == "on" then
-            if odd(c.level) then
-                c.type = "r"
+            if n_limit == limit then
+                trailing_type = eor
             else
-                c.type = "l"
+                trailing_type = line[n_limit+1].type
+                if trailing_type == "en" or trailing_type == "ar" then
+                    trailing_type = "r"
+                end
             end
+
+            if leading_type == trailing_type then
+                -- N1
+                resolved_type = leading_type
+            else
+                -- N2
+                resolved_type = odd(line[i].level) and "r" or "l"
+            end
+            for j = n_start, n_limit do
+                line[j].type = resolved_type
+            end
+            i = n_limit
         end
+        i = i + 1
     end
 end
 
