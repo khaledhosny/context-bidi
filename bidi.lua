@@ -105,8 +105,6 @@ local function resolve_explicit(line, base_level)
     X8. All explicit directional embeddings and overrides are completely
     terminated at the end of each paragraph. Paragraph separators are not
     included in the embedding. (Useless here) NOT IMPLEMENTED
-    X9. Remove all RLE, LRE, RLO, LRO, PDF, and BN codes.
-    Here, they're converted to BN.
     --]]
 
     local curr_level    = base_level
@@ -122,6 +120,7 @@ local function resolve_explicit(line, base_level)
                 curr_override =  "on"
                 c.level       = curr_level
                 c.type        = "bn"
+                c.remove      = true
             end
         -- X3
         elseif c.type == "lre" then
@@ -131,6 +130,7 @@ local function resolve_explicit(line, base_level)
                 curr_override =  "on"
                 c.level       = curr_level
                 c.type        = "bn"
+                c.remove      = true
             end
         -- X4
         elseif c.type == "rlo" then
@@ -140,6 +140,7 @@ local function resolve_explicit(line, base_level)
                 curr_override = "r"
                 c.level       = curr_level
                 c.type        = "bn"
+                c.remove      = true
             end
         -- X5
         elseif c.type == "lro" then
@@ -149,13 +150,15 @@ local function resolve_explicit(line, base_level)
                 curr_override = "l"
                 c.level       = curr_level
                 c.type        = "bn"
+                c.remove      = true
             end
         -- X7
         elseif c.type == "pdf" then
             if #stack > 0 then
                 curr_level, curr_override = unpack(table.remove(stack))
-                c.level = curr_level
-                c.type  = "bn"
+                c.level  = curr_level
+                c.type   = "bn"
+                c.remove = true
             end
         -- X6
         else
@@ -515,19 +518,20 @@ local function process(head, group)
     local i = 1
     local n = head
     while n do
+        local c = line[i]
         if n.id == hlist or n.id == vlist then
             n.list = process(n.list)
         else
             if n.id == glyph then
-                assert(line[i].char == n.char)
-                local mirror = line[i].mirror
+                assert(c.char == n.char)
+                local mirror = c.mirror
                 if mirror then
                     n.char = mirror
                 end
             end
 
-            local bdir = line[i].bdir
-            local edir = line[i].edir
+            local bdir = c.bdir
+            local edir = c.edir
 
             if bdir then
                 head = node.insert_before(head, n, new_dir_node(bdir))
@@ -536,10 +540,15 @@ local function process(head, group)
             if edir then
                 head, n = node.insert_after(head, n, new_dir_node(edir))
             end
+
         end
 
         i = i + 1
-        n = n.next
+        if c.remove then
+            head, n = node.remove(head, n)
+        else
+            n = n.next
+        end
     end
 
     return head
