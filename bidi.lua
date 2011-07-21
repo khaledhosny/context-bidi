@@ -59,6 +59,12 @@ local function type_of_level(x)
     return odd(x) and "r" or "l"
 end
 
+local function is_whitespace(x)
+    if x == "lre" or x == "rle" or x == "lro" or x == "rlo" or x == "pdf" or x == "bn" or x == "ws" then
+        return true
+    end
+end
+
 local function v_equal_or_table(v, t)
     for _,tt in next, t do
         if v ~= tt then
@@ -360,21 +366,29 @@ local function resolve_levels(line, base_level)
         start = limit
     end
 
-    --[[
-    Rule (L1)
-    L1. On each line, reset the embedding level of the following characters
-    to the paragraph embedding level:
-              (1)segment separators, (2)paragraph separators,
-              (3)any sequence of whitespace characters preceding
-              a segment separator or paragraph separator, NOT IMPLEMENTED
-              (4)and any sequence of white space characters
-              at the end of the line. NOT IMPLEMENTED
-    The types of characters used here are the original types, not those
-    modified by the previous phase.
-    --]]
-    for _,c in next, line do
+    -- L1
+    for i,c in next, line do
+        -- (1)
         if c.orig_type == "s" or c.orig_type == "b" then
             c.level = base_level
+            -- (2)
+            for j = i - 1, 1, -1 do
+                local bc = line[j]
+                if is_whitespace(bc.orig_type) then
+                    bc.level = base_level
+                else
+                    break
+                end
+            end
+        end
+    end
+    -- (3)
+    for i = #line, 1, -1 do
+        local bc = line[i]
+        if is_whitespace(bc.orig_type) then
+            bc.level = base_level
+        else
+            break
         end
     end
 
