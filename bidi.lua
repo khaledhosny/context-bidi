@@ -205,16 +205,12 @@ local function resolve_weak(line, base_level, start, limit, sor, eor)
     end
 
     -- W4
-    for i = start, limit do
+    for i = start+1, limit-1 do
         local c, pc, nc = line[i], line[i-1], line[i+1]
-        if c.type == "es" then
-            if (pc and pc.type == "en") and (nc and nc.type == "en") then
+        if c.type == "es" or c.type == "cs"  then
+            if pc.type == "en" and nc.type == "en" then
                 c.type = "en"
-            end
-        elseif c.type == "cs" then
-            if (pc and pc.type == "en") and (nc and nc.type == "en") then
-                c.type = "en"
-            elseif (pc and pc.type == "an") and (nc and nc.type == "an") then
+            elseif c.type == "cs" and pc.type == "an" and nc.type == "an" then
                 c.type = "an"
             end
         end
