@@ -5,13 +5,13 @@
     local chardata  = dofile(kpse.find_file("chardata.lua"))
 
     function bidi.get_direction(c)
-        local dir = chardata[c] and chardata[c].direction or "l"
+        local dir = chardata[c] and chardata[c].dir or "l"
         return dir
     end
 
     function bidi.get_mirror(c)
-       local mir = chardata[c] and chardata[c].mirror
-       return mir
+        local mir = chardata[c] and chardata[c].mir
+        return mir
     end
 
     require("bidi")
