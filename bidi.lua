@@ -53,6 +53,16 @@ local function least_greater_even(x)
     return odd(x) and x+1 or x+2
 end
 
+local function find_run_limit(line, run_start, limit, run_type)
+    local run_limit
+    i = run_start
+    while line[i].type == run_type do
+        run_limit = i
+        i = i + 1
+    end
+    return run_limit
+end
+
 local function get_base_level(line)
     --[[
     Rule (P2), (P3)
@@ -195,27 +205,26 @@ local function resolve_weak(line, base_level, start, limit, sor, eor)
         end
     end
 
-    --[[
-    Rule (W5)
-    W5. A sequence of European terminators adjacent to European numbers
-    changes to all European numbers.
-    --]]
-    for i = start, limit do
-        if line[i].type == "et" then
-            if line[i-1] and line[i-1].type == "en" then
-                line[i].type = "en"
-            elseif line[i+1] and line[i+1].type == "en" then
-                line[i].type = "en"
-            elseif line[i+1] and line[i+1].type == "et" then
-                local j = i
-                while j <= limit and line[j].type == "et" do
-                    j = j + 1
-                end
-                if line[j].type == "en" then
-                    line[i].type = "en"
+    -- W5
+    local i = start
+    while i <= limit do
+        print(i)
+        local c, pc, nc = line[i], line[i-1], line[i+1]
+        if c.type == "et" then
+            local et_start = i
+            local et_limit = find_run_limit(line, et_start, limit, "et")
+            local t = (et_start == start and sor) or line[et_start-1].type
+            if t ~= "en"then
+                t = (et_limit == limit and eor) or line[et_limit+1].type
+            end
+            if t == "en" then
+                for j = et_start, et_limit do
+                    line[j].type = "en"
                 end
             end
+            i = et_limit
         end
+        i = i + 1
     end
 
     --[[
