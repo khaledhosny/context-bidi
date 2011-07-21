@@ -53,6 +53,10 @@ local function least_greater_even(x)
     return odd(x) and x+1 or x+2
 end
 
+local function type_of_level(x)
+    return odd(x) and "r" or "l"
+end
+
 local function v_equal_or_table(v, t)
     for _,tt in next, t do
         if v ~= tt then
@@ -292,7 +296,7 @@ local function resolve_neutral(line, base_level, start, limit, sor, eor)
                 resolved_type = leading_type
             else
                 -- N2
-                resolved_type = odd(line[i].level) and "r" or "l"
+                resolved_type = type_of_level(line[i].level)
             end
             for j = n_start, n_limit do
                 line[j].type = resolved_type
@@ -352,9 +356,8 @@ local function resolve_levels(line, base_level)
 
         local prev_level = (start == 1 and base_level) or line[start-1].level
         local next_level = (limit == #line and base_level) or line[limit+1].level
-        local sor = odd(math.max(level, prev_level)) and "r" or "l"
-        local eor = odd(math.max(level, next_level)) and "r" or "l"
-
+        local sor = type_of_level(math.max(level, prev_level))
+        local eor = type_of_level(math.max(level, next_level))
 
         -- Rules W1 to W7
         resolve_weak(line, base_level, start, limit, sor, eor)
@@ -462,12 +465,7 @@ local function insert_dir_points(line)
                     seq_begin = j
                     j = j - 1
                 end
-                local dir
-                if odd(level) then
-                    dir = "TRT"
-                else
-                    dir = "TLT"
-                end
+                local dir = string.format("T%sT", string.upper(type_of_level(level)))
                 if not line[seq_begin].bdir then
                     line[seq_begin].bdir = "+"..dir
                 end
