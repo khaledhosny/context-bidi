@@ -392,16 +392,12 @@ local function resolve_levels(line, base_level)
         end
     end
 
-    --[[
-    Rule (L3)
-    L3. Combining marks applied to a right-to-left base character will at
-    this point precede their base character. If the rendering engine
-    expects them to follow the base characters in the final display
-    process, then the ordering of the marks and the base character must
-    be reversed.
-        Combining marks are reordered to the right of each character on an
-        odd level.
-    --]]
+    -- L4
+    for _,c in next, line do
+        if odd(c.level) then
+            c.mirror = get_mirr(c.char)
+        end
+    end
 
     return line
 end
@@ -528,12 +524,9 @@ local function process(head, group)
         else
             if n.id == glyph then
                 assert(line[i].char == n.char)
-                local v = line[i].level
-                if v and odd(v) then
-                    local mirror = get_mirr(n.char)
-                    if mirror then
-                        n.char = mirror
-                    end
+                local mirror = line[i].mirror
+                if mirror then
+                    n.char = mirror
                 end
             end
 
