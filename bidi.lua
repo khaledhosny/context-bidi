@@ -208,7 +208,6 @@ local function resolve_weak(line, base_level, start, limit, sor, eor)
     -- W5
     local i = start
     while i <= limit do
-        print(i)
         local c, pc, nc = line[i], line[i-1], line[i+1]
         if c.type == "et" then
             local et_start = i
@@ -227,10 +226,7 @@ local function resolve_weak(line, base_level, start, limit, sor, eor)
         i = i + 1
     end
 
-    --[[
-    Rule (W6)
-    W6. Otherwise, separators and terminators change to Other Neutral:
-    --]]
+    -- W6
     for i = start, limit do
         local c = line[i]
         if c.type == "es" or c.type == "et" or c.type == "cs" then
@@ -238,23 +234,17 @@ local function resolve_weak(line, base_level, start, limit, sor, eor)
         end
     end
 
-    --[[
-    Rule (W7)
-    W7. Search backwards from each instance of a European number until
-    the first strong type (R, L, or sor) is found. If an L is found,
-    then change the type of the European number to L.
-    --]]
+    -- W7
     for i = start, limit do
-        if line[i].type == "en" then
-            local j = i
-            while j > start and line[j].level == line[i].level do
+        local c = line[i]
+        if c.type == "en" then
+            for j = i - 1, start, -1 do
                 if line[j].type == "l" then
-                    line[i].type = "l"
+                    c.type = "l"
                     break
-                elseif line[j].type == "r" or line[j].type == "al" then
+                elseif line[j].type == "r" then
                     break
                 end
-                j = j - 1
             end
         end
     end
