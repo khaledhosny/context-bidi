@@ -50,18 +50,18 @@ local function type_of_level(x)
     return odd(x) and "r" or "l"
 end
 
-local function is_whitespace(x)
-    if x == "lre" or x == "rle" or x == "lro" or x == "rlo" or x == "pdf" or x == "bn" or x == "ws" then
-        return true
-    end
-end
-
 local function Set(list)
     local set = {}
     for _,v in ipairs(list) do
         set[v] = true
     end
     return set
+end
+
+local function is_whitespace(x)
+    if Set{"lre", "rle", "lro", "rlo", "pdf", "bn", "ws"}[x] then
+        return true
+    end
 end
 
 local function find_run_limit(line, run_start, limit, types)
