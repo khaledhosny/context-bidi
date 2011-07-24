@@ -397,14 +397,16 @@ local glyph   = node.id("glyph")
 local glue    = node.id("glue")
 local hlist   = node.id("hlist")
 local vlist   = node.id("vlist")
+local whatsit = node.id("whatsit")
+
+local dir_node  = node.subtype("dir")
+local local_par = node.subtype("local_par")
+
 
 local function node_to_table(head)
     --[[
     Takes a node list and returns its textual representation
     --]]
-
-    local whatsit = node.id("whatsit")
-    local dir     = node.subtype("dir")
 
     local line = {}
     for n in node.traverse(head) do
@@ -413,7 +415,7 @@ local function node_to_table(head)
             c = n.char
         elseif n.id == glue then
             c = 0x0020 -- space
-        elseif n.id == whatsit and n.subtype == dir then
+        elseif n.id == whatsit and n.subtype == dir_node then
             -- XXX handle all supported directions
             if n.dir == "+TLT" then
                 c = 0x202D -- lro
@@ -485,7 +487,7 @@ local function do_bidi(head, group)
 end
 
 local function new_dir_node(dir)
-    local n = node.new("whatsit","dir")
+    local n = node.new("whatsit", "dir")
     n.dir = dir
     return n
 end
