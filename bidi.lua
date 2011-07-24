@@ -56,20 +56,19 @@ local function is_whitespace(x)
     end
 end
 
-local function v_equal_or_table(v, t)
-    for _,tt in next, t do
-        if v ~= tt then
-            return false
-        end
+local function Set(list)
+    local set = {}
+    for _,v in ipairs(list) do
+        set[v] = true
     end
-    return true
+    return set
 end
 
 local function find_run_limit(line, run_start, limit, types)
     local run_limit
     run_limit = run_start
     i = run_start
-    while i <= limit and v_equal_or_table(line[i].type, types) do
+    while i <= limit and Set(types)[line[i].type] do
         run_limit = i
         i = i + 1
     end
