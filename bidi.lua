@@ -432,10 +432,8 @@ local function node_to_table(head)
 end
 
 local function insert_dir_points(line)
-    --[[
-    Takes a line with resolved embedding levels and inserts begin/enddir marks
-    as required.
-    --]]
+    -- L2, but no actual reversion is done, we simply annotate where
+    -- begindir/endddir node will be inserted.
 
     local max_level = 0
 
@@ -445,22 +443,19 @@ local function insert_dir_points(line)
         end
     end
 
-    for level=max_level,0,-1 do
-        for i=#line,1,-1 do
+    for level = 0, max_level do
+        local level_start, level_limit
+        local dir = format("T%sT", upper(type_of_level(level)))
+        for i,_ in next, line do
             if line[i].level >= level then
-                local seq_end   = i
-                local seq_begin
-                local j = i
-                while j >= 1 and line[j].level >= level do
-                    seq_begin = j
-                    j = j - 1
+                if not level_start then
+                    level_start = true
+                    line[i].begindir = dir
                 end
-                local dir = format("T%sT", upper(type_of_level(level)))
-                if not line[seq_begin].bdir then
-                    line[seq_begin].bdir = "+"..dir
-                end
-                if not line[seq_end].edir and (not line[seq_end+1] or line[seq_end+1].level < level) then
-                    line[seq_end].edir = "-"..dir
+            else
+                if level_start then
+                    level_start = false
+                    line[i-1].enddir = dir
                 end
             end
         end
@@ -496,9 +491,11 @@ local function new_dir_node(dir)
 end
 
 local function process(head, group)
-    local line
+    if not head then
+        return head
+    end
 
-    line = do_bidi(head, group)
+    local line = do_bidi(head, group)
     assert(#line == node.length(head))
 
     if group == "fin_row" then
@@ -522,15 +519,15 @@ local function process(head, group)
                 end
             end
 
-            local bdir = c.bdir
-            local edir = c.edir
+            local begindir = c.begindir
+            local enddir = c.enddir
 
-            if bdir then
-                head = node.insert_before(head, n, new_dir_node(bdir))
+            if begindir then
+                head = node.insert_before(head, n, new_dir_node("+"..begindir))
             end
 
-            if edir then
-                head, n = node.insert_after(head, n, new_dir_node(edir))
+            if enddir then
+                head, n = node.insert_after(head, n, new_dir_node("-"..enddir))
             end
 
         end
