@@ -497,14 +497,14 @@ local function process(head, group)
         return head
     end
 
-    local line = do_bidi(head, group)
-    assert(#line == node.length(head))
-
     if group == "fin_row" then
         -- workaround for crash with \halign
         -- see http://tug.org/pipermail/luatex/2011-July/003107.html
         return head
     end
+
+    local line = do_bidi(head, group)
+    assert(#line == node.length(head))
 
     local i = 1
     local n = head
@@ -525,7 +525,13 @@ local function process(head, group)
             local enddir = c.enddir
 
             if begindir then
-                head = node.insert_before(head, n, new_dir_node("+"..begindir))
+                if n.id == whatsit and n.subtype == local_par and i == 1 then
+                    -- insert after local_par node if it is the 1st node
+                    -- matches behaviour of \textdir
+                    head, n = node.insert_after(head, n, new_dir_node("+"..begindir))
+                else
+                    head = node.insert_before(head, n, new_dir_node("+"..begindir))
+                end
             end
 
             if enddir then
