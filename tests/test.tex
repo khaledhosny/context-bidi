@@ -2,9 +2,10 @@
 \input luabidi
 \bidion
 %textdir TRT
+%pardir TRT
 
 \font\test={name:DejaVu Sans:mode=node;script=arab} at 10pt \test
-\def\TEST{أَبْجَدْ () هَوَّزْ ab()cd حُطِّي g كَلَمُنْ ١٢,٣٤٥ سَعْفَصْ قَرَشَتْ 12.345\%\%\$.}
+\def\TEST{أَبْجَدْ () هَوَّزْ ab(.)cd حُطِّي g كَلَمُنْ ١٢,٣٤٥ سَعْفَصْ قَرَشَتْ 12.345\%\%\$. }
 \def\lre{\char"202A}
 \def\rle{\char"202B}
 \def\lro{\char"202D}
@@ -15,6 +16,12 @@
 \def\LRO#1{{\lro #1\pdf}}
 \def\RLO#1{{\rlo #1\pdf}}
 
+\iftrue
+  \tracingoutput=1
+  \tracingonline=1
+  \showboxdepth=\maxdimen
+  \showboxbreadth=\maxdimen
+\fi
 
 \TEST
 
