@@ -515,9 +515,10 @@ local function process(head, group)
             local enddir = c.enddir
 
             if begindir then
-                if n.id == whatsit and n.subtype == local_par and i == 1 then
-                    -- insert after local_par node if it is the 1st node
-                    -- matches behaviour of \textdir
+                if n.id == whatsit and n.subtype == local_par then
+                    -- set par dir
+                    n.dir = dir_of_level(base_level) -- XXX
+                    -- local_par should always be the 1st node
                     head, n = node.insert_after(head, n, new_dir_node("+"..begindir))
                 else
                     head = node.insert_before(head, n, new_dir_node("+"..begindir))
