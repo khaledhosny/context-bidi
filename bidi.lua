@@ -457,6 +457,10 @@ local function insert_dir_points(line)
                 end
             end
         end
+        -- make sure to close the run at end of line
+        if level_start then
+            line[#line].enddir = dir
+        end
     end
 
     return line
