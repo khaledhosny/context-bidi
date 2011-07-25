@@ -503,7 +503,7 @@ local function process(head, group)
         local c = line[i]
         if n.id == hlist or n.id == vlist then
             n.list = process(n.list)
-        else
+        end
             if n.id == glyph then
                 assert(c.char == n.char)
                 local mirror = c.mirror
@@ -529,8 +529,6 @@ local function process(head, group)
             if enddir then
                 head, n = node.insert_after(head, n, new_dir_node("-"..enddir))
             end
-
-        end
 
         i = i + 1
         if c.remove then
