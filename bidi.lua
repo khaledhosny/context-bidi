@@ -19,12 +19,6 @@ if not modules then modules = { } end modules ['bidi'] = bidi.module
   The C code is Copyright (c) 2004 Ahmad Khalifa, and is distributed under the
   MIT Licence. The full license text:
     http://svn.arabeyes.org/viewvc/projects/adawat/minibidi/LICENCE
-
-  We basically translate node list into an equivalent textual representation
-  (glyph nodes are converted to their characters, glue to spaces and the rest
-  to a neutral Unicode object character, we might make it smarter later), then
-  the text is fed to a function that resolves its embedding levels, that is then
-  translated into insertion of begin/enddir nodes into the original node list.
 --]]
 
 local format, upper, max = string.format, string.upper, math.max
