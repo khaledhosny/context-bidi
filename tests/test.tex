@@ -2,6 +2,7 @@
 \input luabidi
 %textdir TRT
 %pardir TRT
+\directlua{ bidi.maindir = "r2l" }
 
 \font\test={name:DejaVu Sans:mode=node;script=arab} at 10pt \test
 \def\TEST{أَبْجَدْ () هَوَّزْ ab(.)cd حُطِّي g كَلَمُنْ ١٢,٣٤٥ سَعْفَصْ قَرَشَتْ 12.345\%\%\$. }

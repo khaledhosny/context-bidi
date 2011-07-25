@@ -489,7 +489,11 @@ local function process(head, group)
     local line, base_level
     line = node_to_table(head)
 
-    base_level = get_base_level(line)
+    if bidi.maindir then
+        base_level = bidi.maindir == "r2l" and 1 or 0
+    else
+        base_level = get_base_level(line)
+    end
 
     line = resolve_levels(line, base_level)
     line = insert_dir_points(line)
