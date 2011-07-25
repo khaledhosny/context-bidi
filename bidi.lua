@@ -465,26 +465,6 @@ local function insert_dir_points(line)
     return line
 end
 
-local function do_bidi(head, group)
-    local base_level
-    local line = node_to_table(head)
-
---  if group == "" then
-        base_level = get_base_level(line)
---  else
---      if tex.pardir == "TRT" then
---          base_level = 1
---      else
---          base_level =0
---      end
---  end
-
-    line = resolve_levels(line, base_level)
-    line = insert_dir_points(line)
-
-    return line
-end
-
 local function new_dir_node(dir)
     local n = node.new("whatsit", "dir")
     n.dir = dir
@@ -502,7 +482,14 @@ local function process(head, group)
         return head
     end
 
-    local line = do_bidi(head, group)
+    local line, base_level
+    line = node_to_table(head)
+
+    base_level = get_base_level(line)
+
+    line = resolve_levels(line, base_level)
+    line = insert_dir_points(line)
+
     assert(#line == node.length(head))
 
     local i = 1
