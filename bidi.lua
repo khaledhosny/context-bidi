@@ -69,9 +69,8 @@ local function is_whitespace(x)
 end
 
 local function find_run_limit(line, run_start, limit, types)
-    local run_limit
-    run_limit = run_start
-    i = run_start
+    local run_limit = run_start
+    local i = run_start
     while i <= limit and Set(types)[line[i].type] do
         run_limit = i
         i = i + 1
@@ -267,12 +266,12 @@ local function resolve_neutral(line, start, limit, sor, eor)
     for i = start, limit do
         local c = line[i]
         if c.type == "b" or c.type == "s" or c.type == "ws" or c.type == "on" then
-            local n_start, n_limit, leadind_type, trailing_type, resolved_type
+            local n_start, n_limit, leading_type, trailing_type, resolved_type
             n_start = i
             n_limit = find_run_limit(line, n_start, limit, {"b", "s", "ws", "on"})
 
             if n_start == start then
-                leadind_type = sor
+                leading_type = sor
             else
                 leading_type = line[n_start-1].type
                 if leading_type == "en" or leading_type == "ar" then
@@ -308,7 +307,7 @@ end
 local function resolve_implicit(line, start, limit, sor, eor)
     -- I1
     for i = start, limit do
-        c = line[i]
+        local c = line[i]
         if not odd(c.level) then
             if c.type == "r" then
                 c.level = c.level + 1
@@ -320,7 +319,7 @@ local function resolve_implicit(line, start, limit, sor, eor)
 
     -- I2
     for i = start, limit do
-        c = line[i]
+        local c = line[i]
         if odd(c.level) then
             if c.type == "l" or c.type == "en" or c.type == "an" then
                 c.level = c.level + 1
