@@ -16,16 +16,6 @@
 
     require("bidi")
 
-    function bidi.enable()
-       luatexbase.add_to_callback("pre_linebreak_filter", bidi.process, "BiDi processing (pre_line)", 1)
-       luatexbase.add_to_callback("hpack_filter",         bidi.process, "BiDi processing (hpack)"   , 1)
-    end
-
-    function bidi.disable()
-       luatexbase.remove_from_callback("pre_linebreak_filter", bidi.process, "BiDi processing (pre_line)")
-       luatexbase.remove_from_callback("hpack_filter",         bidi.process, "BiDi processing (hpack)")
-    end
+    luatexbase.add_to_callback("pre_linebreak_filter", bidi.process, "BiDi processing (pre_line)", 1)
+    luatexbase.add_to_callback("hpack_filter",         bidi.process, "BiDi processing (hpack)"   , 1)
 }
-
-\def\bidion{\directlua{bidi.enable()}}
-\def\bidioff{\directlua{bidi.disable()}}
