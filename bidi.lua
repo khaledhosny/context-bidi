@@ -501,36 +501,39 @@ local function process(head, group)
     local n = head
     while n do
         local c = line[i]
+
         if n.id == hlist or n.id == vlist then
             n.list = process(n.list)
         end
-            if n.id == glyph then
-                assert(c.char == n.char)
-                local mirror = c.mirror
-                if mirror then
-                    n.char = mirror
-                end
-            end
 
-            local begindir = c.begindir
-            local enddir = c.enddir
-
-            if begindir then
-                if n.id == whatsit and n.subtype == local_par then
-                    -- set par dir
-                    n.dir = dir_of_level(base_level) -- XXX
-                    -- local_par should always be the 1st node
-                    head, n = node.insert_after(head, n, new_dir_node("+"..begindir))
-                else
-                    head = node.insert_before(head, n, new_dir_node("+"..begindir))
-                end
+        if n.id == glyph then
+            assert(c.char == n.char)
+            local mirror = c.mirror
+            if mirror then
+                n.char = mirror
             end
+        end
 
-            if enddir then
-                head, n = node.insert_after(head, n, new_dir_node("-"..enddir))
+        local begindir = c.begindir
+        local enddir = c.enddir
+
+        if begindir then
+            if n.id == whatsit and n.subtype == local_par then
+                -- set par dir
+                n.dir = dir_of_level(base_level) -- XXX
+                -- local_par should always be the 1st node
+                head, n = node.insert_after(head, n, new_dir_node("+"..begindir))
+            else
+                head = node.insert_before(head, n, new_dir_node("+"..begindir))
             end
+        end
+
+        if enddir then
+            head, n = node.insert_after(head, n, new_dir_node("-"..enddir))
+        end
 
         i = i + 1
+
         if c.remove then
             head, n = node.remove(head, n)
         else
