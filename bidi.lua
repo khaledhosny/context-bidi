@@ -50,6 +50,10 @@ local function type_of_level(x)
     return odd(x) and "r" or "l"
 end
 
+local function dir_of_level(x)
+    return format("T%sT", upper(type_of_level(x)))
+end
+
 local function Set(list)
     local set = {}
     for _,v in ipairs(list) do
@@ -446,7 +450,7 @@ local function insert_dir_points(line)
 
     for level = 0, max_level do
         local level_start, level_limit
-        local dir = format("T%sT", upper(type_of_level(level)))
+        local dir = dir_of_level(level)
         for i,_ in next, line do
             if line[i].level >= level then
                 if not level_start then
