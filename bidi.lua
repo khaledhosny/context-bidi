@@ -164,7 +164,7 @@ local function resolve_explicit(line, base_level)
     end
 end
 
-local function resolve_weak(line, base_level, start, limit, sor, eor)
+local function resolve_weak(line, start, limit, sor, eor)
     -- W1
     for i = start, limit do
         local c = line[i]
@@ -262,7 +262,7 @@ local function resolve_weak(line, base_level, start, limit, sor, eor)
     end
 end
 
-local function resolve_neutral(line, base_level, start, limit, sor, eor)
+local function resolve_neutral(line, start, limit, sor, eor)
     -- N1, N2
     for i = start, limit do
         local c = line[i]
@@ -305,7 +305,7 @@ local function resolve_neutral(line, base_level, start, limit, sor, eor)
     end
 end
 
-local function resolve_implicit(line, base_level, start, limit, sor, eor)
+local function resolve_implicit(line, start, limit, sor, eor)
     -- I1
     for i = start, limit do
         c = line[i]
@@ -349,13 +349,13 @@ local function resolve_levels(line, base_level)
         local eor = type_of_level(max(level, next_level))
 
         -- Rules W1 to W7
-        resolve_weak(line, base_level, start, limit, sor, eor)
+        resolve_weak(line, start, limit, sor, eor)
 
         -- Rules N1 and N2
-        resolve_neutral(line, base_level, start, limit, sor, eor)
+        resolve_neutral(line, start, limit, sor, eor)
 
         -- Rules I1 and I2
-        resolve_implicit(line, base_level, start, limit, sor, eor)
+        resolve_implicit(line, start, limit, sor, eor)
 
         start = limit
     end
