@@ -415,9 +415,9 @@ local function node_to_table(head)
         elseif n.id == whatsit and n.subtype == dir_node then
             -- XXX handle all supported directions
             if n.dir == "+TLT" then
-                c = 0x202D -- lro
+                c = 0x202A -- lre
             elseif n.dir == "+TRT" then
-                c = 0x202E -- rlo
+                c = 0x202B -- rle
             elseif n.dir == "-TLT" or n.dir == "-TRT" then
                 c = 0x202C -- pdf
             end
