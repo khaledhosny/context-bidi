@@ -497,6 +497,12 @@ local function process(head, group)
 
     assert(#line == node.length(head))
 
+    if head.id == whatsit and head.subtype == local_par then
+        -- set paragraph direction
+        -- XXX: works only with luatex trunk
+        head.dir = dir_of_level(base_level)
+    end
+
     local i = 1
     local n = head
     while n do
@@ -519,8 +525,6 @@ local function process(head, group)
 
         if begindir then
             if n.id == whatsit and n.subtype == local_par then
-                -- set par dir
-                n.dir = dir_of_level(base_level) -- XXX
                 -- local_par should always be the 1st node
                 head, n = node.insert_after(head, n, new_dir_node("+"..begindir))
             else
