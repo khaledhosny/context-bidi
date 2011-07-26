@@ -397,6 +397,7 @@ local whatsit = node.id("whatsit")
 
 local dir_node  = node.subtype("dir")
 local local_par = node.subtype("local_par")
+local parfillskip = 15
 
 
 local function node_to_table(head)
@@ -533,7 +534,12 @@ local function process(head, group)
         end
 
         if enddir then
-            head, n = node.insert_after(head, n, new_dir_node("-"..enddir))
+            if n.id == glue and n.subtype == parfillskip then
+                -- insert the last enddir before \parfillskip glue
+                head = node.insert_before(head, n, new_dir_node("-"..enddir))
+            else
+                head, n = node.insert_after(head, n, new_dir_node("-"..enddir))
+            end
         end
 
         i = i + 1
