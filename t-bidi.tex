@@ -52,14 +52,14 @@ end
 function bidi.setmaindir(dir)
     bidi.maindir = dir
 
-    if dir == "r2l" then
-        dir = "TRT"
-    else
-        dir = "TLT"
-    end
-
-    tex.sprint(tex.ctxcatcodes, [[\primitive\pagedir ]]..dir)
-    tex.sprint(tex.ctxcatcodes, [[\primitive\bodydir ]]..dir)
+--  if dir == "r2l" then
+--      dir = "TRT"
+--  else
+--      dir = "TLT"
+--  end
+--
+--  tex.sprint(tex.ctxcatcodes, [[\primitive\pagedir ]]..dir)
+--  tex.sprint(tex.ctxcatcodes, [[\primitive\bodydir ]]..dir)
 --  tex.sprint(tex.ctxcatcodes, [[\primitive\pardir  ]]..dir)
 --  tex.sprint(tex.ctxcatcodes, [[\primitive\textdir ]]..dir)
 end
