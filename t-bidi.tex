@@ -77,6 +77,7 @@ function bidi.setup(str)
 end
 
 nodes.tasks.appendaction("processors", "characters",  "bidi.process")
+nodes.tasks.appendaction("vboxbuilders", "normalizers", "bidi.align")
 
 \stopluacode
 

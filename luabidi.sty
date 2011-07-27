@@ -21,7 +21,8 @@
     require("bidi")
 
     luatexbase.add_to_callback("pre_linebreak_filter", bidi.process, "BiDi processing (pre_line)", 1)
-    luatexbase.add_to_callback("hpack_filter",         bidi.process, "BiDi processing (hpack)"   , 1)
+    luatexbase.add_to_callback("hpack_filter",         bidi.process, "BiDi processing (hpack)",    1)
+    luatexbase.add_to_callback("vpack_filter",         bidi.align,   "BiDi processing (vpack)",    1)
 }
 
 \endinput
