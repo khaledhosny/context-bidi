@@ -484,7 +484,7 @@ local function process(head, group)
         return head
     end
 
-    local line, base_level
+    local line, base_level, par_dir
     line = node_to_table(head)
 
     if bidi.maindir then
@@ -492,6 +492,8 @@ local function process(head, group)
     else
         base_level = get_base_level(line)
     end
+
+    par_dir = dir_of_level(base_level)
 
     line = resolve_levels(line, base_level)
     line = insert_dir_points(line)
@@ -501,7 +503,7 @@ local function process(head, group)
     if head.id == whatsit and head.subtype == local_par then
         -- set paragraph direction
         -- XXX: works only with luatex trunk
-        head.dir = dir_of_level(base_level)
+        head.dir = par_dir
     end
 
     local i = 1
@@ -511,6 +513,7 @@ local function process(head, group)
 
         if n.id == hlist or n.id == vlist then
             n.list = process(n.list)
+            n.dir = par_dir
         end
 
         if n.id == glyph then
