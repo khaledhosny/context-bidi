@@ -268,7 +268,7 @@ local function resolve_neutral(line, start, limit, sor, eor)
                 leading_type = sor
             else
                 leading_type = line[n_start-1].type
-                if leading_type == "en" or leading_type == "ar" then
+                if leading_type == "en" or leading_type == "an" then
                     leading_type = "r"
                 end
             end
@@ -277,7 +277,7 @@ local function resolve_neutral(line, start, limit, sor, eor)
                 trailing_type = eor
             else
                 trailing_type = line[n_limit+1].type
-                if trailing_type == "en" or trailing_type == "ar" then
+                if trailing_type == "en" or trailing_type == "an" then
                     trailing_type = "r"
                 end
             end
