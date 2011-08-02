@@ -246,6 +246,7 @@ local function resolve_weak(line, start, limit, sor, eor)
             for j = i - 1, start, -1 do
                 if line[j].type == "l" or line[j].type == "r" then
                     prev_strong = line[j].type
+                    break
                 end
             end
             if prev_strong == "l" then
