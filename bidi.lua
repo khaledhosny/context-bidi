@@ -558,7 +558,7 @@ local function process(head, group)
     return head
 end
 
-local function reverse_alignment(head)
+local function process_alignment(head)
     if bidi.maindir == "r2l" then
         for n in node.traverse(head) do
             if n.id == hlist and n.subtype == 4 then -- alignment column or row
@@ -570,4 +570,4 @@ local function reverse_alignment(head)
 end
 
 bidi.process = process
-bidi.align   = reverse_alignment
+bidi.process_alignment = process_alignment
