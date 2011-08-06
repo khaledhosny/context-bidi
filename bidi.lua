@@ -501,11 +501,11 @@ local function process(head, group)
 
     assert(#line == node.length(head))
 
-    if head.id == whatsit and head.subtype == local_par then
-        -- set paragraph direction
-        -- XXX: works only with luatex trunk
-        head.dir = par_dir
-    end
+--  if head.id == whatsit and head.subtype == local_par then
+--      -- set paragraph direction
+--      -- XXX: works only with luatex trunk
+--      head.dir = par_dir
+--  end
 
     local i = 1
     local n = head
