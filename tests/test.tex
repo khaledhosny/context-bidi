@@ -1,7 +1,10 @@
 \input luaotfload.sty
 \input luabidi
-%textdir TRT
-%pardir TRT
+\textdir TRT
+\pardir TRT
+\pagedir TRT
+\bodydir TRT
+\mathdir TRT
 \directlua{ bidi.maindir = "r2l" }
 
 \font\test={name:DejaVu Sans:mode=node;script=arab} at 10pt \test
@@ -27,17 +30,20 @@
 
 أبجد () هوز ab()cd حطي g كلمن {\textdir TRT ١٢٣٤٥} سعفص {\textdir TLT قرشت}\%a\$.
 
+أبجد () هوز ab()cd حطي g كلمن \RLE{١٢٣٤٥} سعفص \LRE{قرشت}\%a\$.
+
 نص عربي \LRE{before عربي after} عربي
 
 نص عربي before عربي after عربي
 
 نص عربي \LRE{before \LRO{عربي} after} عربي
 
-نص عربي \LRE{before \RLE{قبل english بعد} after} عربي
+نص عربي \LRE{before \RLE{قبل english بعد} after} عربي\footnote{$^{123}$}{\TEST}.
 
-\halign{\hfil\it # & # \hfil\cr
-3 cl & \TEST\cr
-2 cl & \TEST\cr
-1.5 cl & \TEST\cr}
+$$
+123+123 = (123)
+$$
+
+\halign{\hfil\it # & # \hfil\cr 3 cl & \TEST\cr}
 
 \bye
