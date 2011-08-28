@@ -2,16 +2,17 @@
 
 \usepackage{fontspec}
 \usepackage{luabidi}
+\luatextextdir TRT
+\luatexpardir TRT
 
 \setmainfont[Script=Arabic]{DejaVu Sans}
 
 \begin{document}
-\let\textdir\luatextextdir
 \def\TEST{أبجد () هوز ab()cd حطي g كلمن ١٢٣٤٥ سعفص قرشت.}
 
 \TEST
 
-أبجد () هوز ab()cd حطي g كلمن {\textdir TRT ١٢٣٤٥} سعفص {\textdir TLT قرشت}.
+أبجد () هوز ab()cd حطي g كلمن {\luatextextdir TRT ١٢٣٤٥} سعفص {\luatextextdir TLT قرشت}.
 
 \halign{\hfil\it # & # \hfil\cr
 3 cl & \TEST\cr

@@ -2,9 +2,6 @@
 \input luabidi
 \textdir TRT
 \pardir TRT
-\pagedir TRT
-\bodydir TRT
-\mathdir TRT
 \directlua{ bidi.maindir = "r2l" }
 
 \font\test={name:DejaVu Sans:mode=node;script=arab} at 10pt \test
@@ -14,12 +11,12 @@
 \def\lro{\char"202D}
 \def\rlo{\char"202E}
 \def\pdf{\char"202C}
-\def\LRE#1{{\lre #1\pdf}}
-\def\RLE#1{{\rle #1\pdf}}
+\def\LRE#1{{\lre #1\pdf}} % or {{\textdir TLT #1}}
+\def\RLE#1{{\rle #1\pdf}} % or {{\textdir TRT #1}}
 \def\LRO#1{{\lro #1\pdf}}
 \def\RLO#1{{\rlo #1\pdf}}
 
-\iftrue
+\iffalse
   \tracingoutput=1
   \tracingonline=1
   \showboxdepth=\maxdimen
