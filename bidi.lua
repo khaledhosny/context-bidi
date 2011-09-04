@@ -394,12 +394,13 @@ local glyph   = node.id("glyph")
 local glue    = node.id("glue")
 local hlist   = node.id("hlist")
 local vlist   = node.id("vlist")
+local math    = node.id("math")
 local whatsit = node.id("whatsit")
 
 local dir_node  = node.subtype("dir")
 local local_par = node.subtype("local_par")
+local obj_code  = 0xFFFC -- object replacement character
 local parfillskip = 15
-
 
 local function node_to_table(head)
     --[[
@@ -407,9 +408,20 @@ local function node_to_table(head)
     --]]
 
     local line = {}
+    local mathon = false
+
     for n in node.traverse(head) do
+        if n.id == math then
+            if n.subtype == 0 then
+                mathon = true
+            else
+                mathon = false
+            end
+        end
         local c
-        if n.id == glyph then
+        if mathon then
+            c = obj_code
+        elseif n.id == glyph then
             c = n.char
         elseif n.id == glue then
             c = 0x0020 -- space
@@ -423,7 +435,7 @@ local function node_to_table(head)
                 c = 0x202C -- pdf
             end
         else
-            c = 0xFFFC -- object replacement character
+            c = obj_code
         end
         line[#line+1] = { char = c, type = get_type(c), orig_type = get_type(c), level = 0 }
     end
@@ -507,6 +519,7 @@ local function process(head, group)
 --      head.dir = par_dir
 --  end
 
+    local m = false
     local i = 1
     local n = head
     while n do
@@ -518,7 +531,7 @@ local function process(head, group)
         end
 
         if n.id == glyph then
-            assert(c.char == n.char)
+            --assert(c.char == n.char)
             local mirror = c.mirror
             if mirror then
                 n.char = mirror
