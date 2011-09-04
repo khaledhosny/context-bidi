@@ -49,14 +49,6 @@ end
 
 \startluacode
 
-function bidi.setmaindir(dir)
-    bidi.maindir = dir
-
-    if dir == "r2l" then
-        context.setupalign({"r2l"})
-    end
-end
-
 function bidi.setup(str)
     local settings = { }
 
@@ -64,7 +56,10 @@ function bidi.setup(str)
 
     for k,v in next, settings do
         if k == "main" then
-            bidi.setmaindir(v)
+            if v == "r2l" then
+                context.setupalign({"r2l"})
+            end
+            bidi.maindir = v
         elseif k == "math" and v == "r2l" then
             nodes.tasks.enableaction("math", "bidi.do_process_math")
             context.setupmathematics({align = "r2l"})
