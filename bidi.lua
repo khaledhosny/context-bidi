@@ -582,5 +582,51 @@ local function process_alignment(head)
     return head
 end
 
+local function isnumber(n)
+    local t = get_type(n.char)
+    return t == "en" or t == "an" or t == "cs"
+end
+
+local function do_process_math(head)
+    local start = false
+    for n in node.traverse(head) do
+        if n.id == glyph then
+            if isnumber(n) then
+                if start then
+                    if n.next and n.next.id == glyph and isnumber(n.next) then
+                    else
+                        head = node.insert_after(head, n, new_dir_node("-TLT"))
+                        start = false
+                    end
+                else
+                    if n.next and n.next.id == glyph and isnumber(n.next) then
+                        head = node.insert_before(head, n, new_dir_node("+TLT"))
+                        start = true
+                    else
+                    end
+                end
+            end
+        else
+            if start then
+                head = node.insert_after(head, n, new_dir_node("-TLT"))
+                start = false
+            end
+            if n.id == hlist or n.id == vlist then
+                n.list = do_process_math(n.list)
+            end
+        end
+    end
+    return head
+end
+
+local function process_math(head, display_type, need_penalties)
+    head = node.mlist_to_hlist(head, display_type, need_penalties)
+    head = do_process_math(head)
+    return head
+end
+
+
 bidi.process = process
 bidi.process_alignment = process_alignment
+bidi.process_math      = process_math
+bidi.do_process_math   = do_process_math

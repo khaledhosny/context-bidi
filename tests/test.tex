@@ -1,7 +1,8 @@
 \input luaotfload.sty
 \input luabidi
 \textdir TRT
-\pardir TRT
+\pardir  TRT
+\mathdir TRT
 \directlua{ bidi.maindir = "r2l" }
 
 \font\test={name:DejaVu Sans:mode=node;script=arab} at 10pt \test
@@ -37,8 +38,10 @@
 
 نص عربي \LRE{before \RLE{قبل english بعد} after} عربي\footnote{$^{123}$}{\TEST}.
 
+$123 + 456 = (579) \sum^{123}_{1+2+3}$
+
 $$
-123+123 = (123)
+123 + 456 = (579) \sum^{123}_{1+2+3}
 $$
 
 \halign{\hfil\it # & # \hfil\cr 3 cl & \TEST\cr}

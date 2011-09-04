@@ -65,12 +65,18 @@ function bidi.setup(str)
     for k,v in next, settings do
         if k == "main" then
             bidi.setmaindir(v)
+        elseif k == "math" and v == "r2l" then
+            nodes.tasks.enableaction("math", "bidi.do_process_math")
+            context.setupmathematics({align = "r2l"})
         end
     end
 end
 
 nodes.tasks.appendaction("processors", "characters",  "bidi.process")
 nodes.tasks.appendaction("vboxbuilders", "normalizers", "bidi.process_alignment")
+
+nodes.tasks.appendaction ("math", "after", "bidi.do_process_math")
+nodes.tasks.disableaction("math", "bidi.do_process_math")
 
 \stopluacode
 
@@ -88,9 +94,8 @@ nodes.tasks.appendaction("vboxbuilders", "normalizers", "bidi.process_alignment"
 
 \usemodule[bidi]
 \usemodule[simplefonts]
-
 \setmainfont[dejavusans][features=arabic]
-\setupbidi[main=r2l]
+\setupbidi[main=r2l,math=r2l]
 
 \starttext
 
@@ -99,6 +104,9 @@ nodes.tasks.appendaction("vboxbuilders", "normalizers", "bidi.process_alignment"
 \TEST
 
 أبجد () هوز ab()cd حطي g كلمن {\textdir TRT ١٢٣٤٥} سعفص {\textdir TLT قرشت}.
+
+$123 + 456 = (579) \sum^{123}_{1+2+3}$
+$$123 + 456 = (579) \sum^{123}_{1+2+3}$$
 
 \placetable[here,force,nonumber]{}
 \starttable[|rp(.45\textwidth)|rp(.45\textwidth)|]
