@@ -2,8 +2,8 @@ bidi            = bidi or { }
 
 bidi.module     = {
     name        = "bidi",
-    version     = 0.002,
-    date        = "2010/12/15",
+    version     = 0.003,
+    date        = "2011/09/05",
     description = "Unicode Bidirectional Algorithm implementation for LuaTeX",
     author      = "Khaled Hosny",
     copyright   = "Khaled Hosny",
