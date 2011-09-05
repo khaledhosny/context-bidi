@@ -56,7 +56,7 @@
 %    \begin{macrocode}
 \directlua{
     bidi           = bidi or { }
-    local chardata = dofile(kpse.find_file("chardata.lua"))
+    local chardata = dofile(kpse.find_file("bidi-data.lua"))
     local addtocbk = luatexbase.add_to_callback
 
     function bidi.get_direction(c)
