@@ -61,7 +61,7 @@ function bidi.setup(str)
             end
             bidi.maindir = v
         elseif k == "math" and v == "r2l" then
-            nodes.tasks.enableaction("math", "bidi.do_process_math")
+            nodes.tasks.enableaction("math", "bidi.process_math")
             context.setupmathematics({align = "r2l"})
         end
     end
@@ -70,8 +70,8 @@ end
 nodes.tasks.appendaction("processors", "characters",  "bidi.process")
 nodes.tasks.appendaction("vboxbuilders", "normalizers", "bidi.process_alignment")
 
-nodes.tasks.appendaction ("math", "after", "bidi.do_process_math")
-nodes.tasks.disableaction("math", "bidi.do_process_math")
+nodes.tasks.appendaction ("math", "after", "bidi.process_math")
+nodes.tasks.disableaction("math", "bidi.process_math")
 
 \stopluacode
 

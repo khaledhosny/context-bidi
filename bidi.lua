@@ -608,7 +608,7 @@ local function isnumber(n)
     return t == "en" or t == "an" or t == "cs"
 end
 
-local function do_process_math(head)
+local function process_math(head)
     -- processing math mode
     -- we don't want to apply the whole bidi algorithm inside math mode,
     -- instead we only reverse any contiguous sequences of numbers and number
@@ -637,20 +637,13 @@ local function do_process_math(head)
                 start = false
             end
             if n.id == hlist or n.id == vlist then
-                n.list = do_process_math(n.list)
+                n.list = process_math(n.list)
             end
         end
     end
     return head
 end
 
-local function process_math(head, display_type, need_penalties)
-    head = node.mlist_to_hlist(head, display_type, need_penalties)
-    head = do_process_math(head)
-    return head
-end
-
 bidi.process           = process
 bidi.process_alignment = process_alignment
 bidi.process_math      = process_math
-bidi.do_process_math   = do_process_math

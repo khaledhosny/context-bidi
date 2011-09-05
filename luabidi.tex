@@ -16,8 +16,14 @@
 
     require("bidi")
 
+    local function do_math(head, ...)
+        head = node.mlist_to_hlist(head, ...)
+        head = bidi.process_math(head)
+        return head
+    end
+
     luatexbase.add_to_callback("pre_linebreak_filter", bidi.process,           "BiDi processing (pre_line)", 1)
     luatexbase.add_to_callback("hpack_filter",         bidi.process,           "BiDi processing (hpack)",    1)
     luatexbase.add_to_callback("vpack_filter",         bidi.process_alignment, "BiDi processing (vpack)",    1)
-    luatexbase.add_to_callback("mlist_to_hlist",       bidi.process_math,      "BiDi processing (math)",    1)
+    luatexbase.add_to_callback("mlist_to_hlist",       do_math,                "BiDi processing (math)",    1)
 }
