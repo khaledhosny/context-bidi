@@ -523,6 +523,17 @@ local function process(head, group)
     local i = 1
     local n = head
     while n do
+        if n.id == math then
+            if n.subtype == 0 then
+                m = true
+            else
+                m = false
+            end
+        end
+        if m then
+            i = i + 1
+            n = n.next
+        else
         local c = line[i]
 
         if n.id == hlist or n.id == vlist then
@@ -565,6 +576,7 @@ local function process(head, group)
             head, n = node.remove(head, n)
         else
             n = n.next
+        end
         end
     end
 
