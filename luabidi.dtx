@@ -8,18 +8,12 @@
 
   _______________________________________
   The luabidi package for LuaTeX/LuaLaTeX
-  (C) 2010--2011    Khaled Hosny
 
-  License information appended.
+  Copyright 2010--2011 Khaled Hosny <khaledhosny@eglug.org>
+
+  This work is under the CC0 license.
 
 \endpreamble
-\postamble
-
-Copyright 2010--2011 Khaled Hosny <khaledhosny@eglug.org>
-
-This work is under the CC0 license.
-
-\endpostamble
 \askforoverwritefalse
 
 \generate{\file{luabidi.sty}{\from{luabidi.dtx}{package,ltx}}}
@@ -47,26 +41,26 @@ This work is under the CC0 license.
 \RecordChanges
 \begin{document}
   \DocInput{\jobname.dtx}
-  \PrintChanges
-  \PrintIndex
 \end{document}
 %</driver>
 % \fi
 %
 % \GetFileInfo{luabidi.dtx}
 %
-% \title{The \textsf{luabidi} package\thanks{This document
-%   corresponds to \textsf{luabidi}~\fileversion, dated \filedate.}}
+% \title{The \textsf{luabidi} package}
 % \author{Khaled Hosny \\ \texttt{khaledhosny@eglug.org}}
 %
 % \maketitle
+%
+% \StopEventually{}
 %
 % \section{Implementation}
 %
 %    \begin{macrocode}
 \directlua{
-    bidi            = bidi or { }
-    local chardata  = dofile(kpse.find_file("chardata.lua"))
+    bidi           = bidi or { }
+    local chardata = dofile(kpse.find_file("chardata.lua"))
+    local addtocbk = luatexbase.add_to_callback
 
     function bidi.get_direction(c)
         local dir = chardata[c] and chardata[c].dir or "l"
@@ -86,10 +80,10 @@ This work is under the CC0 license.
         return head
     end
 
-    luatexbase.add_to_callback("pre_linebreak_filter", bidi.process,           "BiDi processing (pre_line)", 1)
-    luatexbase.add_to_callback("hpack_filter",         bidi.process,           "BiDi processing (hpack)",    1)
-    luatexbase.add_to_callback("vpack_filter",         bidi.process_alignment, "BiDi processing (vpack)",    1)
-    luatexbase.add_to_callback("mlist_to_hlist",       do_math,                "BiDi processing (math)",     1)
+    addtocbk("pre_linebreak_filter", bidi.process,       "BiDi (pre_line)", 1)
+    addtocbk("hpack_filter",         bidi.process,       "BiDi (hpack)",    1)
+    addtocbk("vpack_filter",         bidi.process_align, "BiDi (vpack)",    1)
+    addtocbk("mlist_to_hlist",       do_math,            "BiDi (math)",     1)
 }
 %    \end{macrocode}
 %

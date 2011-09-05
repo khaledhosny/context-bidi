@@ -644,6 +644,6 @@ local function process_math(head)
     return head
 end
 
-bidi.process           = process
-bidi.process_alignment = process_alignment
-bidi.process_math      = process_math
+bidi.process       = process
+bidi.process_align = process_alignment
+bidi.process_math  = process_math
