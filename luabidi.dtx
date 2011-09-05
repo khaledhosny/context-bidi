@@ -1,0 +1,97 @@
+% \iffalse
+%<*internal>
+\begingroup
+\input docstrip.tex
+\keepsilent
+\usedir{tex/latex/fontspec}
+\preamble
+
+  _______________________________________
+  The luabidi package for LuaTeX/LuaLaTeX
+  (C) 2010--2011    Khaled Hosny
+
+  License information appended.
+
+\endpreamble
+\postamble
+
+Copyright 2010--2011 Khaled Hosny <khaledhosny@eglug.org>
+
+This work is under the CC0 license.
+
+\endpostamble
+\askforoverwritefalse
+
+\generate{\file{luabidi.sty}{\from{luabidi.dtx}{package,ltx}}}
+\generate{\file{luabidi.tex}{\from{luabidi.dtx}{package,tex}}}
+
+\def\tmpa{plain}
+\ifx\tmpa\fmtname\endgroup\expandafter\bye\fi
+
+\endgroup
+%</internal>
+%
+%<*driver>
+\ProvidesFile{luabidi.dtx}
+%</driver>
+%<package&ltx>\NeedsTeXFormat{LaTeX2e}
+%<package&ltx>\ProvidesPackage{luabidi}
+%<package&ltx>    [2010/12/15 v0.002 Higher level interface to LuaTeX's bidirectional support]
+%<package&ltx>\RequirePackage{luatexbase}
+%<package&tex>\input luatexbase.sty
+%
+%<*driver>
+\documentclass{ltxdoc}
+\EnableCrossrefs
+\CodelineIndex
+\RecordChanges
+\begin{document}
+  \DocInput{\jobname.dtx}
+  \PrintChanges
+  \PrintIndex
+\end{document}
+%</driver>
+% \fi
+%
+% \GetFileInfo{luabidi.dtx}
+%
+% \title{The \textsf{luabidi} package\thanks{This document
+%   corresponds to \textsf{luabidi}~\fileversion, dated \filedate.}}
+% \author{Khaled Hosny \\ \texttt{khaledhosny@eglug.org}}
+%
+% \maketitle
+%
+% \section{Implementation}
+%
+%    \begin{macrocode}
+\directlua{
+    bidi            = bidi or { }
+    local chardata  = dofile(kpse.find_file("chardata.lua"))
+
+    function bidi.get_direction(c)
+        local dir = chardata[c] and chardata[c].dir or "l"
+        return dir
+    end
+
+    function bidi.get_mirror(c)
+        local mir = chardata[c] and chardata[c].mir
+        return mir
+    end
+
+    require("bidi")
+
+    local function do_math(head, ...)
+        head = node.mlist_to_hlist(head, ...)
+        head = bidi.process_math(head)
+        return head
+    end
+
+    luatexbase.add_to_callback("pre_linebreak_filter", bidi.process,           "BiDi processing (pre_line)", 1)
+    luatexbase.add_to_callback("hpack_filter",         bidi.process,           "BiDi processing (hpack)",    1)
+    luatexbase.add_to_callback("vpack_filter",         bidi.process_alignment, "BiDi processing (vpack)",    1)
+    luatexbase.add_to_callback("mlist_to_hlist",       do_math,                "BiDi processing (math)",     1)
+}
+%    \end{macrocode}
+%
+% \Finale
+\endinput
