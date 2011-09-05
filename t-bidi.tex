@@ -85,7 +85,8 @@ nodes.tasks.disableaction("math", "bidi.process_math")
 
 \stopmodule
 
-\continueifinputfile{t-bidi.tex}
+%\continueifinputfile{t-bidi.tex} % does not work
+\doifnotmode{demo}{\endinput}
 
 \usemodule[bidi]
 \usemodule[simplefonts]
