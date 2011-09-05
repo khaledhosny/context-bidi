@@ -403,9 +403,7 @@ local obj_code  = 0xFFFC -- object replacement character
 local parfillskip = 15
 
 local function node_to_table(head)
-    --[[
-    Takes a node list and returns its textual representation
-    --]]
+    -- Takes a node list and returns its textual representation
 
     local line = {}
     local mathon = false
@@ -471,6 +469,7 @@ local function insert_dir_points(line)
                 end
             end
         end
+
         -- make sure to close the run at end of line
         if level_start then
             line[#line].enddir = dir
@@ -487,37 +486,41 @@ local function new_dir_node(dir)
 end
 
 local function process(head, group)
+    -- main node list processing
+
+    -- return early if there is nothing to process
     if not head then
         return head
     end
 
+    -- workaround for crash with \halign
+    -- see http://tug.org/pipermail/luatex/2011-July/003107.html
     if group == "fin_row" then
-        -- workaround for crash with \halign
-        -- see http://tug.org/pipermail/luatex/2011-July/003107.html
         return head
     end
 
     local line, base_level, par_dir
+
+    -- convert node list into our internal structure, this way the bidi
+    -- implementation is kept separate from actual node list processing
     line = node_to_table(head)
 
+    -- set paragraph direction according to main direction set by the user,
+    -- else based on first strong bidi character according to the algorithm
     if bidi.maindir then
         base_level = bidi.maindir == "r2l" and 1 or 0
     else
         base_level = get_base_level(line)
     end
 
+    -- will be used later to set direction of sublists
     par_dir = dir_of_level(base_level)
 
+    -- run the bidi algorithm
     line = resolve_levels(line, base_level)
     line = insert_dir_points(line)
 
     assert(#line == node.length(head))
-
---  if head.id == whatsit and head.subtype == local_par then
---      -- set paragraph direction
---      -- XXX: works only with luatex trunk
---      head.dir = par_dir
---  end
 
     local m = false
     local i = 1
@@ -531,18 +534,20 @@ local function process(head, group)
             end
         end
         if m then
+            -- skip this node if we are inside math mode
             i = i + 1
             n = n.next
         else
             local c = line[i]
 
             if n.id == hlist or n.id == vlist then
+                -- recursively process sublists
                 n.list = process(n.list)
+                -- set sublist base dir to paragraph direction
                 n.dir = par_dir
             end
 
             if n.id == glyph then
-                --assert(c.char == n.char)
                 local mirror = c.mirror
                 if mirror then
                     n.char = mirror
@@ -573,6 +578,8 @@ local function process(head, group)
             i = i + 1
 
             if c.remove then
+                -- remove bidi control characters
+                -- XXX should be optional
                 head, n = node.remove(head, n)
             else
                 n = n.next
@@ -584,6 +591,7 @@ local function process(head, group)
 end
 
 local function process_alignment(head)
+    -- processing alignment boxes to order the cells are from right to left
     if bidi.maindir == "r2l" then
         for n in node.traverse(head) do
             if n.id == hlist and n.subtype == 4 then -- alignment column or row
@@ -595,11 +603,16 @@ local function process_alignment(head)
 end
 
 local function isnumber(n)
+    -- check if the node a number or common number separator
     local t = get_type(n.char)
     return t == "en" or t == "an" or t == "cs"
 end
 
 local function do_process_math(head)
+    -- processing math mode
+    -- we don't want to apply the whole bidi algorithm inside math mode,
+    -- instead we only reverse any contiguous sequences of numbers and number
+    -- separators
     local start = false
     for n in node.traverse(head) do
         if n.id == glyph then
@@ -637,8 +650,7 @@ local function process_math(head, display_type, need_penalties)
     return head
 end
 
-
-bidi.process = process
+bidi.process           = process
 bidi.process_alignment = process_alignment
 bidi.process_math      = process_math
 bidi.do_process_math   = do_process_math
