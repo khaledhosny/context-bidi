@@ -613,6 +613,7 @@ local function process_math(head)
     -- we don't want to apply the whole bidi algorithm inside math mode,
     -- instead we only reverse any contiguous sequences of numbers and number
     -- separators
+    if tex.mathdir == "TRT" then
     local start = false
     for n in node.traverse(head) do
         if n.id == glyph then
@@ -640,6 +641,7 @@ local function process_math(head)
                 n.list = process_math(n.list)
             end
         end
+    end
     end
     return head
 end

@@ -56,22 +56,14 @@ function bidi.setup(str)
 
     for k,v in next, settings do
         if k == "main" then
-            if v == "r2l" then
-                context.setupalign({"r2l"})
-            end
             bidi.maindir = v
-        elseif k == "math" and v == "r2l" then
-            nodes.tasks.enableaction("math", "bidi.process_math")
-            context.setupmathematics({align = "r2l"})
         end
     end
 end
 
 nodes.tasks.appendaction("processors",   "characters",  "bidi.process")
 nodes.tasks.appendaction("vboxbuilders", "normalizers", "bidi.process_align")
-
-nodes.tasks.appendaction ("math", "after", "bidi.process_math")
-nodes.tasks.disableaction("math", "bidi.process_math")
+nodes.tasks.appendaction("math",         "after",       "bidi.process_math")
 
 \stopluacode
 
@@ -91,7 +83,9 @@ nodes.tasks.disableaction("math", "bidi.process_math")
 \usemodule[bidi]
 \usemodule[simplefonts]
 \setmainfont[dejavusans][features=arabic]
-\setupbidi[main=r2l,math=r2l]
+\setupbidi[main=r2l]
+\setupalign[r2l]
+\setupmathematics[align=r2l]
 
 \starttext
 
