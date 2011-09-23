@@ -614,34 +614,34 @@ local function process_math(head)
     -- instead we only reverse any contiguous sequences of numbers and number
     -- separators
     if tex.mathdir == "TRT" then
-    local start = false
-    for n in node.traverse(head) do
-        if n.id == glyph then
-            if isnumber(n) then
-                if start then
-                    if n.next and n.next.id == glyph and isnumber(n.next) then
+        local start = false
+        for n in node.traverse(head) do
+            if n.id == glyph then
+                if isnumber(n) then
+                    if start then
+                        if n.next and n.next.id == glyph and isnumber(n.next) then
+                        else
+                            head = node.insert_after(head, n, new_dir_node("-TLT"))
+                            start = false
+                        end
                     else
-                        head = node.insert_after(head, n, new_dir_node("-TLT"))
-                        start = false
-                    end
-                else
-                    if n.next and n.next.id == glyph and isnumber(n.next) then
-                        head = node.insert_before(head, n, new_dir_node("+TLT"))
-                        start = true
-                    else
+                        if n.next and n.next.id == glyph and isnumber(n.next) then
+                            head = node.insert_before(head, n, new_dir_node("+TLT"))
+                            start = true
+                        else
+                        end
                     end
                 end
-            end
-        else
-            if start then
-                head = node.insert_after(head, n, new_dir_node("-TLT"))
-                start = false
-            end
-            if n.id == hlist or n.id == vlist then
-                n.list = process_math(n.list)
+            else
+                if start then
+                    head = node.insert_after(head, n, new_dir_node("-TLT"))
+                    start = false
+                end
+                if n.id == hlist or n.id == vlist then
+                    n.list = process_math(n.list)
+                end
             end
         end
-    end
     end
     return head
 end
