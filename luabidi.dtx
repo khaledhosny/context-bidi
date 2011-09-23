@@ -84,5 +84,25 @@
 }
 %    \end{macrocode}
 %
+% \subsection{\LaTeX{} package options}
+%
+%    \begin{macrocode}
+%<*package&ltx>
+%    \end{macrocode}
+%
+%    \begin{macrocode}
+\DeclareOption{rtldocument}{%
+  \directlua{bidi.main = "r2l"}
+  \luatextextdir TRT
+  \luatexpardir TRT
+}
+\DeclareOption{rtlmath}{\luatexmathdir TRT}
+\ProcessOptions\relax
+%    \end{macrocode}
+%
+%    \begin{macrocode}
+%<*package&ltx>
+%    \end{macrocode}
+%
 % \Finale
 \endinput

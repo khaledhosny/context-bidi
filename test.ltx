@@ -1,9 +1,10 @@
 \documentclass{article}
 
 \usepackage{fontspec}
-\usepackage{luabidi}
-\luatextextdir TRT
-\luatexpardir TRT
+\usepackage[
+  rtldocument,
+  rtlmath,
+  ]{luabidi}
 
 \setmainfont[Script=Arabic]{DejaVu Sans}
 
@@ -13,6 +14,12 @@
 \TEST
 
 أبجد () هوز ab()cd حطي g كلمن {\luatextextdir TRT ١٢٣٤٥} سعفص {\luatextextdir TLT قرشت}.
+
+أهلا \(123 + 456 = (579) \sum^{123}_{1+2+3}\)
+
+\[
+123 + 456 = (579) \sum^{123}_{1+2+3}
+\]
 
 \halign{\hfil\it # & # \hfil\cr
 3 cl & \TEST\cr
