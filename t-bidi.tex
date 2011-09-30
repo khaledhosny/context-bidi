@@ -8,14 +8,40 @@
 %D    copyright=Khaled Hosny,
 %D      license=CC0]
 
+%C To the extent possible under law, Khaled Hosny has waived all copyright and
+%C related or neighboring rights to Bidi module. This work is published from:
+%C Egypt.
+
+%D \setupinteraction[state=start]
+%D \setupcolors     [sttae=start]
+%D \setupbodyfont   [sans]
+%D
+%D \useURL[UAX9][http://www.unicode.org/reports/tr9/]              [][Unicode Bidirectional Algorithm]
+%D \useURL[CORR][http://www.unicode.org/versions/corrigendum6.html][][Unicode corrigendum \#6]
+%D
+%D This modules provides an implementation of \from[UAX9] as well as a higher
+%D level interface of \LUATEX's bidirectional support.
+%D
+%D \subsubject{Options}
+%D
+%D \loadsetups[t-bidi.xml]
+%D \showsetup{setupbidi}
+%D
+%D There are currently no much options, one can only set the main and math
+%D directions.
+%D
+%D \subject{Implementation}
+
 \writestatus{loading}{Unicode Bidirectional Algorithm}
 
 \startmodule[bidi]
 
 \unprotect
 
-\startluacode
+%D Auxiliary functions used by the \LUA\ module to access \CONTEXT's Unicode
+%D character database.
 
+\startluacode
 bidi            = bidi or { }
 local chardata  = characters.data
 
@@ -34,21 +60,27 @@ local function set_mirror(c, m)
         chardata[c].mirror = m
     end
 end
+\stopluacode
 
--- see http://www.unicode.org/versions/corrigendum6.html
+%D Typographic quotes do not have mirrored property in Unicode for stupid
+%D backward reasons (see \from[CORR])
+
+\startluacode
 for _,v in next, { 0x2018, 0x201C, 0x301D } do
     set_mirror(v, v+1)
 end
 for _,v in next, { 0x2019, 0x201D, 0x301E } do
     set_mirror(v, v-1)
 end
-
 \stopluacode
+
+%D Load the \LUA\ module
 
 \registerctxluafile{bidi}{0.002}
 
-\startluacode
+%D Setups
 
+\startluacode
 function bidi.setup(str)
     local settings = { }
 
@@ -57,6 +89,11 @@ function bidi.setup(str)
     for k,v in next, settings do
         if k == "main" then
             bidi.maindir = v
+            if v == "r2l" then
+                context.setupalign{"r2l"}
+            end
+	elseif k == "math" and v == "r2l" then
+            context.setupmathematics{align="r2l"}
         end
     end
 end
@@ -64,7 +101,6 @@ end
 nodes.tasks.appendaction("processors",   "characters",  "bidi.process")
 nodes.tasks.appendaction("vboxbuilders", "normalizers", "bidi.process_align")
 nodes.tasks.appendaction("math",         "after",       "bidi.process_math")
-
 \stopluacode
 
 \unexpanded\def\setupbidi
@@ -72,6 +108,14 @@ nodes.tasks.appendaction("math",         "after",       "bidi.process_math")
 
 \def\dosetupbidi[#1]%
   {\ctxlua{bidi.setup("#1")}}
+
+%D Defaults
+
+\setupbidi
+[
+  main=r2l,
+  math=l2r
+]
 
 \protect
 
@@ -83,9 +127,7 @@ nodes.tasks.appendaction("math",         "after",       "bidi.process_math")
 \usemodule[bidi]
 \usemodule[simplefonts]
 \setmainfont[dejavusans][features=arabic]
-\setupbidi[main=r2l]
-\setupalign[r2l]
-\setupmathematics[align=r2l]
+\setupbidi[main=r2l, math=r2l]
 
 \starttext
 

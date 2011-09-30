@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cd:interface xmlns:cd="http://www.pragma-ade.com/commands" name="context" language="en" version="2011.05.19">
+
+<cd:command name="setupbidi" file="t-bidi.tex">
+    <cd:sequence>
+        <cd:string value="setupbidi"/>
+    </cd:sequence>
+    <cd:arguments>
+        <cd:assignments n="1">
+            <cd:parameter name="main">
+                <cd:constant type="r2l" default="yes"/>
+                <cd:constant type="l2r"/>
+            </cd:parameter>
+            <cd:parameter name="math">
+                <cd:constant type="r2l"/>
+                <cd:constant type="l2r" default="yes"/>
+            </cd:parameter>
+        </cd:assignments>
+    </cd:arguments>
+</cd:command>
+
+</cd:interface>
