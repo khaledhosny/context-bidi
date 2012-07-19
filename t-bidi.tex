@@ -1,8 +1,8 @@
 %D \module
 %D   [     file=t-bidi,
 %D      version=0.003,
-%D        title=Bidi Processing,
-%D     subtitle=Higher level interface to \LUATEX's bidirectional support,
+%D        title=BiDi,
+%D     subtitle=Unicode BiDi for \CONTEXT,
 %D       author=Khaled Hosny,
 %D         date=\currentdate,
 %D    copyright=Khaled Hosny,
@@ -63,7 +63,7 @@ end
 \stopluacode
 
 %D Typographic quotes do not have mirrored property in Unicode for stupid
-%D backward reasons (see \from[CORR])
+%D backward reasons (see \from[CORR]).
 
 \startluacode
 for _,v in next, { 0x2018, 0x201C, 0x301D } do
@@ -114,7 +114,7 @@ nodes.tasks.appendaction("math",         "after",       "bidi.process_math")
 \setupbidi
 [
   main=r2l,
-  math=l2r
+  math=l2r,
 ]
 
 \protect
