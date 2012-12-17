@@ -21,12 +21,20 @@ if not modules then modules = { } end modules ['bidi'] = bidi.module
     http://svn.arabeyes.org/viewvc/projects/adawat/minibidi/LICENCE
 --]]
 
-local format, upper, max = string.format, string.upper, math.max
-
-local get_type = bidi.get_direction
-local get_mirr = bidi.get_mirror
-
 local MAX_STACK = 60
+
+local format, upper, max = string.format, string.upper, math.max
+local chardata  = characters.data
+
+local function get_bidi_type(c)
+    local dir = chardata[c] and chardata[c].direction or "l"
+    return dir
+end
+
+local function get_mirror(c)
+    local mir = chardata[c] and chardata[c].mirror
+    return mir
+end
 
 local function odd(x)
     return x%2 == 1 and true or false
@@ -383,7 +391,7 @@ local function resolve_levels(line, base_level)
     -- L4
     for _,c in next, line do
         if odd(c.level) then
-            c.mirror = get_mirr(c.char)
+            c.mirror = get_mirror(c.char)
         end
     end
 
@@ -435,7 +443,7 @@ local function node_to_table(head)
         else
             c = obj_code
         end
-        line[#line+1] = { char = c, type = get_type(c), orig_type = get_type(c), level = 0 }
+        line[#line+1] = { char = c, type = get_bidi_type(c), orig_type = get_bidi_type(c), level = 0 }
     end
 
     return line
@@ -604,7 +612,7 @@ end
 
 local function isnumber(n)
     -- check if the node a number or common number separator
-    local t = get_type(n.char)
+    local t = get_bidi_type(n.char)
     return t == "en" or t == "an" or t == "cs"
 end
 
