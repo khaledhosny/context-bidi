@@ -17,7 +17,6 @@
 %D \setupbodyfont   [sans]
 %D
 %D \useURL[UAX9][http://www.unicode.org/reports/tr9/]              [][Unicode Bidirectional Algorithm]
-%D \useURL[CORR][http://www.unicode.org/versions/corrigendum6.html][][Unicode corrigendum \#6]
 %D
 %D This modules provides an implementation of \from[UAX9] as well as a higher
 %D level interface of \LUATEX's bidirectional support.
@@ -53,24 +52,6 @@ end
 function bidi.get_mirror(c)
     local mir = chardata[c] and chardata[c].mirror
     return mir
-end
-
-local function set_mirror(c, m)
-    if chardata[c] then
-        chardata[c].mirror = m
-    end
-end
-\stopluacode
-
-%D Typographic quotes do not have mirrored property in Unicode for stupid
-%D backward reasons (see \from[CORR]).
-
-\startluacode
-for _,v in next, { 0x2018, 0x201C, 0x301D } do
-    set_mirror(v, v+1)
-end
-for _,v in next, { 0x2019, 0x201D, 0x301E } do
-    set_mirror(v, v-1)
 end
 \stopluacode
 
