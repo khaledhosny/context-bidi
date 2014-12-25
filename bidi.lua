@@ -632,6 +632,12 @@ local function process_math(head)
                         end
                     end
                 end
+                if not number then
+                    mirror = get_mirror(n.char)
+                    if mirror then
+                        n.char = mirror
+                    end
+                end
             else
                 if number then
                     head = node.insert_after(head, n, new_dir_node("-TLT"))
