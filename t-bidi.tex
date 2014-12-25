@@ -44,7 +44,7 @@
 bidi            = bidi or { }
 local chardata  = characters.data
 
-function bidi.get_direction(c)
+function bidi.get_bidi_type(c)
     local dir = chardata[c] and chardata[c].direction or "l"
     return dir
 end

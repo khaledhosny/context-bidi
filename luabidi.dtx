@@ -59,7 +59,7 @@
     local chardata = dofile(kpse.find_file("bidi-data.lua"))
     local addtocbk = luatexbase.add_to_callback
 
-    function bidi.get_direction(c)
+    function bidi.get_bidi_type(c)
         local dir = chardata[c] and chardata[c].dir or "l"
         return dir
     end

@@ -23,8 +23,8 @@ if not modules then modules = { } end modules ['bidi'] = bidi.module
 
 local format, upper, max = string.format, string.upper, math.max
 
-local get_type = bidi.get_direction
-local get_mirr = bidi.get_mirror
+local get_type = bidi.get_bidi_type
+local get_mirror = bidi.get_mirror
 
 local MAX_STACK = 60
 
@@ -383,7 +383,7 @@ local function resolve_levels(line, base_level)
     -- L4
     for _,c in next, line do
         if odd(c.level) then
-            c.mirror = get_mirr(c.char)
+            c.mirror = get_mirror(c.char)
         end
     end
 
