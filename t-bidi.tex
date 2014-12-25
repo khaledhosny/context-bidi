@@ -37,6 +37,24 @@
 
 \unprotect
 
+%D Auxiliary functions used by the \LUA\ module to access \CONTEXT's Unicode
+%D character database.
+
+\startluacode
+bidi            = bidi or { }
+local chardata  = characters.data
+
+function bidi.get_direction(c)
+    local dir = chardata[c] and chardata[c].direction or "l"
+    return dir
+end
+
+function bidi.get_mirror(c)
+    local mir = chardata[c] and chardata[c].mirror
+    return mir
+end
+\stopluacode
+
 %D Load the \LUA\ module
 
 \registerctxluafile{bidi}{0.002}
