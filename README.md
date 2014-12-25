@@ -6,10 +6,3 @@ The code is very experimental and not throughly tested, use at your own risk.
 
 [UBA]: http://www.unicode.org/reports/tr9/
 [LUATEX]: http://luatex.org/
-
-Khaled Hosny
-
-khaledhosny@eglug.org
-
-24 Jul. 2011
-
