@@ -26,14 +26,6 @@ local MAX_STACK = 60
 local format, upper, max = string.format, string.upper, math.max
 local chardata  = characters.data
 
-if not node.end_of_math then
-    function node.end_of_math(n)
-        for n in traverse_id(math_code,n.next) do
-            return n
-        end
-    end
-end
-
 local function get_bidi_type(c)
     local dir = chardata[c] and chardata[c].direction or "l"
     return dir
@@ -542,55 +534,64 @@ local function process(head, group)
     local i = 1
     local n = head
     while n do
-        -- skip math nodes
         if n.id == math then
-            n = node.end_of_math(n).next
-        end
-        local c = line[i]
-
-        if n.id == hlist or n.id == vlist then
-            -- recursively process sublists
-            n.list = process(n.list)
-            -- set sublist base dir to paragraph direction
-            n.dir = par_dir
-        end
-
-        if n.id == glyph then
-            local mirror = c.mirror
-            if mirror then
-                n.char = mirror
-            end
-        end
-
-        local begindir = c.begindir
-        local enddir = c.enddir
-
-        if begindir then
-            if n.id == whatsit and n.subtype == local_par then
-                -- local_par should always be the 1st node
-                head, n = node.insert_after(head, n, new_dir_node("+"..begindir))
+            if n.subtype == 0 then
+                m = true
             else
-                head = node.insert_before(head, n, new_dir_node("+"..begindir))
+                m = false
             end
         end
-
-        if enddir then
-            if n.id == glue and n.subtype == parfillskip then
-                -- insert the last enddir before \parfillskip glue
-                head = node.insert_before(head, n, new_dir_node("-"..enddir))
-            else
-                head, n = node.insert_after(head, n, new_dir_node("-"..enddir))
-            end
-        end
-
-        i = i + 1
-
-        if c.remove then
-            -- remove bidi control characters
-            -- XXX should be optional
-            head, n = node.remove(head, n)
-        else
+        if m then
+            -- skip this node if we are inside math mode
+            i = i + 1
             n = n.next
+        else
+            local c = line[i]
+
+            if n.id == hlist or n.id == vlist then
+                -- recursively process sublists
+                n.list = process(n.list)
+                -- set sublist base dir to paragraph direction
+                n.dir = par_dir
+            end
+
+            if n.id == glyph then
+                local mirror = c.mirror
+                if mirror then
+                    n.char = mirror
+                end
+            end
+
+            local begindir = c.begindir
+            local enddir = c.enddir
+
+            if begindir then
+                if n.id == whatsit and n.subtype == local_par then
+                    -- local_par should always be the 1st node
+                    head, n = node.insert_after(head, n, new_dir_node("+"..begindir))
+                else
+                    head = node.insert_before(head, n, new_dir_node("+"..begindir))
+                end
+            end
+
+            if enddir then
+                if n.id == glue and n.subtype == parfillskip then
+                    -- insert the last enddir before \parfillskip glue
+                    head = node.insert_before(head, n, new_dir_node("-"..enddir))
+                else
+                    head, n = node.insert_after(head, n, new_dir_node("-"..enddir))
+                end
+            end
+
+            i = i + 1
+
+            if c.remove then
+                -- remove bidi control characters
+                -- XXX should be optional
+                head, n = node.remove(head, n)
+            else
+                n = n.next
+            end
         end
     end
 
